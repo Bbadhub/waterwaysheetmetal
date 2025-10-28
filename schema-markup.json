@@ -1,0 +1,252 @@
+{
+  "homepage_schema": {
+    "local_business": {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Water Ways Sheet Metal",
+      "image": "https://waterwayssheetmetal.com/images/logo/Waterways-Logo-Header-Transparent.png",
+      "description": "Custom copper and sheet metal fabrication specializing in chimney caps, flashing, roofing, gutters, and architectural metalwork. Serving AR, OK, MO, KS with 20+ years of experience.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "Watts",
+        "addressRegion": "OK",
+        "postalCode": "74964",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "36.051727",
+        "longitude": "-94.571431"
+      },
+      "url": "https://waterwayssheetmetal.com",
+      "telephone": "+14799573794",
+      "email": "Ray@WaterwaysSheetMetal.com",
+      "priceRange": "$$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ],
+      "areaServed": [
+        {
+          "@type": "State",
+          "name": "Arkansas"
+        },
+        {
+          "@type": "State",
+          "name": "Oklahoma"
+        },
+        {
+          "@type": "State",
+          "name": "Missouri"
+        },
+        {
+          "@type": "State",
+          "name": "Kansas"
+        },
+        {
+          "@type": "Country",
+          "name": "United States"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Custom Copper & Sheet Metal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Custom Chimney Caps & Tops",
+              "description": "Custom-fabricated copper chimney caps, chase covers, and decorative shrouds"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Flashing & Weatherproofing",
+              "description": "Expert chimney and roof flashing installation using copper and Rheinzink"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Copper Roofing & Gutters",
+              "description": "Standing seam copper roofing, custom gutter systems, and downspouts"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Custom Architectural Metalwork",
+              "description": "One-of-a-kind copper fabrication for architectural features and specialty projects"
+            }
+          }
+        ]
+      }
+    },
+    "organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Water Ways Sheet Metal",
+      "url": "https://waterwayssheetmetal.com",
+      "logo": "https://waterwayssheetmetal.com/images/logo/Waterways-Logo-Header-Transparent.png",
+      "description": "Master craftsmen specializing in custom copper chimney caps, flashing, roofing, and architectural metalwork with 20+ years of experience.",
+      "foundingDate": "2000",
+      "founders": [
+        {
+          "@type": "Person",
+          "name": "Ray Hines",
+          "jobTitle": "Master Craftsman & Owner"
+        },
+        {
+          "@type": "Person",
+          "name": "Natalie Hines",
+          "jobTitle": "Co-Owner"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-479-957-3794",
+        "contactType": "customer service",
+        "email": "Ray@WaterwaysSheetMetal.com",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Watts",
+        "addressRegion": "OK",
+        "postalCode": "74964",
+        "addressCountry": "US"
+      }
+    }
+  },
+  "service_page_schema": {
+    "chimney_caps": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Custom Chimney Caps & Tops Fabrication",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Water Ways Sheet Metal",
+        "url": "https://waterwayssheetmetal.com"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United States"
+        }
+      ],
+      "description": "Custom-fabricated copper chimney caps, chase covers, and decorative shrouds designed to protect your chimney while enhancing architectural character.",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceRange": "$$$"
+      }
+    },
+    "flashing": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Chimney Flashing & Weatherproofing",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Water Ways Sheet Metal",
+        "url": "https://waterwayssheetmetal.com"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United States"
+        }
+      ],
+      "description": "Expert chimney and roof flashing installation using copper and Rheinzink materials to prevent water infiltration and protect structural integrity.",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceRange": "$$$"
+      }
+    },
+    "roofing_gutters": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Copper Roofing & Custom Gutter Systems",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Water Ways Sheet Metal",
+        "url": "https://waterwayssheetmetal.com"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United States"
+        }
+      ],
+      "description": "Standing seam copper roofing, custom gutter systems, and downspouts combining superior weather protection with stunning aesthetics.",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceRange": "$$$"
+      }
+    },
+    "custom_metalwork": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Custom Architectural Metalwork Fabrication",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Water Ways Sheet Metal",
+        "url": "https://waterwayssheetmetal.com"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United States"
+        }
+      ],
+      "description": "One-of-a-kind copper and sheet metal fabrication for architectural features, interior accents, and specialty projects demanding exceptional craftsmanship.",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceRange": "$$$"
+      }
+    }
+  },
+  "breadcrumb_schema_template": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://waterwayssheetmetal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://waterwayssheetmetal.com/services/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "[PAGE_NAME]",
+        "item": "[PAGE_URL]"
+      }
+    ]
+  }
+}
