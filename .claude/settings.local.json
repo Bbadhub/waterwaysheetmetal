@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:waterwayssheetmetal.com)",
+      "Bash(mkdir:*)",
+      "WebFetch(domain:www.chimcapcorp.com)",
+      "WebFetch(domain:www.chimneyking.com)",
+      "WebFetch(domain:chimneyproductsinc.com)",
+      "Read(//c/Users/Brett/Dropbox/Ferret9 Global/ÆtherLight_Lumina/**)",
+      "Read(//c/Users/Brett/Dropbox/Ferret9 Global/ÆtherLight_Lumina/sprint-system/scripts/**)",
+      "Bash(curl -O https://waterwayssheetmetal.com/wp-content/gallery/showcase/pb190444.jpg)",
+      "Bash(curl:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

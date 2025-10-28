@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-10-28T03:41:43.699Z",
+  "project": {
+    "name": "Water Ways Sheet Metal",
+    "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal"
+  },
+  "summary": {
+    "totalFiles": 0,
+    "totalLinesOfCode": 0,
+    "languages": {
+      "typescript": 0
+    },
+    "parseErrors": 0,
+    "analysisErrors": 0
+  },
+  "analyzers": [
+    {
+      "name": "architecture",
+      "version": "1.0.0",
+      "executionTimeMs": 2,
+      "data": {
+        "pattern": "Unknown",
+        "confidence": 0,
+        "layers": [],
+        "components": [],
+        "relationships": [],
+        "diagram": "graph TD\n"
+      }
+    },
+    {
+      "name": "complexity",
+      "version": "1.0.0",
+      "executionTimeMs": 1,
+      "data": {
+        "averageComplexity": 0,
+        "medianComplexity": 0,
+        "maxComplexity": 0,
+        "functionsOverThreshold": [],
+        "heatmap": []
+      }
+    },
+    {
+      "name": "technical-debt",
+      "version": "1.0.0",
+      "executionTimeMs": 2,
+      "data": {
+        "totalIssues": 0,
+        "highPriority": 0,
+        "mediumPriority": 0,
+        "lowPriority": 0,
+        "categories": {},
+        "issues": [],
+        "score": 0
+      }
+    }
+  ],
+  "issues": [],
+  "metrics": {},
+  "recommendations": []
+}

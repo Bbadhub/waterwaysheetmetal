@@ -1,0 +1,519 @@
+# Water Ways Sheet Metal - Active Sprint
+# Generated: 2025-10-27
+# Sprint Period: 2025-10-27 to 2025-12-08 (6 weeks)
+# Priority: Website Launch
+# Pattern: Pattern-SPRINT-001 (Sprint Plan with TOML Source of Truth)
+
+[meta]
+sprint_name = "Water Ways Website Rebuild - Phase 1"
+version = "1.0"
+created = "2025-10-27"
+updated = "2025-10-27"
+status = "active"
+sprint_period = "2025-10-27 to 2025-12-08"
+focus_area = "Complete website rebuild: Design, Development, Content, Testing, Launch"
+total_tasks = 24
+estimated_weeks = "6"
+priority = "high"
+
+[meta.team]
+team_size = 1
+default_engineer = "engineer_1"
+
+[[meta.team.engineers]]
+id = "engineer_1"
+name = "Brett"
+expertise = ["web-design", "html-css", "seo", "content-writing", "static-sites"]
+max_parallel_tasks = 3
+daily_capacity_hours = 4
+
+# ============================================================
+# WEEK 1: PLANNING & CONTENT GATHERING
+# ============================================================
+
+[tasks.PLAN-001]
+id = "PLAN-001"
+name = "Gather Business Information from Ray"
+phase = "Week 1 - Planning & Content"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Complete business information checklist: address, hours, service area, team details, certifications"
+estimated_lines = 0
+estimated_time = "2-3 hours"
+dependencies = []
+deliverables = [
+    "Business address and GPS coordinates",
+    "Hours of operation",
+    "Service area (cities/regions)",
+    "Team size and key personnel",
+    "Licenses and certifications",
+    "Year founded",
+    "Trade association memberships"
+]
+why = """
+Need complete business details for Schema markup, contact page, and about page.
+Missing information blocks content writing and SEO optimization.
+"""
+context = """
+Ray is the owner. Contact: (479) 957-3794 | Ray@WaterwaysSheetMetal.com
+Located in Siloam Springs, AR. Services: AR, OK, MO, KS confirmed.
+"""
+
+[tasks.PLAN-002]
+id = "PLAN-002"
+name = "Download and Organize Existing Images"
+phase = "Week 1 - Planning & Content"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Download all images from waterwayssheetmetal.com/wp-content/gallery/, organize by category"
+estimated_time = "2 hours"
+dependencies = []
+deliverables = [
+    "All gallery images downloaded",
+    "Images organized: chimney-caps/, flashing/, roofing/, architectural/",
+    "Image inventory spreadsheet",
+    "Identify gaps needing new photos"
+]
+files_to_create = [
+    "images/chimney-caps/",
+    "images/flashing/",
+    "images/roofing/",
+    "images/architectural/",
+    "IMAGE_INVENTORY.md"
+]
+
+[tasks.PLAN-003]
+id = "PLAN-003"
+name = "Create Project Portfolio List"
+phase = "Week 1 - Planning & Content"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Select 10-15 completed projects for portfolio, gather details for each"
+estimated_time = "3 hours"
+dependencies = ["PLAN-001"]
+deliverables = [
+    "Portfolio project list (10-15 projects)",
+    "For each: name, location, date, materials, 3-5 photos",
+    "Customer testimonials if available"
+]
+files_to_create = [
+    "PORTFOLIO_PROJECTS.md"
+]
+
+[tasks.PLAN-004]
+id = "PLAN-004"
+name = "Write Core Page Copy"
+phase = "Week 1 - Planning & Content"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Write initial copy for homepage, about, services, FAQ pages"
+estimated_time = "4 hours"
+dependencies = ["PLAN-001"]
+deliverables = [
+    "Homepage hero and intro text",
+    "About page company story",
+    "Services page descriptions",
+    "FAQ questions and answers (15-20)"
+]
+files_to_create = [
+    "CONTENT_COPY.md"
+]
+
+# ============================================================
+# WEEK 2: DESIGN & STRUCTURE
+# ============================================================
+
+[tasks.DESIGN-001]
+id = "DESIGN-001"
+name = "Finalize Color Scheme and Typography"
+phase = "Week 2 - Design & Structure"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Confirm color palette (copper theme) and font choices with Ray"
+estimated_time = "1 hour"
+dependencies = ["PLAN-004"]
+deliverables = [
+    "Final color scheme documented",
+    "Typography choices (Playfair Display + Inter)",
+    "CSS variables file started"
+]
+files_to_create = [
+    "css/variables.css"
+]
+
+[tasks.DESIGN-002]
+id = "DESIGN-002"
+name = "Create Site Navigation Structure"
+phase = "Week 2 - Design & Structure"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Map out site navigation: main menu, footer links, sitemap"
+estimated_time = "2 hours"
+dependencies = []
+deliverables = [
+    "Site navigation map",
+    "URL structure decided",
+    "Breadcrumb strategy"
+]
+files_to_create = [
+    "SITE_STRUCTURE.md"
+]
+
+[tasks.DESIGN-003]
+id = "DESIGN-003"
+name = "Create Homepage Wireframe"
+phase = "Week 2 - Design & Structure"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Design homepage layout: hero, services, portfolio preview, testimonials, CTA"
+estimated_time = "3 hours"
+dependencies = ["DESIGN-002"]
+deliverables = [
+    "Homepage wireframe/mockup",
+    "Section order confirmed",
+    "Mobile layout planned"
+]
+
+# ============================================================
+# WEEK 3-4: DEVELOPMENT
+# ============================================================
+
+[tasks.DEV-001]
+id = "DEV-001"
+name = "Build HTML Structure - All Pages"
+phase = "Week 3-4 - Development"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Create HTML files for all pages: index, about, services, portfolio, contact, FAQ"
+estimated_time = "8 hours"
+dependencies = ["DESIGN-003", "PLAN-004"]
+deliverables = [
+    "index.html - Homepage",
+    "about.html - Company story",
+    "services/*.html - Service pages",
+    "portfolio.html - Project gallery",
+    "contact.html - Contact form",
+    "faq.html - FAQ page"
+]
+files_to_create = [
+    "index.html",
+    "about.html",
+    "services/chimney-caps.html",
+    "services/flashing.html",
+    "services/roofing-gutters.html",
+    "services/custom-metalwork.html",
+    "portfolio.html",
+    "contact.html",
+    "faq.html"
+]
+
+[tasks.DEV-002]
+id = "DEV-002"
+name = "Write CSS Styles"
+phase = "Week 3-4 - Development"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Complete CSS: layout, typography, colors, responsive design"
+estimated_time = "10 hours"
+dependencies = ["DEV-001", "DESIGN-001"]
+deliverables = [
+    "Main stylesheet with all components",
+    "Mobile-responsive breakpoints",
+    "CSS Grid for layout",
+    "Copper theme styling"
+]
+files_to_create = [
+    "css/style.css",
+    "css/responsive.css"
+]
+
+[tasks.DEV-003]
+id = "DEV-003"
+name = "Optimize and Add Images"
+phase = "Week 3-4 - Development"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Optimize all images (<200KB), convert to WebP, add to pages with proper alt text"
+estimated_time = "4 hours"
+dependencies = ["PLAN-002", "DEV-001"]
+deliverables = [
+    "All images optimized and WebP converted",
+    "Images added to HTML with alt text",
+    "Image lazy loading implemented",
+    "Hero images for each page"
+]
+
+[tasks.DEV-004]
+id = "DEV-004"
+name = "Add JavaScript Functionality"
+phase = "Week 3-4 - Development"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Implement JS: mobile menu, image gallery, form validation, smooth scroll"
+estimated_time = "6 hours"
+dependencies = ["DEV-001"]
+deliverables = [
+    "Mobile hamburger menu",
+    "Portfolio image lightbox",
+    "Contact form validation",
+    "Smooth scrolling navigation"
+]
+files_to_create = [
+    "js/main.js"
+]
+
+[tasks.DEV-005]
+id = "DEV-005"
+name = "Add Schema Markup"
+phase = "Week 3-4 - Development"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Implement JSON-LD Schema: LocalBusiness, Service, Organization"
+estimated_time = "3 hours"
+dependencies = ["PLAN-001", "DEV-001"]
+deliverables = [
+    "LocalBusiness schema on homepage",
+    "Service schema on service pages",
+    "Organization schema",
+    "Validate with Schema.org validator"
+]
+
+[tasks.DEV-006]
+id = "DEV-006"
+name = "Create llms.txt and robots.txt"
+phase = "Week 3-4 - Development"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Create AI/SEO discovery files: llms.txt with company info, robots.txt"
+estimated_time = "1 hour"
+dependencies = ["PLAN-001", "PLAN-004"]
+deliverables = [
+    "llms.txt with company overview",
+    "robots.txt with sitemap reference",
+    "sitemap.xml structure"
+]
+files_to_create = [
+    "llms.txt",
+    "robots.txt",
+    "sitemap.xml"
+]
+
+# ============================================================
+# WEEK 5: TESTING & REFINEMENT
+# ============================================================
+
+[tasks.TEST-001]
+id = "TEST-001"
+name = "Cross-Browser Testing"
+phase = "Week 5 - Testing & Refinement"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Test site on Chrome, Firefox, Safari, Edge - fix compatibility issues"
+estimated_time = "3 hours"
+dependencies = ["DEV-002", "DEV-004"]
+deliverables = [
+    "Test results documented",
+    "Browser compatibility issues fixed",
+    "CSS prefixes added if needed"
+]
+
+[tasks.TEST-002]
+id = "TEST-002"
+name = "Mobile Device Testing"
+phase = "Week 5 - Testing & Refinement"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Test on iPhone, Android, tablets - ensure responsive design works"
+estimated_time = "2 hours"
+dependencies = ["DEV-002", "DEV-004"]
+deliverables = [
+    "Mobile test results",
+    "Touch interactions verified",
+    "Mobile menu tested",
+    "Image sizing issues fixed"
+]
+
+[tasks.TEST-003]
+id = "TEST-003"
+name = "Performance Optimization - Lighthouse"
+phase = "Week 5 - Testing & Refinement"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Run Lighthouse audit, achieve >90 performance score"
+estimated_time = "4 hours"
+dependencies = ["DEV-003", "DEV-004"]
+deliverables = [
+    "Lighthouse performance >90",
+    "Accessibility >95",
+    "Best Practices >95",
+    "SEO >95"
+]
+performance_target = "Lighthouse Performance score >90"
+
+[tasks.TEST-004]
+id = "TEST-004"
+name = "SEO Validation"
+phase = "Week 5 - Testing & Refinement"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Validate all meta tags, Schema markup, Open Graph, sitemap"
+estimated_time = "2 hours"
+dependencies = ["DEV-005", "DEV-006"]
+deliverables = [
+    "All meta titles/descriptions checked",
+    "Schema markup validated",
+    "Open Graph tags added",
+    "Sitemap generated and validated"
+]
+
+[tasks.TEST-005]
+id = "TEST-005"
+name = "Contact Form Testing"
+phase = "Week 5 - Testing & Refinement"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Test contact form on desktop and mobile, verify mailto/SMS functionality"
+estimated_time = "1 hour"
+dependencies = ["DEV-004"]
+deliverables = [
+    "Desktop form opens email client",
+    "Mobile form opens SMS/email",
+    "Form validation works",
+    "Thank you message displays"
+]
+
+[tasks.TEST-006]
+id = "TEST-006"
+name = "Content Proofreading and Link Checking"
+phase = "Week 5 - Testing & Refinement"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Proofread all content, check all internal/external links work"
+estimated_time = "2 hours"
+dependencies = ["DEV-001"]
+deliverables = [
+    "All content proofread",
+    "Spelling/grammar corrected",
+    "All links verified working",
+    "Phone/email links tested"
+]
+
+[tasks.TEST-007]
+id = "TEST-007"
+name = "Client Review and Feedback"
+phase = "Week 5 - Testing & Refinement"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Ray reviews staging site, provides feedback, request changes"
+estimated_time = "Variable"
+dependencies = ["TEST-001", "TEST-002", "TEST-003", "TEST-004", "TEST-005", "TEST-006"]
+deliverables = [
+    "Staging URL sent to Ray",
+    "Feedback documented",
+    "Changes prioritized",
+    "Approval or revision list"
+]
+
+# ============================================================
+# WEEK 6: LAUNCH & POST-LAUNCH
+# ============================================================
+
+[tasks.LAUNCH-001]
+id = "LAUNCH-001"
+name = "Set Up Hosting Environment"
+phase = "Week 6 - Launch & Post-Launch"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Configure Netlify or hosting platform, connect domain, SSL setup"
+estimated_time = "2 hours"
+dependencies = []
+deliverables = [
+    "Hosting account configured",
+    "Domain connected (waterwayssheetmetal.com)",
+    "SSL certificate active (HTTPS)",
+    "Deploy pipeline set up"
+]
+
+[tasks.LAUNCH-002]
+id = "LAUNCH-002"
+name = "Deploy to Production"
+phase = "Week 6 - Launch & Post-Launch"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Final deployment to live domain after client approval"
+estimated_time = "1 hour"
+dependencies = ["TEST-007", "LAUNCH-001"]
+deliverables = [
+    "Site live at waterwayssheetmetal.com",
+    "All pages accessible",
+    "HTTPS working",
+    "Final smoke test passed"
+]
+
+[tasks.LAUNCH-003]
+id = "LAUNCH-003"
+name = "Set Up Google Analytics and Search Console"
+phase = "Week 6 - Launch & Post-Launch"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Configure GA4, submit sitemap to Google Search Console and Bing"
+estimated_time = "2 hours"
+dependencies = ["LAUNCH-002"]
+deliverables = [
+    "Google Analytics 4 tracking installed",
+    "Search Console verified",
+    "Sitemap submitted to Google",
+    "Sitemap submitted to Bing",
+    "Analytics testing verified"
+]
+
+[tasks.LAUNCH-004]
+id = "LAUNCH-004"
+name = "Optimize Google Business Profile"
+phase = "Week 6 - Launch & Post-Launch"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Update Google Business Profile with new website, add photos, verify listing"
+estimated_time = "1 hour"
+dependencies = ["LAUNCH-002"]
+deliverables = [
+    "Google Business Profile claimed/verified",
+    "Website URL updated",
+    "Photos added",
+    "Business hours confirmed",
+    "Service area set"
+]
+
+[tasks.LAUNCH-005]
+id = "LAUNCH-005"
+name = "Post-Launch Monitoring"
+phase = "Week 6 - Launch & Post-Launch"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Monitor site for 1 week: check analytics, fix any issues, ensure forms working"
+estimated_time = "3 hours"
+dependencies = ["LAUNCH-002", "LAUNCH-003"]
+deliverables = [
+    "Daily uptime checks",
+    "Form submissions tested",
+    "Analytics data verified",
+    "Any issues documented and fixed",
+    "Client notified of successful launch"
+]
+
+# ============================================================
+# VALIDATION CRITERIA
+# ============================================================
+
+[meta.validation]
+completion_threshold = 1.0
+performance_targets_met = true
+client_approval_required = true
+
+[meta.success_metrics]
+lighthouse_performance = ">90"
+lighthouse_accessibility = ">95"
+lighthouse_seo = ">95"
+page_load_time = "<2 seconds"
+mobile_responsive = "100%"
+client_satisfaction = "High"

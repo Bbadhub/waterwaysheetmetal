@@ -1,0 +1,1515 @@
+# Water Ways Sheet Metal - Active Sprint (Enhanced with Chain of Thought)
+# Generated: 2025-10-27
+# Sprint Period: 2025-10-27 to 2025-12-08 (6 weeks)
+# Priority: Website Launch - Foundation for Triple Brand Strategy
+# Pattern: Pattern-SPRINT-001 (Sprint Plan with TOML Source of Truth + CoT)
+
+[meta]
+sprint_name = "Water Ways Website Rebuild - Phase 1"
+version = "2.1"
+created = "2025-10-27"
+updated = "2025-10-28"
+status = "active"
+sprint_period = "2025-10-27 to 2025-12-08"
+focus_area = "Build modern, SEO-optimized parent company site to establish foundation for future triple-brand strategy (Parent + Wholesale + Retail)"
+total_tasks = 24
+estimated_weeks = "6"
+priority = "high"
+
+[meta.documentation]
+architecture = "WATERWAYS_SITE_ARCHITECTURE.md"
+build_plan = "WATERWAYS_BUILD_PLAN.md"
+competitive_research = "COMPETITIVE_RESEARCH_REPORT.md"
+keyword_strategy = "KEYWORD_RESEARCH.md"
+site_content = "EXTRACTED_SITE_CONTENT.md"
+brand_strategy = "BRAND_NAME_SUGGESTIONS.md"
+
+[meta.business_context]
+domain = "waterwayssheetmetal.com"
+contact = "(479) 957-3794 | Ray@WaterwaysSheetMetal.com"
+location = "Siloam Springs, Arkansas"
+specialization = "Custom copper & sheet metal fabrication"
+unique_positioning = "21st century technology meets centuries-old craftsmanship"
+future_strategy = "Triple-brand model: Parent company + Wholesale brand (B2B) + Retail brand (B2C chimney caps)"
+
+[meta.team]
+team_size = 1
+default_engineer = "engineer_1"
+
+[[meta.team.engineers]]
+id = "engineer_1"
+name = "Brett"
+expertise = ["web-design", "html-css", "seo", "content-writing", "static-sites", "brand-strategy"]
+max_parallel_tasks = 3
+daily_capacity_hours = 4
+
+# ============================================================
+# WEEK 1: PLANNING & CONTENT GATHERING
+# ============================================================
+
+[tasks.PLAN-001]
+id = "PLAN-001"
+name = "Gather Business Information from Ray"
+phase = "Week 1 - Planning & Content"
+assigned_engineer = "engineer_1"
+status = "in_progress"
+completion_percentage = 70
+notes = "BUSINESS_INFO.md created with all extractable info from existing site. 14 critical gaps identified requiring Ray's input (hours, year founded, GPS coordinates, etc.)"
+description = "Complete comprehensive business information checklist to enable Schema markup, accurate contact info, and compelling about page content"
+estimated_time = "2-3 hours"
+dependencies = []
+deliverables = [
+    "Business address and GPS coordinates (for LocalBusiness schema)",
+    "Hours of operation (for Schema + contact page)",
+    "Service area (specific cities/regions for local SEO)",
+    "Team size and key personnel (for about page)",
+    "Licenses and certifications (trust signals)",
+    "Year founded (credibility + timeline)",
+    "Trade association memberships (SMACNA, etc.)"
+]
+why = """
+Need complete business details to implement proper Schema markup (LocalBusiness, Organization).
+Missing information blocks content writing for about page and contact page.
+Geographic/service area data critical for local SEO targeting (Northwest Arkansas, OK, MO, KS).
+"""
+context = """
+WATERWAYS_BUILD_PLAN.md identifies this as Priority 1 (Information Gathering).
+COMPETITIVE_RESEARCH_REPORT.md shows competitors emphasize "Made in USA", facility location, years of experience.
+Current site has limited business info - just phone/email (no address, hours, team details visible).
+"""
+reasoning_chain = [
+    "1. WATERWAYS_SITE_ARCHITECTURE.md requires Schema LocalBusiness markup",
+    "2. LocalBusiness schema needs: address, phone, hours, geo coordinates",
+    "3. About page needs: founding year, team details, certifications",
+    "4. KEYWORD_RESEARCH.md targets local geo keywords (Arkansas, Siloam Springs, Northwest Arkansas)",
+    "5. Local SEO requires accurate NAP (Name, Address, Phone) consistency",
+    "6. Competitor sites (Chim Cap Corp) showcase 40+ years experience, facility details",
+    "7. Ray is primary contact: (479) 957-3794 | Ray@WaterwaysSheetMetal.com",
+    "8. Result: Single information gathering session → unblocks content, Schema, SEO"
+]
+success_impact = """
+When PLAN-001 complete:
+✅ All business details documented in one central place
+✅ Schema LocalBusiness markup can be implemented (PLAN-001 → DEV-005)
+✅ About page content can be written (PLAN-001 → PLAN-004)
+✅ Contact page accurate (PLAN-001 → DEV-001)
+✅ Local SEO foundation established (geographic targeting)
+✅ Credibility signals identified (years in business, certifications)
+"""
+files_to_create = [
+    "BUSINESS_INFO.md"
+]
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.PLAN-002]
+id = "PLAN-002"
+name = "Download and Organize Existing Images"
+phase = "Week 1 - Planning & Content"
+assigned_engineer = "engineer_1"
+status = "in_progress"
+completion_percentage = 30
+notes = "IMAGE_INVENTORY.md created with comprehensive organization plan. Images NOT yet downloaded from WordPress site. Critical gaps identified: team/facility photos, process documentation."
+description = "Download all existing images from waterwayssheetmetal.com/wp-content/gallery/, organize by category, create inventory, identify gaps"
+estimated_time = "2 hours"
+dependencies = []
+deliverables = [
+    "All gallery images downloaded from WordPress site",
+    "Images organized in folders: chimney-caps/, flashing/, roofing/, architectural/",
+    "Image inventory spreadsheet (filename, category, size, quality)",
+    "Gap analysis: identify missing visuals (workshop, team, process photos)"
+]
+why = """
+Current WordPress site has strong visual gallery (main asset to preserve).
+Need images optimized and organized for new static site structure.
+WATERWAYS_SITE_ARCHITECTURE.md specifies image-heavy design with hero images per page.
+Must identify gaps early (workshop photos, team photos, process shots for about page).
+"""
+context = """
+EXTRACTED_SITE_CONTENT.md documents existing gallery structure on WordPress site.
+WATERWAYS_SITE_ARCHITECTURE.md requires: hero images, service page images, portfolio gallery.
+COMPETITIVE_RESEARCH_REPORT.md shows competitors use facility photos (manufacturing visibility HIGH).
+Current site showcases: chimney caps, flashing, cupolas, copper roofing, interior metalwork.
+"""
+reasoning_chain = [
+    "1. WordPress site has extensive gallery at /wp-content/gallery/",
+    "2. Images are primary visual asset (custom copper craftsmanship showcase)",
+    "3. New site structure needs organized image folders (not WordPress media library)",
+    "4. WATERWAYS_SITE_ARCHITECTURE.md specifies folders: hero/, services/, portfolio/, about/",
+    "5. Download now prevents loss if WordPress site modified",
+    "6. Inventory enables gap identification (missing workshop, team, process photos)",
+    "7. Organized structure enables DEV-003 (image optimization task)",
+    "8. Result: All visual assets preserved, organized, ready for optimization"
+]
+success_impact = """
+When PLAN-002 complete:
+✅ All existing images downloaded and backed up
+✅ Images organized by category (chimney-caps/, flashing/, roofing/, architectural/)
+✅ Inventory created (enables quick asset lookup)
+✅ Gaps identified (can request new photos from Ray if needed)
+✅ Unblocks DEV-003 (image optimization and WebP conversion)
+✅ Portfolio page can be built with actual project photos
+"""
+files_to_create = [
+    "images/chimney-caps/",
+    "images/flashing/",
+    "images/roofing/",
+    "images/architectural/",
+    "images/interior/",
+    "images/hero/",
+    "IMAGE_INVENTORY.md"
+]
+
+[tasks.PLAN-003]
+id = "PLAN-003"
+name = "Create Project Portfolio List"
+phase = "Week 1 - Planning & Content"
+assigned_engineer = "engineer_1"
+status = "in_progress"
+completion_percentage = 30
+notes = "PORTFOLIO_PROJECTS.md created with 4 confirmed projects from testimonials (Minnesota, Ohio, North Carolina, Mid-Continent Tower). Need 8-11 more projects from Ray with photos and details."
+description = "Select 10-15 completed projects for portfolio showcase, gather details for each (location, materials, photos, testimonials)"
+estimated_time = "3 hours"
+dependencies = ["PLAN-001"]
+deliverables = [
+    "Portfolio project list (10-15 best projects)",
+    "For each project: name, location (city, state), completion date",
+    "Materials used (copper, Rheinzink, gauge/thickness)",
+    "3-5 high-quality photos per project",
+    "Project descriptions (challenges, unique features)",
+    "Customer testimonials (if available, with permission)"
+]
+why = """
+Portfolio page is primary lead generation tool (showcases custom capabilities).
+WATERWAYS_SITE_ARCHITECTURE.md specifies portfolio as key navigation item.
+COMPETITIVE_RESEARCH_REPORT.md shows competitors lack detailed project case studies (opportunity).
+Need specific project details for rich snippets and local SEO (geographic diversity).
+"""
+context = """
+WATERWAYS_BUILD_PLAN.md lists portfolio as essential deliverable (10-15 projects needed).
+Current WordPress site has gallery but lacks project context (no descriptions, locations, dates).
+EXTRACTED_SITE_CONTENT.md shows product types but not individual project stories.
+Target audience: homeowners researching custom copper work + contractors evaluating fabrication capabilities.
+"""
+reasoning_chain = [
+    "1. Portfolio page showcases custom capabilities (not just product catalog)",
+    "2. Competitors show products but lack detailed project case studies",
+    "3. Each project tells story: challenge → solution → outcome",
+    "4. Geographic diversity (AR, OK, MO, KS) demonstrates service area",
+    "5. Material callouts (copper, Rheinzink) educate buyers on premium materials",
+    "6. Photos show craftsmanship quality (before/after, detail shots, installed context)",
+    "7. Testimonials add social proof (if available)",
+    "8. 10-15 projects provides variety without overwhelming",
+    "9. Result: Compelling portfolio that converts visitors → leads"
+]
+success_impact = """
+When PLAN-003 complete:
+✅ 10-15 project case studies documented
+✅ Geographic diversity demonstrated (AR, OK, MO, KS coverage)
+✅ Material expertise showcased (copper, Rheinzink varieties)
+✅ Portfolio page content ready for DEV-001 (HTML structure)
+✅ Testimonials gathered (social proof for homepage + testimonials page)
+✅ Competitive differentiator (detailed projects vs generic product listings)
+"""
+files_to_create = [
+    "PORTFOLIO_PROJECTS.md"
+]
+
+[tasks.PLAN-004]
+id = "PLAN-004"
+name = "Write Core Page Copy"
+phase = "Week 1 - Planning & Content"
+assigned_engineer = "engineer_1"
+status = "in_progress"
+completion_percentage = 85
+notes = "CONTENT_COPY.md created with ~16,000 words of production-ready copy for all core pages (Homepage, About, 4 Services, FAQ with 26 Q&As). 14 items marked [TBD] requiring Ray's input for personalization."
+description = "Write initial copy for homepage hero, about page, service pages, and FAQ - incorporating SEO keywords and brand positioning"
+estimated_time = "4 hours"
+dependencies = ["PLAN-001"]
+deliverables = [
+    "Homepage hero copy (headline, subheadline, CTA buttons)",
+    "About page company story (founding, craftsmanship philosophy, team)",
+    "Service page descriptions (chimney caps, flashing, roofing, custom work)",
+    "FAQ content (15-20 common questions with detailed answers)",
+    "SEO keyword integration (from KEYWORD_RESEARCH.md)",
+    "Brand voice consistency ('21st century technology meets centuries-old craftsmanship')"
+]
+why = """
+Copy defines brand voice and drives conversions (compelling messaging = more leads).
+KEYWORD_RESEARCH.md identifies high-value keywords needing natural integration.
+WATERWAYS_SITE_ARCHITECTURE.md specifies messaging hierarchy and CTAs.
+Strong copy differentiates from competitors (many sites have weak, generic content).
+"""
+context = """
+EXTRACTED_SITE_CONTENT.md provides current site messaging baseline.
+WATERWAYS_SITE_ARCHITECTURE.md defines page structure and messaging strategy.
+KEYWORD_RESEARCH.md targets: 'custom chimney caps', 'copper chimney caps', 'sheet metal fabrication Arkansas'.
+COMPETITIVE_RESEARCH_REPORT.md shows competitors emphasize 'Made in USA', lifetime warranties, fast shipping.
+Water Ways positioning: premium craftsmanship + modern technology + custom capabilities.
+"""
+reasoning_chain = [
+    "1. WATERWAYS_SITE_ARCHITECTURE.md defines 3 homepage hero options (heritage, benefit, craft focus)",
+    "2. Current messaging: '21st century technology meets centuries-old craftsmanship'",
+    "3. KEYWORD_RESEARCH.md prioritizes: chimney caps, copper, custom, Arkansas (local)",
+    "4. About page needs: founding story, craftsmanship philosophy, team expertise",
+    "5. Service pages need: technical details + emotional benefits (durability, beauty, value)",
+    "6. FAQ addresses buyer concerns: pricing, turnaround, installation, materials",
+    "7. FAQ also targets informational keywords ('do I need chimney cap', 'copper vs stainless')",
+    "8. Copy must balance: professionalism (B2B credibility) + approachability (homeowner-friendly)",
+    "9. Result: SEO-optimized copy that educates, builds trust, drives quote requests"
+]
+success_impact = """
+When PLAN-004 complete:
+✅ Homepage hero copy ready (compelling first impression)
+✅ About page tells Water Ways story (builds trust and credibility)
+✅ Service pages educate buyers (technical + emotional benefits)
+✅ FAQ content targets informational search intent (SEO value)
+✅ SEO keywords naturally integrated (no keyword stuffing)
+✅ Brand voice consistent across all pages
+✅ Copy approved by Ray → unblocks DEV-001 (HTML build)
+"""
+files_to_create = [
+    "CONTENT_COPY.md"
+]
+patterns = ["Pattern-CONTEXT-002"]
+
+# ============================================================
+# WEEK 2: DESIGN & STRUCTURE
+# ============================================================
+
+[tasks.DESIGN-001]
+id = "DESIGN-001"
+name = "Finalize Color Scheme and Typography"
+phase = "Week 2 - Design & Structure"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Confirm color palette (copper theme with blues/grays) and typography choices, create CSS variables file"
+estimated_time = "1 hour"
+dependencies = ["PLAN-004"]
+deliverables = [
+    "Final color scheme documented (primary, accent, neutrals)",
+    "Typography choices confirmed (Playfair Display + Inter)",
+    "CSS variables file created (colors, fonts, spacing)",
+    "Design rationale documented"
+]
+why = """
+Design system ensures visual consistency across all pages.
+Copper theme reinforces brand identity (material = visual identity).
+Typography affects readability and brand perception (craftsmanship = elegant serif + modern sans).
+"""
+context = """
+WATERWAYS_SITE_ARCHITECTURE.md proposes copper theme: #B87333 (copper), #469F9A (patina green), charcoal, white.
+Current WordPress site uses blue (#4b7cb7) - shift to copper aligns with product focus.
+Typography proposed: Playfair Display (elegant headlines) + Inter (clean body text).
+COMPETITIVE_RESEARCH_REPORT.md shows competitors use generic color schemes (no material-based branding).
+"""
+reasoning_chain = [
+    "1. Water Ways specializes in copper work (premium material)",
+    "2. Visual identity should reinforce material expertise (copper = warm, premium)",
+    "3. Color psychology: copper/bronze = craftsmanship, tradition, quality",
+    "4. Patina green accent = natural copper aging (authenticity)",
+    "5. Charcoal/gray neutrals = modern professionalism",
+    "6. Playfair Display serif = craftsmanship, tradition (headlines)",
+    "7. Inter sans-serif = modern, readable (body text, UI)",
+    "8. CSS variables enable quick color adjustments during review",
+    "9. Result: Cohesive design system that reinforces brand positioning"
+]
+success_impact = """
+When DESIGN-001 complete:
+✅ Color scheme finalized (copper theme approved by Ray)
+✅ Typography locked in (headline + body fonts)
+✅ CSS variables file created (enables consistent styling)
+✅ Design rationale documented (explains decisions)
+✅ Unblocks DEV-002 (CSS writing with confirmed design system)
+✅ Visual differentiation from competitors (material-based branding)
+"""
+files_to_create = [
+    "css/variables.css",
+    "DESIGN_SYSTEM.md"
+]
+
+[tasks.DESIGN-002]
+id = "DESIGN-002"
+name = "Create Site Navigation Structure"
+phase = "Week 2 - Design & Structure"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Map out complete site navigation (main menu, footer, breadcrumbs), define URL structure, create sitemap"
+estimated_time = "2 hours"
+dependencies = []
+deliverables = [
+    "Site navigation map (header + footer structure)",
+    "URL structure defined (/services/chimney-caps.html, etc.)",
+    "Breadcrumb strategy documented",
+    "Preliminary sitemap.xml structure"
+]
+why = """
+Navigation affects UX (users must find info quickly), SEO (site structure), and development (URL planning).
+WATERWAYS_SITE_ARCHITECTURE.md defines hierarchy but needs URL validation.
+Clear navigation = lower bounce rate = better conversions.
+"""
+context = """
+WATERWAYS_SITE_ARCHITECTURE.md specifies main nav: Home, Services (dropdown), Portfolio, About, Contact.
+Footer nav adds: Resources (FAQs, material guides), Legal (privacy, terms).
+URL structure should be semantic: /services/chimney-caps.html (not /page?id=123).
+Breadcrumbs needed for service pages (Home > Services > Chimney Caps).
+"""
+reasoning_chain = [
+    "1. WATERWAYS_SITE_ARCHITECTURE.md defines 5 main nav items",
+    "2. Services needs dropdown: Chimney Caps, Flashing, Roofing, Custom Metalwork",
+    "3. Portfolio can have residential/commercial split (future expansion)",
+    "4. About page may need subpages: Our Story, Our Process, Why Copper",
+    "5. Footer adds secondary content: FAQs, material guides, careers, privacy policy",
+    "6. URL structure: descriptive, keyword-rich, hierarchical (/services/category/)",
+    "7. Breadcrumbs improve UX (navigation orientation) and SEO (internal linking)",
+    "8. Sitemap enables search engine crawling (sitemap.xml for Google/Bing submission)",
+    "9. Result: Intuitive navigation that serves users and search engines"
+]
+success_impact = """
+When DESIGN-002 complete:
+✅ Navigation structure finalized (main menu + footer)
+✅ URL structure defined (semantic, SEO-friendly)
+✅ Breadcrumb strategy documented (improves UX)
+✅ Sitemap structure created (enables DEV-006 - sitemap.xml generation)
+✅ Unblocks DEV-001 (HTML can use correct URLs)
+✅ Clear site architecture for future expansion (triple-brand strategy)
+"""
+files_to_create = [
+    "SITE_STRUCTURE.md",
+    "URL_MAP.md"
+]
+
+[tasks.DESIGN-003]
+id = "DESIGN-003"
+name = "Create Homepage Wireframe"
+phase = "Week 2 - Design & Structure"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Design homepage layout with sections defined, establish visual hierarchy, plan mobile-responsive breakpoints"
+estimated_time = "3 hours"
+dependencies = ["DESIGN-002"]
+deliverables = [
+    "Homepage wireframe (desktop layout)",
+    "Section order finalized (hero, about, services, portfolio, testimonials, CTA)",
+    "Mobile layout planned (responsive breakpoints)",
+    "Visual hierarchy documented (what draws eye first)"
+]
+why = """
+Homepage is primary landing page (drives first impression and conversions).
+Wireframe prevents design drift during development (clear vision).
+Mobile-first approach needed (60%+ traffic mobile per industry trends).
+"""
+context = """
+WATERWAYS_SITE_ARCHITECTURE.md defines homepage sections: hero, about preview, services overview, portfolio preview, process, testimonials, CTA.
+Hero needs: background image, headline, subheadline, 2 CTA buttons, quick stats.
+COMPETITIVE_RESEARCH_REPORT.md shows competitors use hero sliders (avoid - slow, poor UX).
+Focus: static hero image (fast load) + clear hierarchy (scan pattern: F-shape or Z-shape).
+"""
+reasoning_chain = [
+    "1. Homepage goal: establish credibility → showcase work → drive quote requests",
+    "2. User journey: Hero (first impression) → Services (what we do) → Portfolio (proof) → Contact",
+    "3. WATERWAYS_SITE_ARCHITECTURE.md defines 7 homepage sections",
+    "4. Visual hierarchy: Hero most prominent → Services/Portfolio equal weight → Testimonials/CTA secondary",
+    "5. Mobile: sections stack vertically (hero, about, services grid → single column, etc.)",
+    "6. Avoid hero sliders (slow, poor UX, SEO issues) - static hero image with overlay text",
+    "7. CTA buttons: primary (Get Free Quote) + secondary (View Portfolio)",
+    "8. Quick stats add credibility without lengthy text (40+ years, 100% custom, premium materials)",
+    "9. Result: Homepage that converts visitors → leads in <10 seconds scan time"
+]
+success_impact = """
+When DESIGN-003 complete:
+✅ Homepage layout finalized (section order and visual hierarchy)
+✅ Mobile responsiveness planned (stack order and breakpoints)
+✅ Wireframe approved by Ray → unblocks DEV-001 (HTML build)
+✅ Clear vision prevents scope creep during development
+✅ Design decisions documented (rationale preserved)
+✅ Foundation for consistent layouts on other pages
+"""
+files_to_create = [
+    "wireframes/homepage.png",
+    "HOMEPAGE_DESIGN.md"
+]
+
+# ============================================================
+# WEEK 3-4: DEVELOPMENT
+# ============================================================
+
+[tasks.DEV-001]
+id = "DEV-001"
+name = "Build HTML Structure - All Pages"
+phase = "Week 3-4 - Development"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Create semantic HTML5 files for all pages: homepage, about, services (4 pages), portfolio, contact, FAQ - with proper document structure, meta tags, and accessibility"
+estimated_time = "8 hours"
+dependencies = ["DESIGN-003", "PLAN-004"]
+deliverables = [
+    "index.html - Homepage with hero, services preview, portfolio preview, testimonials, CTA sections",
+    "about.html - Company story, team, process, why copper content",
+    "services/chimney-caps.html - Chimney caps service page",
+    "services/flashing.html - Flashing service page",
+    "services/roofing-gutters.html - Roofing & gutters service page",
+    "services/custom-metalwork.html - Custom metalwork service page",
+    "portfolio.html - Project gallery with filtering",
+    "contact.html - Contact form with phone/email links",
+    "faq.html - FAQ accordion page"
+]
+why = """
+HTML structure is foundation of entire site (all styling and functionality depends on solid markup).
+Semantic HTML5 improves SEO (search engines understand content hierarchy).
+Proper document structure enables accessibility (screen readers, keyboard navigation).
+Clean markup separates content from presentation (easier maintenance, faster development).
+"""
+context = """
+WATERWAYS_SITE_ARCHITECTURE.md defines page structure and content sections for all pages.
+PLAN-004 provides written copy for hero, about, services, FAQ (content ready to insert).
+DESIGN-003 provides homepage wireframe (layout reference for all pages).
+Need semantic elements: <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>.
+All pages need: proper <head> with meta tags, Open Graph, structured navigation, breadcrumbs.
+"""
+reasoning_chain = [
+    "1. DESIGN-003 wireframe approved → layout structure defined",
+    "2. PLAN-004 copy written → content ready for HTML insertion",
+    "3. Start with reusable header/footer components (navigation structure)",
+    "4. Build homepage first (most complex, sets patterns for other pages)",
+    "5. Homepage sections: <header>, hero <section>, about <section>, services grid, portfolio preview, testimonials, CTA, <footer>",
+    "6. Service pages follow template: hero, description, benefits, materials, process, related projects, CTA",
+    "7. Portfolio page: filterable project grid (residential/commercial/specialty categories)",
+    "8. Contact page: form + contact info + map embed placeholder",
+    "9. FAQ page: accordion structure with semantic <details>/<summary> elements",
+    "10. All pages include: proper meta tags, Schema placeholders, breadcrumbs, semantic landmarks",
+    "11. Use semantic HTML5: <header>, <nav>, <main>, <section>, <article>, <footer> (accessibility + SEO)",
+    "12. Result: Complete HTML structure ready for CSS styling (DEV-002) and JavaScript (DEV-004)"
+]
+success_impact = """
+When DEV-001 complete:
+✅ All 9 pages built with semantic HTML5 structure
+✅ Content from PLAN-004 integrated (no lorem ipsum)
+✅ Navigation consistent across all pages
+✅ Accessibility foundation established (landmarks, headings hierarchy)
+✅ SEO-friendly markup (semantic elements, proper heading order)
+✅ Unblocks DEV-002 (CSS styling), DEV-003 (image insertion), DEV-004 (JavaScript)
+✅ Site can be viewed as unstyled but functional HTML
+"""
+files_to_create = [
+    "index.html",
+    "about.html",
+    "services/chimney-caps.html",
+    "services/flashing.html",
+    "services/roofing-gutters.html",
+    "services/custom-metalwork.html",
+    "portfolio.html",
+    "contact.html",
+    "faq.html"
+]
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.DEV-002]
+id = "DEV-002"
+name = "Write CSS Styles"
+phase = "Week 3-4 - Development"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Implement comprehensive CSS: layout system (CSS Grid/Flexbox), typography, copper theme colors, component styles, responsive breakpoints for mobile/tablet/desktop"
+estimated_time = "10 hours"
+dependencies = ["DEV-001", "DESIGN-001"]
+deliverables = [
+    "css/variables.css - Design tokens (colors, fonts, spacing, breakpoints)",
+    "css/style.css - Main stylesheet with layout, typography, components",
+    "css/responsive.css - Mobile-first responsive breakpoints",
+    "CSS Grid for page layout (header, main, footer)",
+    "Component styles: buttons, cards, forms, navigation, hero sections",
+    "Copper theme styling (primary: #B87333, accent: #469F9A, neutrals)"
+]
+why = """
+CSS transforms HTML structure into visually compelling, branded experience.
+Copper theme reinforces material expertise (visual identity = brand identity).
+Mobile-first responsive design critical (60%+ traffic mobile, Google mobile-first indexing).
+Performance matters: clean CSS with minimal selectors = fast rendering.
+"""
+context = """
+DESIGN-001 defines design system: copper theme (#B87333), patina green (#469F9A), charcoal, white.
+Typography: Playfair Display (headlines) + Inter (body text).
+DESIGN-003 homepage wireframe shows layout patterns: hero, grid sections, card components.
+DEV-001 provides semantic HTML structure ready for styling.
+Competitors use generic blue themes - copper theme differentiates Water Ways.
+Mobile breakpoints: 320px (mobile), 768px (tablet), 1024px (desktop), 1280px (wide).
+"""
+reasoning_chain = [
+    "1. DESIGN-001 design system finalized → colors, typography, spacing defined",
+    "2. Start with variables.css: CSS custom properties for colors, fonts, spacing (maintainability)",
+    "3. Build base styles: typography scale, heading hierarchy, body text, links",
+    "4. Layout system: CSS Grid for page structure, Flexbox for components",
+    "5. Component styles: buttons (primary/secondary), cards, forms, navigation, hero overlay",
+    "6. Copper theme application: primary actions (#B87333), hover states (darker copper), accents (patina green)",
+    "7. Mobile-first approach: base styles mobile, progressive enhancement tablet/desktop",
+    "8. Responsive breakpoints: @media (min-width: 768px), @media (min-width: 1024px)",
+    "9. Navigation: sticky header, mobile hamburger menu, dropdown service menu",
+    "10. Hero section: full-height, background image with overlay, centered text, dual CTAs",
+    "11. Portfolio grid: CSS Grid 1 column mobile → 2 columns tablet → 3 columns desktop",
+    "12. Result: Fully styled, responsive site matching DESIGN-001 system and DESIGN-003 wireframe"
+]
+success_impact = """
+When DEV-002 complete:
+✅ Visual brand identity established (copper theme reinforces material expertise)
+✅ Mobile-responsive design (works 320px → 1920px+)
+✅ Typography hierarchy clear (Playfair headlines + Inter body)
+✅ Consistent component styling (buttons, cards, forms)
+✅ Professional visual quality (competitive differentiation)
+✅ Site ready for images (DEV-003) and JavaScript interactivity (DEV-004)
+✅ Design system documented via CSS variables (easy theme adjustments)
+"""
+files_to_create = [
+    "css/variables.css",
+    "css/style.css",
+    "css/responsive.css"
+]
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.DEV-003]
+id = "DEV-003"
+name = "Optimize and Add Images"
+phase = "Week 3-4 - Development"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Optimize all images to <200KB, convert to WebP format, add to HTML pages with proper alt text, implement lazy loading, create responsive images with srcset"
+estimated_time = "4 hours"
+dependencies = ["PLAN-002", "DEV-001"]
+deliverables = [
+    "All images optimized (<200KB each)",
+    "WebP conversion with JPEG/PNG fallbacks",
+    "Images inserted into HTML with descriptive alt text",
+    "Lazy loading implemented (loading='lazy' attribute)",
+    "Hero images added to all major pages",
+    "Portfolio images organized and added",
+    "Responsive images with srcset for mobile/desktop variants"
+]
+why = """
+Images are largest performance bottleneck (unoptimized images = slow site, poor Lighthouse score).
+WebP format provides 25-35% smaller file sizes vs JPEG (same visual quality).
+Lazy loading defers off-screen images (faster initial page load).
+Alt text critical for accessibility (screen readers) and SEO (image search).
+Portfolio images showcase craftsmanship quality (primary lead generation tool).
+"""
+context = """
+PLAN-002 downloaded and organized existing images: chimney-caps/, flashing/, roofing/, architectural/.
+WATERWAYS_SITE_ARCHITECTURE.md specifies hero images for homepage, about, service pages.
+TEST-003 requires Lighthouse Performance >90 (image optimization critical).
+Current WordPress site has large, unoptimized images (performance opportunity).
+Need hero images: copper work close-up (homepage), workshop (about), project-specific (service pages).
+Portfolio images need: 3-5 photos per project × 10-15 projects = 30-75 images total.
+"""
+reasoning_chain = [
+    "1. PLAN-002 image inventory complete → know what images we have",
+    "2. Image optimization workflow: resize → compress → WebP convert → test quality",
+    "3. Hero images need: 1920×1080 desktop, 768×432 tablet, 375×667 mobile (responsive srcset)",
+    "4. Portfolio images: 800×600 desktop, 400×300 thumbnail (CSS Grid auto-sizing)",
+    "5. Optimize with tools: ImageMagick, Squoosh.app, or cwebp (target <200KB per image)",
+    "6. WebP with fallback: <picture><source srcset='image.webp'><img src='image.jpg'></picture>",
+    "7. Alt text formula: 'Copper chimney cap on residential home in Siloam Springs, Arkansas'",
+    "8. Lazy loading: add loading='lazy' to all images below fold (portfolio, testimonials)",
+    "9. Hero images: eager loading (above fold, critical), high priority",
+    "10. Portfolio images: lazy loading (below fold), lower priority",
+    "11. Test: Lighthouse Performance audit (image optimization affects Core Web Vitals)",
+    "12. Result: Optimized images → fast load times → better UX → Lighthouse Performance >90"
+]
+success_impact = """
+When DEV-003 complete:
+✅ All images optimized (<200KB each, WebP format)
+✅ Hero images added to homepage, about, service pages (visual impact)
+✅ Portfolio images inserted (showcases craftsmanship quality)
+✅ Alt text added (accessibility + SEO)
+✅ Lazy loading implemented (faster initial page load)
+✅ Responsive images with srcset (appropriate sizes for mobile/desktop)
+✅ Performance foundation for TEST-003 (Lighthouse >90 target)
+"""
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.DEV-004]
+id = "DEV-004"
+name = "Add JavaScript Functionality"
+phase = "Week 3-4 - Development"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Implement JavaScript for mobile hamburger menu, portfolio image lightbox, contact form validation, smooth scrolling navigation, FAQ accordion interactions"
+estimated_time = "6 hours"
+dependencies = ["DEV-001"]
+deliverables = [
+    "Mobile hamburger menu with slide-out navigation",
+    "Portfolio image lightbox/modal for full-size image viewing",
+    "Contact form client-side validation (email format, required fields)",
+    "Smooth scrolling for anchor link navigation",
+    "FAQ accordion expand/collapse with keyboard support",
+    "Service dropdown menu interactions"
+]
+why = """
+JavaScript enables interactivity (mobile menu, lightbox, form validation).
+Mobile menu critical for usability on small screens (hamburger pattern standard).
+Form validation prevents submission errors (better UX before mailto/server submission).
+Portfolio lightbox enhances image viewing (click to enlarge, see details).
+Smooth scroll improves navigation experience (professional polish).
+"""
+context = """
+WATERWAYS_SITE_ARCHITECTURE.md specifies mobile-first design (hamburger menu needed).
+Portfolio page needs lightbox for project photos (click thumbnail → view full-size).
+Contact form needs validation: email format, phone format, required fields.
+FAQ page uses accordion pattern (collapse/expand answers).
+Navigation includes Services dropdown (desktop hover, mobile click).
+Keep JavaScript minimal (static site, no heavy frameworks needed).
+"""
+reasoning_chain = [
+    "1. Mobile menu: hamburger icon → slide-out navigation → close button/overlay",
+    "2. Menu logic: toggle class 'menu-open' → CSS handles animation (transform: translateX)",
+    "3. Portfolio lightbox: click image → modal overlay → show full-size → prev/next buttons → close",
+    "4. Lightbox accessibility: ESC key closes, focus trap, keyboard navigation",
+    "5. Form validation: check email regex, required fields, show error messages",
+    "6. Form validation pattern: HTML5 attributes (required, type='email') + JS enhancement",
+    "7. Smooth scroll: anchor links (#services, #portfolio) → scrollIntoView({behavior: 'smooth'})",
+    "8. FAQ accordion: <details>/<summary> native HTML (no JS needed) OR custom JS for animation",
+    "9. Services dropdown: desktop hover (CSS :hover) + mobile click (JS toggle)",
+    "10. Keep JS vanilla (no jQuery, no frameworks) → faster load, less complexity",
+    "11. Progressive enhancement: site works without JS (forms submit, menu accessible)",
+    "12. Result: Interactive features enhance UX without blocking core functionality"
+]
+success_impact = """
+When DEV-004 complete:
+✅ Mobile navigation functional (hamburger menu with slide-out)
+✅ Portfolio lightbox working (click image → view full-size)
+✅ Contact form validation (prevents errors, better UX)
+✅ Smooth scrolling navigation (professional polish)
+✅ FAQ accordion interactions (collapse/expand answers)
+✅ Site ready for cross-browser testing (TEST-001)
+✅ JavaScript minimal and performant (Lighthouse Best Practices score)
+"""
+files_to_create = [
+    "js/main.js"
+]
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.DEV-005]
+id = "DEV-005"
+name = "Add Schema Markup"
+phase = "Week 3-4 - Development"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Implement JSON-LD Schema markup for LocalBusiness, Service, Organization, and BreadcrumbList - enabling rich snippets in search results and AI context understanding"
+estimated_time = "3 hours"
+dependencies = ["PLAN-001", "DEV-001"]
+deliverables = [
+    "LocalBusiness schema on homepage (address, phone, hours, geo coordinates)",
+    "Service schema on each service page (serviceType, areaServed, offers)",
+    "Organization schema (brand, logo, contact points, social media)",
+    "BreadcrumbList schema on service and portfolio pages",
+    "Validate all Schema with Google Rich Results Test and Schema.org validator"
+]
+why = """
+Schema markup enables rich snippets in search results (star ratings, business hours, location).
+LocalBusiness schema critical for local SEO (Google Maps integration, local pack rankings).
+Service schema helps Google understand service offerings (semantic search targeting).
+AI systems (ChatGPT, Perplexity) use Schema to extract business information (AEO optimization).
+Structured data = better search visibility = more qualified traffic.
+"""
+context = """
+PLAN-001 gathers business info needed for Schema: address, phone, hours, geo coordinates, service area.
+WATERWAYS_SITE_ARCHITECTURE.md requires Schema implementation (modern SEO best practice).
+KEYWORD_RESEARCH.md targets local keywords (Northwest Arkansas) → LocalBusiness schema supports this.
+Service area: Siloam Springs, AR base → serves AR, OK, MO, KS (areaServed property).
+Competitors lack detailed Schema markup (competitive advantage opportunity).
+"""
+reasoning_chain = [
+    "1. PLAN-001 provides business details → address, phone, hours, geo coordinates",
+    "2. LocalBusiness schema template: @type: 'LocalBusiness', name, address, telephone, openingHours, geo",
+    "3. Homepage gets LocalBusiness schema (main contact info, hours, location)",
+    "4. Add Organization schema: brand, logo, sameAs (social media links), contactPoint",
+    "5. Service pages get Service schema: @type: 'Service', serviceType: 'Custom Chimney Caps', provider, areaServed",
+    "6. areaServed array: ['Arkansas', 'Oklahoma', 'Missouri', 'Kansas'] OR specific cities",
+    "7. BreadcrumbList schema: position-based hierarchy (Home > Services > Chimney Caps)",
+    "8. JSON-LD format (not microdata): <script type='application/ld+json'>{schema}</script>",
+    "9. Validate with Google Rich Results Test (checks eligibility for rich snippets)",
+    "10. Validate with Schema.org validator (checks Schema structure correctness)",
+    "11. Test local search: search 'copper chimney caps Siloam Springs' → verify LocalBusiness shows",
+    "12. Result: Structured data enables rich snippets, local SEO boost, AI system understanding"
+]
+success_impact = """
+When DEV-005 complete:
+✅ LocalBusiness schema implemented (supports local SEO + Google Maps)
+✅ Service schema on all service pages (semantic search understanding)
+✅ Organization schema (brand entity recognition)
+✅ BreadcrumbList schema (navigation clarity in search results)
+✅ Schema validated with Google + Schema.org tools
+✅ Rich snippets eligible in search results (hours, location, services)
+✅ AI systems can extract accurate business information (AEO ready)
+"""
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.DEV-006]
+id = "DEV-006"
+name = "Create llms.txt and robots.txt"
+phase = "Week 3-4 - Development"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Create llms.txt with company overview for AI systems (AEO), robots.txt with crawl directives and sitemap reference, sitemap.xml with all pages"
+estimated_time = "1 hour"
+dependencies = ["PLAN-001", "PLAN-004"]
+deliverables = [
+    "llms.txt with company overview, services, contact, key differentiators",
+    "robots.txt with User-agent directives and sitemap location",
+    "sitemap.xml with all pages, priority values, changefreq",
+    "Validate robots.txt and sitemap.xml syntax"
+]
+why = """
+llms.txt provides AI systems (ChatGPT, Claude, Perplexity) with business context for accurate responses.
+robots.txt guides search engine crawling (allow/disallow directives, sitemap reference).
+sitemap.xml ensures all pages discoverable by search engines (indexation foundation).
+AEO (Answer Engine Optimization) increasingly important as AI search grows (ChatGPT, Perplexity).
+"""
+context = """
+PLAN-001 business info provides content for llms.txt: company name, services, location, contact.
+PLAN-004 copy provides messaging for llms.txt: unique positioning, craftsmanship philosophy.
+llms.txt format: plain text, concise, factual overview (reference: llmstxt.org).
+robots.txt standard: User-agent: *, Allow: /, Sitemap: https://waterwayssheetmetal.com/sitemap.xml.
+sitemap.xml includes all pages with <url>, <loc>, <lastmod>, <priority>, <changefreq>.
+"""
+reasoning_chain = [
+    "1. llms.txt emerging standard for AI system context (ChatGPT, Claude, Perplexity use this)",
+    "2. llms.txt content: company name, location, services offered, service area, contact, unique positioning",
+    "3. llms.txt tone: factual, concise, keyword-rich (AI systems extract this for answers)",
+    "4. Example llms.txt: 'Water Ways Sheet Metal | Custom copper and sheet metal fabrication...'",
+    "5. robots.txt purpose: guide crawlers, reference sitemap, disallow admin/private pages",
+    "6. robots.txt for static site: allow all public pages, reference sitemap.xml",
+    "7. sitemap.xml structure: <urlset>, <url> per page, <loc> (full URL), <lastmod> (date), <priority> (0.0-1.0)",
+    "8. Priority values: homepage 1.0, service pages 0.8, about/portfolio 0.7, FAQ 0.6",
+    "9. changefreq values: homepage 'weekly', service pages 'monthly', about 'yearly'",
+    "10. Validate robots.txt: Google Search Console robots.txt Tester",
+    "11. Validate sitemap.xml: XML validator, Google Search Console Sitemap submission",
+    "12. Result: Search engines and AI systems can discover and understand site content"
+]
+success_impact = """
+When DEV-006 complete:
+✅ llms.txt created (AI systems have accurate business context)
+✅ robots.txt created (search engines guided to sitemap)
+✅ sitemap.xml created (all pages listed for indexation)
+✅ AEO foundation established (ChatGPT, Perplexity can answer queries about Water Ways)
+✅ SEO foundation for LAUNCH-003 (sitemap submission to Google/Bing)
+✅ Crawling optimized (search engines find all pages efficiently)
+"""
+files_to_create = [
+    "llms.txt",
+    "robots.txt",
+    "sitemap.xml"
+]
+patterns = ["Pattern-CONTEXT-002"]
+
+# ============================================================
+# WEEK 5: TESTING & REFINEMENT
+# ============================================================
+
+[tasks.TEST-001]
+id = "TEST-001"
+name = "Cross-Browser Testing"
+phase = "Week 5 - Testing & Refinement"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Test site rendering and functionality on Chrome, Firefox, Safari, Edge (latest versions) - identify and fix CSS/JavaScript compatibility issues"
+estimated_time = "3 hours"
+dependencies = ["DEV-002", "DEV-004"]
+deliverables = [
+    "Test results documented for each browser (Chrome, Firefox, Safari, Edge)",
+    "CSS compatibility issues identified and fixed",
+    "JavaScript functionality verified on all browsers",
+    "CSS vendor prefixes added where needed (-webkit-, -moz-, -ms-)",
+    "Fallbacks implemented for unsupported features"
+]
+why = """
+Users visit on different browsers (Chrome 65%, Safari 18%, Edge 5%, Firefox 3% market share).
+CSS features have varying browser support (Grid, Flexbox, custom properties generally good, but edge cases exist).
+JavaScript APIs differ across browsers (must test event handling, DOM manipulation).
+One broken browser = lost leads from that user segment (compatibility = accessibility).
+"""
+context = """
+DEV-002 uses modern CSS (Grid, Flexbox, custom properties) - generally well-supported but need testing.
+DEV-004 uses vanilla JavaScript (no frameworks) - need to test event listeners, DOM methods.
+Safari often lags on CSS feature support (test webkit prefixes).
+Edge now Chromium-based (generally Chrome-compatible, but test nonetheless).
+Focus on latest browser versions (no IE11 support for modern static site).
+"""
+reasoning_chain = [
+    "1. Test methodology: open site on each browser, navigate all pages, test interactions",
+    "2. Chrome testing: baseline (most features supported, largest user base)",
+    "3. Firefox testing: generally good standards support, test JS event handling",
+    "4. Safari testing: webkit-specific issues (CSS Grid, Flexbox, custom properties, transforms)",
+    "5. Edge testing: Chromium-based (likely Chrome-compatible, but verify)",
+    "6. Test mobile menu: hamburger toggle, slide animation, close button",
+    "7. Test portfolio lightbox: click image, prev/next, close, keyboard navigation",
+    "8. Test contact form: validation messages, input focus styles, submission",
+    "9. Test CSS layout: Grid alignment, Flexbox wrapping, responsive breakpoints",
+    "10. Document issues: screenshot, browser version, steps to reproduce",
+    "11. Fix CSS compatibility: add vendor prefixes, use fallback properties, test transforms",
+    "12. Result: Site works consistently across all major browsers (professional quality)"
+]
+success_impact = """
+When TEST-001 complete:
+✅ Site tested on Chrome, Firefox, Safari, Edge (latest versions)
+✅ CSS rendering consistent across browsers
+✅ JavaScript functionality verified on all browsers
+✅ Vendor prefixes added where needed
+✅ Fallbacks implemented for edge cases
+✅ No browser-specific bugs blocking user experience
+✅ Professional quality assurance (all users get good experience)
+"""
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.TEST-002]
+id = "TEST-002"
+name = "Mobile Device Testing"
+phase = "Week 5 - Testing & Refinement"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Test site on iPhone, Android phones, tablets (iOS/Android) - verify responsive design, touch interactions, mobile menu, form usability on actual devices"
+estimated_time = "2 hours"
+dependencies = ["DEV-002", "DEV-004"]
+deliverables = [
+    "Mobile test results documented (iPhone, Android, tablets)",
+    "Touch interactions verified (tap targets ≥44×44px)",
+    "Mobile menu tested (hamburger, slide-out, close)",
+    "Image sizing issues fixed (responsive images, aspect ratios)",
+    "Form usability verified (input sizing, keyboard behavior)",
+    "Viewport meta tag confirmed (<meta name='viewport' content='width=device-width, initial-scale=1'>)"
+]
+why = """
+60%+ web traffic mobile (Google mobile-first indexing prioritizes mobile experience).
+Desktop testing doesn't catch mobile-specific issues (touch targets, keyboard behavior, viewport sizing).
+Mobile users have different behavior (one-handed use, scrolling, tap targets).
+Poor mobile experience = high bounce rate = lost leads.
+"""
+context = """
+WATERWAYS_SITE_ARCHITECTURE.md specifies mobile-first design (mobile experience priority).
+DEV-002 implements responsive CSS (breakpoints 320px, 768px, 1024px).
+Test devices: iPhone (iOS Safari), Android (Chrome), iPad (Safari), Android tablet.
+Touch targets need ≥44×44px for accessibility (Apple/Google guidelines).
+Mobile menu uses hamburger pattern (standard UX, must test open/close/navigation).
+"""
+reasoning_chain = [
+    "1. Test on actual devices (not just browser DevTools) - real touch interactions, viewport behavior",
+    "2. iPhone testing: iOS Safari (webkit rendering), test portrait/landscape, notch spacing",
+    "3. Android testing: Chrome mobile, test various screen sizes (5-7 inch phones)",
+    "4. Tablet testing: iPad (Safari), Android tablet (Chrome), landscape orientation",
+    "5. Touch target test: buttons, links, menu items ≥44×44px (use finger to test, not mouse)",
+    "6. Mobile menu test: hamburger icon tap → menu opens → links tap → menu closes",
+    "7. Form test: tap input → keyboard appears → type → submit (email link/SMS link works)",
+    "8. Image test: hero images fill width, portfolio images scale correctly, no horizontal scroll",
+    "9. Scroll test: smooth scrolling, no layout shift, footer visible",
+    "10. Performance test: page load speed on 3G/4G (slow connection reality check)",
+    "11. Fix issues: adjust tap target sizing, fix viewport overflow, optimize image loading",
+    "12. Result: Site works flawlessly on mobile devices (60%+ of users get great experience)"
+]
+success_impact = """
+When TEST-002 complete:
+✅ Site tested on iPhone, Android, tablets (iOS + Android)
+✅ Touch interactions verified (tap targets accessible)
+✅ Mobile menu functional (hamburger, slide-out, navigation)
+✅ Responsive images working (no horizontal scroll, proper aspect ratios)
+✅ Forms usable on mobile (input sizing, keyboard behavior)
+✅ Mobile-first priority achieved (60%+ users get optimized experience)
+✅ Google mobile-first indexing ready (SEO benefit)
+"""
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.TEST-003]
+id = "TEST-003"
+name = "Performance Optimization - Lighthouse"
+phase = "Week 5 - Testing & Refinement"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Run Google Lighthouse audit on all pages, achieve Performance >90, Accessibility >95, Best Practices >95, SEO >95 - optimize based on audit recommendations"
+estimated_time = "4 hours"
+dependencies = ["DEV-003", "DEV-004"]
+deliverables = [
+    "Lighthouse Performance score >90 on homepage and key pages",
+    "Lighthouse Accessibility score >95",
+    "Lighthouse Best Practices score >95",
+    "Lighthouse SEO score >95",
+    "Core Web Vitals optimized (LCP <2.5s, FID <100ms, CLS <0.1)",
+    "Performance audit report with before/after scores"
+]
+why = """
+Lighthouse scores reflect real-world performance, accessibility, SEO quality (Google's own tool).
+Performance affects rankings (Core Web Vitals = ranking factor since 2021).
+Fast sites = better UX = lower bounce rate = more conversions (1 second delay = 7% conversion loss).
+Accessibility score ensures site usable for all users (legal compliance, ethical obligation).
+SEO score validates technical SEO implementation (meta tags, Schema, mobile-friendly).
+"""
+context = """
+Target scores: Performance >90, Accessibility >95, Best Practices >95, SEO >95 (ambitious but achievable for static site).
+DEV-003 image optimization critical for Performance score (images = largest bottleneck).
+Core Web Vitals: LCP (Largest Contentful Paint) <2.5s, FID (First Input Delay) <100ms, CLS (Cumulative Layout Shift) <0.1.
+Static HTML/CSS/JS site advantages: no database queries, no server processing, fast TTFB.
+Common Lighthouse issues: unoptimized images, render-blocking CSS/JS, missing alt text, contrast ratios.
+"""
+reasoning_chain = [
+    "1. Run Lighthouse audit in Chrome DevTools (Incognito mode, throttled 3G/4G)",
+    "2. Test homepage first (most complex page, sets baseline)",
+    "3. Performance audit checks: LCP (hero image load time), FID (JS interactivity), CLS (layout stability)",
+    "4. Performance optimizations: image lazy loading (DEV-003), CSS minification, JS defer/async",
+    "5. Accessibility audit checks: alt text, contrast ratios, heading order, ARIA labels, keyboard navigation",
+    "6. Accessibility fixes: add missing alt text, improve contrast (text on copper background), semantic HTML",
+    "7. Best Practices audit checks: HTTPS, no console errors, modern image formats (WebP)",
+    "8. SEO audit checks: meta descriptions, viewport meta tag, crawlable links, structured data",
+    "9. Core Web Vitals focus: LCP = hero image optimization, CLS = image dimensions specified, FID = minimal JS",
+    "10. Run audits on service pages, portfolio, contact (verify consistent scores across site)",
+    "11. Iterate optimizations: fix issues, re-run Lighthouse, repeat until targets met",
+    "12. Result: All Lighthouse scores >90/95 → fast, accessible, SEO-optimized site"
+]
+success_impact = """
+When TEST-003 complete:
+✅ Lighthouse Performance >90 (fast loading, good Core Web Vitals)
+✅ Lighthouse Accessibility >95 (usable for all users, screen readers, keyboard navigation)
+✅ Lighthouse Best Practices >95 (HTTPS, no errors, modern formats)
+✅ Lighthouse SEO >95 (technical SEO validated)
+✅ Core Web Vitals optimized (LCP <2.5s, FID <100ms, CLS <0.1)
+✅ Ranking factor advantage (Google prioritizes fast, accessible sites)
+✅ Performance goals met (foundation for client approval TEST-007)
+"""
+performance_target = "Lighthouse Performance score >90"
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.TEST-004]
+id = "TEST-004"
+name = "SEO Validation"
+phase = "Week 5 - Testing & Refinement"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Validate all SEO elements: meta titles/descriptions on all pages, Schema markup with Google Rich Results Test, Open Graph tags, canonical URLs, sitemap completeness"
+estimated_time = "2 hours"
+dependencies = ["DEV-005", "DEV-006"]
+deliverables = [
+    "All meta titles optimized (50-60 chars, keyword-focused)",
+    "All meta descriptions written (150-160 chars, compelling CTAs)",
+    "Schema markup validated with Google Rich Results Test",
+    "Open Graph tags added (og:title, og:description, og:image, og:url)",
+    "Twitter Card tags added (twitter:card, twitter:title, twitter:description, twitter:image)",
+    "Canonical URLs set on all pages",
+    "Sitemap.xml validated and complete (all pages listed)"
+]
+why = """
+Meta tags control search result appearance (title = clickthrough rate, description = relevance preview).
+Schema markup enables rich snippets (star ratings, business hours, breadcrumbs in search results).
+Open Graph tags control social media sharing (Facebook, LinkedIn previews).
+Twitter Cards control Twitter sharing appearance (image, title, description).
+Canonical URLs prevent duplicate content issues (SEO best practice).
+Complete sitemap ensures all pages indexable (discoverability foundation).
+"""
+context = """
+KEYWORD_RESEARCH.md provides target keywords for meta titles (chimney caps, copper, Arkansas, custom).
+DEV-005 implemented Schema markup (need to validate with Google tool).
+DEV-006 created sitemap.xml (need to validate completeness, syntax).
+Meta title formula: [Primary Keyword] | Water Ways Sheet Metal | Siloam Springs, AR.
+Meta description formula: [Service description with benefit] + CTA (Get free quote today).
+Open Graph images: 1200×630px (Facebook/LinkedIn optimal size).
+"""
+reasoning_chain = [
+    "1. Meta titles audit: check all pages have unique, keyword-optimized titles (50-60 chars)",
+    "2. Homepage title: 'Custom Copper & Sheet Metal Fabrication | Water Ways | Siloam Springs, AR'",
+    "3. Service page titles: 'Custom Chimney Caps & Tops | Copper & Rheinzink | Water Ways Sheet Metal'",
+    "4. Meta descriptions audit: check all pages have compelling descriptions (150-160 chars)",
+    "5. Meta description pattern: benefit + service + location + CTA ('Expert copper chimney cap fabrication...')",
+    "6. Schema validation: run Google Rich Results Test on homepage, service pages (check LocalBusiness, Service)",
+    "7. Schema fix: correct any errors (missing properties, incorrect types)",
+    "8. Open Graph tags: add og:title, og:description, og:image (1200×630px hero images), og:url to all pages",
+    "9. Twitter Card tags: twitter:card='summary_large_image', twitter:title, twitter:description, twitter:image",
+    "10. Canonical URLs: add <link rel='canonical' href='https://waterwayssheetmetal.com/page.html'> to all pages",
+    "11. Sitemap validation: check sitemap.xml includes all 9 pages, validate XML syntax, verify URLs absolute",
+    "12. Result: SEO elements complete and validated → ready for indexing and ranking"
+]
+success_impact = """
+When TEST-004 complete:
+✅ All pages have optimized meta titles (keyword-focused, 50-60 chars)
+✅ All pages have compelling meta descriptions (150-160 chars, CTAs)
+✅ Schema markup validated with Google (rich snippets eligible)
+✅ Open Graph tags added (social sharing optimized)
+✅ Twitter Cards configured (Twitter sharing previews)
+✅ Canonical URLs set (duplicate content prevented)
+✅ Sitemap complete and validated (all pages indexable)
+✅ SEO foundation complete → ready for LAUNCH-003 (Search Console submission)
+"""
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.TEST-005]
+id = "TEST-005"
+name = "Contact Form Testing"
+phase = "Week 5 - Testing & Refinement"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Test contact form functionality on desktop and mobile: verify mailto/SMS links work, form validation functions, thank you message displays, accessibility with keyboard/screen reader"
+estimated_time = "1 hour"
+dependencies = ["DEV-004"]
+deliverables = [
+    "Desktop form opens email client with pre-filled to:, subject:, body: fields",
+    "Mobile form offers SMS option (tel: link) and email option (mailto: link)",
+    "Form validation prevents submission with missing/invalid fields",
+    "Thank you message or confirmation displayed after submission",
+    "Keyboard navigation works (Tab through fields, Enter to submit)",
+    "Screen reader announces labels, errors, validation messages"
+]
+why = """
+Contact form is primary lead generation tool (broken form = zero leads).
+mailto: forms rely on client-side email (must test across devices/email clients).
+Mobile users prefer SMS/call options (tel: link critical for mobile conversions).
+Form validation prevents user errors (better UX, reduces confusion).
+Accessibility ensures all users can submit inquiries (legal compliance, ethical obligation).
+"""
+context = """
+Static site uses mailto: form submission (no server-side processing).
+Form format: <form action='mailto:Ray@WaterwaysSheetMetal.com?subject=Quote Request' method='post' enctype='text/plain'>.
+DEV-004 adds JavaScript validation (email format, required fields).
+Mobile: provide tel: link for phone ((479) 957-3794) and SMS link (sms:+14799573794).
+Accessibility: labels for inputs, ARIA attributes for errors, keyboard focus management.
+"""
+reasoning_chain = [
+    "1. Desktop form test: fill out form → click submit → email client opens (Gmail, Outlook, Apple Mail)",
+    "2. Verify mailto: link: to='Ray@WaterwaysSheetMetal.com', subject='Quote Request from [name]', body=form data",
+    "3. Email client test: test on multiple clients (Gmail web, Outlook desktop, Apple Mail)",
+    "4. Mobile form test: fill out form → submit → options presented (SMS or email)",
+    "5. Mobile tel: link test: tap phone number → phone app opens with number dialed",
+    "6. Mobile SMS link test: tap 'Text Us' → SMS app opens with number populated",
+    "7. Form validation test: submit empty form → validation errors show → fill required fields → errors clear",
+    "8. Email validation: enter invalid email → error message → correct email → error clears",
+    "9. Keyboard test: Tab through fields (focus visible), Enter to submit (no mouse needed)",
+    "10. Screen reader test: labels announced, error messages announced, form purpose clear",
+    "11. Thank you message: after submit, show 'Thank you! We'll contact you within 24 hours' (JavaScript or redirect)",
+    "12. Result: Contact form works flawlessly on all devices → lead generation functional"
+]
+success_impact = """
+When TEST-005 complete:
+✅ Desktop form opens email client correctly (Gmail, Outlook, Apple Mail tested)
+✅ Mobile form provides SMS and email options (user preference flexibility)
+✅ Form validation prevents errors (required fields, email format)
+✅ Thank you message displays (user confirmation)
+✅ Keyboard navigation works (Tab, Enter, accessibility)
+✅ Screen reader compatible (labels, errors announced)
+✅ Lead generation tool functional → site ready for client review (TEST-007)
+"""
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.TEST-006]
+id = "TEST-006"
+name = "Content Proofreading and Link Checking"
+phase = "Week 5 - Testing & Refinement"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Proofread all content for spelling, grammar, consistency, brand voice - check all internal navigation links, external links, phone/email links, anchor links work correctly"
+estimated_time = "2 hours"
+dependencies = ["DEV-001"]
+deliverables = [
+    "All content proofread (spelling, grammar, punctuation corrected)",
+    "Brand voice consistent across all pages (21st century technology + centuries-old craftsmanship)",
+    "All internal links verified working (navigation, breadcrumbs, CTAs)",
+    "All external links tested (open in new tab, valid destinations)",
+    "Phone links tested (tel:+14799573794 format, click-to-call)",
+    "Email links tested (mailto:Ray@WaterwaysSheetMetal.com, opens client)",
+    "Anchor links tested (#services, #portfolio smooth scroll to sections)"
+]
+why = """
+Typos and grammar errors damage credibility (unprofessional perception).
+Broken links frustrate users (high bounce rate, poor UX).
+Phone/email links critical for mobile users (one-tap to call/email).
+Consistent brand voice reinforces positioning (craftsmanship + technology).
+Link checking prevents 404 errors (SEO issue, user frustration).
+"""
+context = """
+PLAN-004 provided initial copy (need to verify integration, check for typos).
+Brand voice: '21st century technology meets centuries-old craftsmanship' (balance modern + traditional).
+Internal links: navigation menu, footer links, breadcrumbs, CTA buttons, portfolio → service pages.
+External links: none expected (parent company site, no blog yet), but verify if any added.
+Phone format: (479) 957-3794 display, tel:+14799573794 link format (international standard).
+Email: Ray@WaterwaysSheetMetal.com (verify case-sensitive).
+"""
+reasoning_chain = [
+    "1. Content proofreading: read all pages top to bottom (homepage, about, services, portfolio, contact, FAQ)",
+    "2. Spelling check: use browser spell-check, manual review for industry terms (Rheinzink, patina, flashing)",
+    "3. Grammar check: sentence structure, punctuation, consistency (active voice, present tense)",
+    "4. Brand voice check: consistent tone across pages (professional but approachable, technical but accessible)",
+    "5. Keyword check: target keywords naturally integrated (not keyword stuffing) from KEYWORD_RESEARCH.md",
+    "6. Internal link check: click all navigation links (header, footer, breadcrumbs) → verify correct destinations",
+    "7. CTA link check: click all 'Get Free Quote', 'Contact Us', 'View Portfolio' buttons → verify destinations",
+    "8. Phone link check: click phone numbers → verify tel:+14799573794 format, phone app opens (test mobile)",
+    "9. Email link check: click email addresses → verify mailto: opens email client with correct address",
+    "10. Anchor link check: click navigation to #services, #portfolio → verify smooth scroll to section",
+    "11. 404 check: verify no broken internal links (all pages exist, all IDs referenced exist)",
+    "12. Result: Content polished, links functional → professional quality ready for client review"
+]
+success_impact = """
+When TEST-006 complete:
+✅ All content proofread (no spelling/grammar errors)
+✅ Brand voice consistent (craftsmanship + technology positioning)
+✅ All internal links working (navigation, breadcrumbs, CTAs)
+✅ Phone/email links functional (click-to-call, click-to-email)
+✅ Anchor links working (smooth scroll to sections)
+✅ Professional polish complete (credibility established)
+✅ Site ready for client review TEST-007 (no embarrassing typos)
+"""
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.TEST-007]
+id = "TEST-007"
+name = "Client Review and Feedback"
+phase = "Week 5 - Testing & Refinement"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Send staging site URL to Ray for comprehensive review - gather feedback on design, content, functionality - document requested changes and prioritize for implementation"
+estimated_time = "Variable"
+dependencies = ["TEST-001", "TEST-002", "TEST-003", "TEST-004", "TEST-005", "TEST-006"]
+deliverables = [
+    "Staging URL sent to Ray with review checklist",
+    "Feedback session scheduled (call or in-person walkthrough)",
+    "All feedback documented (design, content, functionality)",
+    "Changes prioritized (critical, important, nice-to-have)",
+    "Revision timeline estimated",
+    "Final approval or revision list with clear next steps"
+]
+why = """
+Client approval required before launch (Ray is ultimate decision-maker).
+Staging review catches issues missed in testing (fresh eyes, business owner perspective).
+Feedback ensures site meets business goals (lead generation, brand positioning).
+Changes easier to implement before launch than after (staging environment).
+Client involvement increases satisfaction (ownership, alignment with vision).
+"""
+context = """
+Ray is owner: (479) 957-3794 | Ray@WaterwaysSheetMetal.com (schedule review call/meeting).
+Staging site hosted on Netlify preview URL or local server (temporary URL for review).
+Review checklist: design (colors, layout), content (accuracy, tone), functionality (forms, navigation).
+Expected feedback areas: homepage hero copy, service page content, portfolio project selection.
+All prior tests passed (TEST-001 through TEST-006) → site functionally ready.
+"""
+reasoning_chain = [
+    "1. All testing complete (TEST-001 through TEST-006) → site ready for client eyes",
+    "2. Set up staging site: Netlify preview URL or local server accessible to Ray",
+    "3. Create review checklist for Ray: design (colors, fonts, layout), content (copy, accuracy), functionality (forms, navigation)",
+    "4. Send email to Ray: staging URL, review checklist, request feedback within 3-5 days",
+    "5. Schedule review call: walk through site together, discuss design/content choices, gather real-time feedback",
+    "6. Document feedback: design changes (color adjustments, layout tweaks), content edits (copy revisions, photo swaps), functionality requests (new features, navigation changes)",
+    "7. Prioritize changes: critical (blocks launch), important (should do before launch), nice-to-have (post-launch enhancement)",
+    "8. Critical changes: factual errors, missing business info, broken functionality (must fix)",
+    "9. Important changes: design refinements, content improvements, UX enhancements (should fix before launch)",
+    "10. Nice-to-have changes: feature requests, future enhancements (document for Phase 2)",
+    "11. Estimate revision timeline: critical (1-2 days), important (3-5 days), nice-to-have (post-launch)",
+    "12. Result: Clear approval or revision list → path to launch established"
+]
+success_impact = """
+When TEST-007 complete:
+✅ Ray has reviewed staging site (comprehensive walkthrough)
+✅ All feedback documented (design, content, functionality)
+✅ Changes prioritized (critical, important, nice-to-have)
+✅ Revision timeline estimated (path to launch clear)
+✅ Client alignment confirmed (business goals met)
+✅ Final approval received OR revision list with clear next steps
+✅ Unblocks LAUNCH-001 and LAUNCH-002 (hosting setup and deployment)
+"""
+patterns = ["Pattern-CONTEXT-002"]
+
+# ============================================================
+# WEEK 6: LAUNCH & POST-LAUNCH
+# ============================================================
+
+[tasks.LAUNCH-001]
+id = "LAUNCH-001"
+name = "Set Up Hosting Environment"
+phase = "Week 6 - Launch & Post-Launch"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Configure production hosting platform (Netlify or similar), connect waterwayssheetmetal.com domain, enable SSL/HTTPS certificate, set up deployment pipeline for easy updates"
+estimated_time = "2 hours"
+dependencies = []
+deliverables = [
+    "Hosting account configured (Netlify, GitHub Pages, or Cloudflare Pages)",
+    "Domain connected (waterwayssheetmetal.com DNS settings updated)",
+    "SSL certificate active (HTTPS enabled, automatic renewal)",
+    "Deploy pipeline set up (Git push → automatic deployment)",
+    "CDN configured for fast global delivery",
+    "Custom 404 page configured"
+]
+why = """
+Production hosting separate from staging (clean launch environment).
+HTTPS required for SEO (Google ranking factor since 2014).
+SSL certificate enables secure connections (trust signals, browser warnings prevented).
+Automated deployment pipeline enables easy updates (no manual FTP uploads).
+CDN (Content Delivery Network) speeds up site globally (fast load times worldwide).
+"""
+context = """
+Recommended platform: Netlify (free tier, automatic SSL, Git integration, global CDN, easy custom domain).
+Alternative platforms: GitHub Pages (free, SSL, but limited), Cloudflare Pages (free, fast CDN).
+Domain: waterwayssheetmetal.com (confirm ownership, access to DNS settings).
+DNS setup: update A record or CNAME to point to hosting platform.
+SSL: Let's Encrypt automatic certificate (free, auto-renewal, handled by Netlify).
+"""
+reasoning_chain = [
+    "1. Choose hosting platform: Netlify recommended (free tier, all features needed)",
+    "2. Create Netlify account: sign up with GitHub (enables Git integration)",
+    "3. Connect Git repository: link site files repo to Netlify (or manual upload if no Git)",
+    "4. Configure build settings: publish directory './' (root), no build command (static HTML)",
+    "5. Deploy initial build: Netlify generates preview URL (e.g., waterways.netlify.app)",
+    "6. Test preview URL: verify site loads correctly, all pages accessible",
+    "7. Connect custom domain: Netlify dashboard → Domain settings → Add custom domain → waterwayssheetmetal.com",
+    "8. Update DNS: access domain registrar → update DNS records → A record or CNAME to Netlify",
+    "9. DNS propagation: wait 1-24 hours for DNS to propagate globally (verify with DNS checker)",
+    "10. Enable SSL: Netlify automatic SSL (Let's Encrypt) → verify HTTPS works, HTTP redirects to HTTPS",
+    "11. Configure CDN: Netlify global CDN automatic (fast delivery worldwide)",
+    "12. Result: Production environment ready → site accessible at https://waterwayssheetmetal.com"
+]
+success_impact = """
+When LAUNCH-001 complete:
+✅ Hosting account configured (Netlify or alternative)
+✅ Domain connected (waterwayssheetmetal.com points to hosting)
+✅ SSL/HTTPS active (secure connections, Google ranking factor)
+✅ Deploy pipeline set up (Git push → automatic deployment)
+✅ CDN configured (fast global delivery)
+✅ Production environment ready for LAUNCH-002 (final deployment)
+"""
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.LAUNCH-002]
+id = "LAUNCH-002"
+name = "Deploy to Production"
+phase = "Week 6 - Launch & Post-Launch"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Execute final deployment to live waterwayssheetmetal.com domain after client approval from TEST-007 - verify all pages accessible, HTTPS working, forms functional, run final smoke test"
+estimated_time = "1 hour"
+dependencies = ["TEST-007", "LAUNCH-001"]
+deliverables = [
+    "Site live at https://waterwayssheetmetal.com",
+    "All 9 pages accessible (homepage, about, 4 service pages, portfolio, contact, FAQ)",
+    "HTTPS working (SSL certificate active, HTTP redirects to HTTPS)",
+    "Contact form functional (mailto: links, phone/SMS links tested)",
+    "Final smoke test passed (navigation, images, links verified)",
+    "Old WordPress site backed up or archived"
+]
+why = """
+Deployment makes site publicly accessible (business online presence established).
+Final verification critical (catch any deployment-specific issues before announcing launch).
+HTTPS requirement for modern web (security, trust, SEO).
+Smoke test ensures no broken functionality post-deployment (last quality gate).
+Old site backup preserves history (rollback option if needed).
+"""
+context = """
+LAUNCH-001 prepared hosting environment (Netlify, domain, SSL ready).
+TEST-007 client approval received (Ray signed off on design/content).
+Deployment method: Git push to main branch → Netlify auto-deploys OR manual upload via Netlify dashboard.
+Old WordPress site: coordinate with Ray on backup and sunset plan (redirect or archive?).
+Final smoke test checklist: homepage loads, navigation works, forms functional, images display, Schema present.
+"""
+reasoning_chain = [
+    "1. TEST-007 approval received → green light to launch",
+    "2. LAUNCH-001 hosting ready → production environment configured",
+    "3. Final pre-deployment check: review all files, verify no test content, confirm meta tags",
+    "4. Deploy to production: Git push to main branch (Netlify auto-deploys) OR manual upload",
+    "5. Monitor deployment: watch Netlify build log, verify no errors, confirm deployment success",
+    "6. Verify HTTPS: visit https://waterwayssheetmetal.com → SSL certificate active, no warnings",
+    "7. Verify pages: navigate to all 9 pages → homepage, about, 4 service pages, portfolio, contact, FAQ",
+    "8. Test navigation: click all header/footer links → verify correct destinations, no 404s",
+    "9. Test contact form: submit test inquiry → email client opens, form validation works",
+    "10. Test phone/email links: click phone → tel: link works, click email → mailto: works",
+    "11. Test mobile: view site on phone → responsive design works, mobile menu functional",
+    "12. Result: Site live and fully functional → ready to announce launch"
+]
+success_impact = """
+When LAUNCH-002 complete:
+✅ Site live at https://waterwayssheetmetal.com
+✅ All pages accessible and functional
+✅ HTTPS active (SSL certificate, secure connections)
+✅ Contact form working (lead generation functional)
+✅ Final smoke test passed (quality verified)
+✅ Business online presence established
+✅ Ready for LAUNCH-003 (Analytics and Search Console setup)
+"""
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.LAUNCH-003]
+id = "LAUNCH-003"
+name = "Set Up Google Analytics and Search Console"
+phase = "Week 6 - Launch & Post-Launch"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Configure Google Analytics 4 tracking, verify and submit sitemap to Google Search Console and Bing Webmaster Tools - enable tracking and indexation for SEO and performance monitoring"
+estimated_time = "2 hours"
+dependencies = ["LAUNCH-002"]
+deliverables = [
+    "Google Analytics 4 (GA4) account created and tracking code installed on all pages",
+    "Google Search Console verified (DNS or HTML file verification)",
+    "Sitemap.xml submitted to Google Search Console",
+    "Bing Webmaster Tools verified",
+    "Sitemap.xml submitted to Bing Webmaster Tools",
+    "Analytics testing verified (pageviews, events tracking correctly)"
+]
+why = """
+Analytics enables traffic measurement (visitor sources, page views, conversions).
+Google Search Console tracks indexation status (pages indexed, search queries, ranking data).
+Sitemap submission accelerates indexation (Google/Bing discover pages faster).
+Bing Webmaster Tools reaches Bing users (5% market share, easy setup).
+Data-driven optimization: analytics show what's working, where to improve.
+"""
+context = """
+GA4 is current Google Analytics (replaced Universal Analytics in 2023).
+Google Search Console: free tool for SEO monitoring (indexation, search performance, issues).
+Sitemap at: https://waterwayssheetmetal.com/sitemap.xml (created in DEV-006).
+Verification methods: DNS TXT record (permanent) OR HTML file upload (simple).
+Bing Webmaster Tools: Microsoft's equivalent of Search Console (import from Google available).
+"""
+reasoning_chain = [
+    "1. Create Google Analytics 4 account: analytics.google.com → create property → waterwayssheetmetal.com",
+    "2. Generate GA4 tracking code: GA4 dashboard → Data Streams → Web → copy measurement ID (G-XXXXXXXXXX)",
+    "3. Install GA4 tracking: add GA4 script to <head> of all HTML pages (homepage, about, services, portfolio, contact, FAQ)",
+    "4. Test GA4 tracking: visit site → GA4 Realtime report → verify pageview tracked",
+    "5. Set up Google Search Console: search.google.com/search-console → Add property → waterwayssheetmetal.com",
+    "6. Verify ownership: DNS verification (add TXT record) OR HTML file verification (upload google-verification-file.html)",
+    "7. Submit sitemap to Google: Search Console → Sitemaps → add sitemap URL (https://waterwayssheetmetal.com/sitemap.xml)",
+    "8. Monitor indexation: Search Console → Coverage report → track pages discovered, indexed, errors",
+    "9. Set up Bing Webmaster Tools: bing.com/webmasters → Add site → waterwayssheetmetal.com",
+    "10. Import from Google: Bing allows importing Search Console data (fast setup alternative)",
+    "11. Submit sitemap to Bing: Webmaster Tools → Sitemaps → add sitemap URL",
+    "12. Result: Analytics tracking → traffic measurement, Search Console → indexation monitoring"
+]
+success_impact = """
+When LAUNCH-003 complete:
+✅ Google Analytics 4 tracking installed (visitor data flowing)
+✅ Google Search Console verified (SEO monitoring enabled)
+✅ Sitemap submitted to Google (indexation accelerated)
+✅ Bing Webmaster Tools configured (Bing search coverage)
+✅ Sitemap submitted to Bing (multi-engine indexation)
+✅ Analytics tested (pageviews, events tracking correctly)
+✅ Data-driven optimization foundation (can measure traffic, conversions, search performance)
+"""
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.LAUNCH-004]
+id = "LAUNCH-004"
+name = "Optimize Google Business Profile"
+phase = "Week 6 - Launch & Post-Launch"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Update Google Business Profile with new website URL, add high-quality photos, verify listing accuracy, optimize business description, enable messaging, request reviews"
+estimated_time = "1 hour"
+dependencies = ["LAUNCH-002"]
+deliverables = [
+    "Google Business Profile claimed and verified (if not already)",
+    "Website URL updated to https://waterwayssheetmetal.com",
+    "Business hours confirmed and accurate",
+    "Service area set (Siloam Springs, AR + surrounding regions)",
+    "High-quality photos added (workshop, projects, team)",
+    "Business description optimized with keywords",
+    "Messaging enabled (Google Messages for direct inquiries)",
+    "Review request strategy documented"
+]
+why = """
+Google Business Profile critical for local SEO (appears in Google Maps, local pack, knowledge panel).
+Updated website URL directs local searchers to new site (traffic from Google Maps).
+Photos increase engagement (profiles with photos get 42% more requests for directions, 35% more clicks).
+Service area targeting improves local search visibility (Northwest Arkansas focus).
+Reviews influence rankings and trust (social proof for potential customers).
+"""
+context = """
+Google Business Profile (formerly Google My Business): business.google.com.
+Water Ways location: Siloam Springs, Arkansas (verify exact address from PLAN-001).
+Service area: Siloam Springs base → serves AR, OK, MO, KS (PLAN-001 confirmed).
+Photos needed: workshop exterior/interior, completed projects, copper materials, team at work.
+Keywords for description: custom copper sheet metal fabrication, chimney caps, architectural metalwork.
+"""
+reasoning_chain = [
+    "1. Access Google Business Profile: business.google.com → search 'Water Ways Sheet Metal'",
+    "2. Claim listing if unclaimed: verify ownership (phone, postcard, email options)",
+    "3. If already claimed by Ray: request access or coordinate with Ray to update",
+    "4. Update website URL: Profile → Info → Website → change to https://waterwayssheetmetal.com",
+    "5. Verify business hours: confirm with Ray (PLAN-001), update if changed",
+    "6. Set service area: Siloam Springs, AR base → add service radius OR specific cities (Fayetteville, Bentonville, Rogers, Springdale)",
+    "7. Add photos: upload 10-15 high-quality images (workshop, projects, materials, team)",
+    "8. Photo categories: cover photo (hero shot), logo, exterior, interior, at work, products",
+    "9. Optimize description: 'Water Ways Sheet Metal specializes in custom copper and sheet metal fabrication...' (include keywords)",
+    "10. Enable messaging: Google Messages for direct customer inquiries (mobile convenience)",
+    "11. Request reviews: ask satisfied customers for Google reviews (social proof, ranking factor)",
+    "12. Result: Optimized Google Business Profile → increased local search visibility and clicks"
+]
+success_impact = """
+When LAUNCH-004 complete:
+✅ Google Business Profile claimed/verified
+✅ Website URL updated (directs local traffic to new site)
+✅ Business hours accurate (correct customer information)
+✅ Service area set (AR, OK, MO, KS targeting)
+✅ High-quality photos added (engagement boost)
+✅ Business description optimized (keyword-rich, compelling)
+✅ Messaging enabled (direct customer inquiries)
+✅ Local SEO optimized (Google Maps, local pack, knowledge panel visibility)
+"""
+patterns = ["Pattern-CONTEXT-002"]
+
+[tasks.LAUNCH-005]
+id = "LAUNCH-005"
+name = "Post-Launch Monitoring"
+phase = "Week 6 - Launch & Post-Launch"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Monitor site for 1 week post-launch: daily uptime checks, form submission testing, analytics review, Search Console monitoring, fix any issues, report to client on successful launch and initial performance"
+estimated_time = "3 hours"
+dependencies = ["LAUNCH-002", "LAUNCH-003"]
+deliverables = [
+    "Daily uptime checks (site accessible, no downtime)",
+    "Form submissions tested (contact form, phone/SMS links working)",
+    "Analytics data reviewed (traffic sources, popular pages, user behavior)",
+    "Search Console monitored (indexation status, crawl errors)",
+    "Any issues documented and fixed (broken links, performance issues)",
+    "Client notified of successful launch (email with summary and metrics)",
+    "Post-launch report: week 1 traffic, indexation status, performance scores"
+]
+why = """
+Post-launch monitoring catches issues users encounter (real-world testing).
+First week critical for identifying deployment-specific problems (DNS issues, form bugs, broken links).
+Analytics review shows initial traffic patterns (validate tracking setup).
+Search Console monitoring tracks indexation progress (Google discovering pages).
+Client communication maintains trust (transparency, proactive support).
+"""
+context = """
+Monitoring period: 7 days post-deployment (LAUNCH-002 + 1 week).
+Uptime monitoring: daily checks or automated tool (UptimeRobot, Pingdom).
+Form testing: submit test inquiries daily, verify email delivery (coordinate with Ray to expect test emails).
+Analytics: GA4 → check traffic sources (organic, direct, referral), popular pages, bounce rate.
+Search Console: check Coverage report (pages indexed), Performance report (search queries).
+Expected first week traffic: low organic (not indexed yet), direct traffic from announcement.
+"""
+reasoning_chain = [
+    "1. Day 1 post-launch: announce launch to Ray, send launch summary (URL, next steps, monitoring plan)",
+    "2. Set up uptime monitoring: UptimeRobot or manual checks (visit site daily, verify loads)",
+    "3. Daily uptime check: visit https://waterwayssheetmetal.com → verify homepage loads, check HTTPS",
+    "4. Daily form test: submit contact form → verify email received, test phone/SMS links",
+    "5. Day 2-3: monitor analytics → check GA4 Realtime, verify pageviews tracking, review traffic sources",
+    "6. Day 3-5: check Search Console → Coverage report (how many pages indexed?), Performance report (any search queries?)",
+    "7. Day 5: first analytics review → identify popular pages, traffic sources, user behavior (bounce rate, session duration)",
+    "8. Monitor for issues: broken links, slow pages, form errors, mobile issues (check browser console, GA4 errors)",
+    "9. Fix issues immediately: broken link → fix and redeploy, slow page → optimize images, form error → debug and patch",
+    "10. Day 7: compile post-launch report → traffic summary (pageviews, users, sources), indexation status (pages indexed), performance (Lighthouse scores)",
+    "11. Send report to Ray: email with week 1 summary, metrics, any issues fixed, next steps (ongoing SEO, review requests)",
+    "12. Result: Site stable and performing well → client confidence established → project success"
+]
+success_impact = """
+When LAUNCH-005 complete:
+✅ 7 days uptime monitoring (site stable, no outages)
+✅ Form submissions verified working (lead generation functional)
+✅ Analytics data reviewed (tracking setup validated)
+✅ Search Console monitored (indexation progress tracked)
+✅ Issues fixed (broken links, bugs, performance issues)
+✅ Client notified (launch summary, week 1 report)
+✅ Post-launch report delivered (traffic, indexation, performance)
+✅ Project complete → Water Ways website live and generating leads
+"""
+patterns = ["Pattern-CONTEXT-002"]
+
+[meta.validation]
+completion_threshold = 1.0
+performance_targets_met = true
+client_approval_required = true
+
+[meta.success_metrics]
+lighthouse_performance = ">90"
+lighthouse_accessibility = ">95"
+lighthouse_seo = ">95"
+page_load_time = "<2 seconds"
+mobile_responsive = "100%"
+client_satisfaction = "High"
+foundation_for_triple_brand = "Site structure supports future wholesale/retail brand addition"

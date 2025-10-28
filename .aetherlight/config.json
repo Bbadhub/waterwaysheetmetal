@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "project": {
+    "name": "Water Ways Sheet Metal",
+    "root": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal"
+  },
+  "analysis": {
+    "languages": [
+      "typescript",
+      "javascript"
+    ],
+    "exclude": [
+      "node_modules",
+      "dist",
+      "build",
+      ".git"
+    ],
+    "complexity_threshold": 15,
+    "debt_threshold": 80
+  },
+  "sprint_generation": {
+    "min_tasks": 5,
+    "max_tasks": 15,
+    "task_duration_hours": [
+      2,
+      8
+    ],
+    "include_tests": true,
+    "include_docs": true
+  }
+}
