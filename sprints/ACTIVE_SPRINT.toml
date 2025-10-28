@@ -6,13 +6,15 @@
 
 [meta]
 sprint_name = "Water Ways Website Rebuild - Phase 1"
-version = "2.1"
+version = "2.2"
 created = "2025-10-27"
 updated = "2025-10-28"
+backlog_added = "2025-10-28"
 status = "active"
 sprint_period = "2025-10-27 to 2025-12-08"
 focus_area = "Build modern, SEO-optimized parent company site to establish foundation for future triple-brand strategy (Parent + Wholesale + Retail)"
 total_tasks = 24
+backlog_tasks = 14
 estimated_weeks = "6"
 priority = "high"
 
@@ -1499,6 +1501,687 @@ When LAUNCH-005 complete:
 ✅ Project complete → Water Ways website live and generating leads
 """
 patterns = ["Pattern-CONTEXT-002"]
+
+# ============================================================
+# BACKLOG: NON-BLOCKING FOLLOW-UP & FUTURE ENHANCEMENTS
+# ============================================================
+# These tasks are NOT blockers for launch but represent opportunities
+# to enhance the site with additional information from Ray or future improvements.
+# No specific timeline - can be addressed opportunistically during or after launch.
+
+[tasks.BACKLOG-001]
+id = "BACKLOG-001"
+name = "Get Exact Founding Year from Ray"
+phase = "Backlog - Follow-up & Future Enhancements"
+assigned_engineer = "engineer_1"
+status = "backlog"
+priority = "low"
+description = "Obtain the exact year Water Ways Sheet Metal was founded for About page and marketing materials"
+estimated_time = "5 minutes"
+dependencies = []
+deliverables = [
+    "Exact founding year",
+    "Company history milestones (optional)",
+    "Update About page copy with specific year"
+]
+why = """
+While we can use "20+ years experience" for launch, having the exact founding year adds credibility and
+allows for more specific storytelling on the About page. Not critical for SEO or functionality.
+"""
+context = """
+Currently using: "Over 20 years experience in copper construction industry" (found online).
+Earliest website content dated 2015, but company likely founded earlier.
+WATERWAYS_SITE_ARCHITECTURE.md About page includes company history section.
+"""
+reasoning_chain = [
+    "1. Founding year adds credibility ('Since 1998' vs '20+ years')",
+    "2. Allows for anniversary marketing opportunities",
+    "3. Enables timeline visualization on About page",
+    "4. Not required for Schema markup (experience level sufficient)",
+    "5. Can launch without it using '20+ years experience'",
+    "6. Easy 5-minute question for Ray when convenient",
+    "7. Update takes 5 minutes (edit CONTENT_COPY.md, update HTML)",
+    "8. Result: Nice-to-have enhancement, not a blocker"
+]
+success_impact = """
+When BACKLOG-001 complete:
+✅ More specific About page messaging
+✅ Potential anniversary marketing angle
+✅ Timeline visualization possible
+⚠️ Launch proceeds fine without this
+"""
+blocked_by_launch = false
+can_update_post_launch = true
+
+[tasks.BACKLOG-002]
+id = "BACKLOG-002"
+name = "Document Team Size and Structure"
+phase = "Backlog - Follow-up & Future Enhancements"
+assigned_engineer = "engineer_1"
+status = "backlog"
+priority = "low"
+description = "Get details on team size, roles, and any craftsmen beyond Ray & Natalie"
+estimated_time = "10 minutes"
+dependencies = []
+deliverables = [
+    "Total number of employees",
+    "Key roles (if larger than 2 people)",
+    "Craftsmen specializations (optional)",
+    "Apprenticeship info (if relevant)"
+]
+why = """
+About page currently focuses on Ray & Natalie (owners). If there's a larger team,
+it could strengthen the 'expert craftsmen' positioning. Not critical - family business
+angle works well with just Ray & Natalie.
+"""
+context = """
+BUSINESS_INFO.md shows Ray & Natalie as owners/operators.
+Current messaging: "apprenticeship methodology" suggests possible team.
+Not clear if there are additional craftsmen or if it's just Ray & Natalie.
+"""
+reasoning_chain = [
+    "1. Current About page focuses on Ray & Natalie (sufficient)",
+    "2. If larger team exists, could add 'Meet the Team' section",
+    "3. Small family business angle is strong positioning",
+    "4. Team size doesn't affect Schema markup or SEO",
+    "5. Can launch with Ray & Natalie focus",
+    "6. Easy to add 'Our Team' section later if desired",
+    "7. Photos would be needed (another blocker)",
+    "8. Result: Nice-to-have, not necessary for launch"
+]
+success_impact = """
+When BACKLOG-002 complete:
+✅ More comprehensive About page (if team exists)
+✅ Potential for team photos section
+⚠️ Launch proceeds fine focusing on Ray & Natalie
+"""
+blocked_by_launch = false
+can_update_post_launch = true
+
+[tasks.BACKLOG-003]
+id = "BACKLOG-003"
+name = "Collect Specific Licenses and Certifications"
+phase = "Backlog - Follow-up & Future Enhancements"
+assigned_engineer = "engineer_1"
+status = "backlog"
+priority = "low"
+description = "Obtain specific license numbers, trade certifications, and insurance details for About page trust signals"
+estimated_time = "15 minutes"
+dependencies = []
+deliverables = [
+    "Arkansas contractor license number (if applicable)",
+    "Oklahoma contractor license number (if applicable)",
+    "Insurance details (liability, workers comp)",
+    "Trade association memberships (SMACNA, etc.)",
+    "Manufacturer certifications (Rheinzink, copper suppliers)"
+]
+why = """
+Licenses and certifications are trust signals that strengthen credibility. However,
+testimonials and 20+ years experience already provide strong social proof. Adding
+specific license numbers is a minor enhancement.
+"""
+context = """
+BUSINESS_INFO.md has placeholders for licenses/certifications.
+COMPETITIVE_RESEARCH_REPORT.md shows some competitors display certifications.
+Current strategy: Focus on craftsmanship, testimonials, portfolio as credibility.
+"""
+reasoning_chain = [
+    "1. Trust signals hierarchy: Testimonials > Portfolio > Years experience > Licenses",
+    "2. We have strong testimonials (MN, OH, NC customers)",
+    "3. We have commercial project (Mid-Continent Tower)",
+    "4. We have 20+ years experience claim",
+    "5. License numbers are minor additional credibility",
+    "6. Some customers may not care about license numbers",
+    "7. Can add to About page footer if obtained",
+    "8. Result: Nice-to-have, not critical for conversion"
+]
+success_impact = """
+When BACKLOG-003 complete:
+✅ Additional trust signal on About page
+✅ May help with commercial customers
+⚠️ Launch proceeds with existing strong credibility signals
+"""
+blocked_by_launch = false
+can_update_post_launch = true
+
+[tasks.BACKLOG-004]
+id = "BACKLOG-004"
+name = "Define Typical Project Turnaround Times"
+phase = "Backlog - Follow-up & Future Enhancements"
+assigned_engineer = "engineer_1"
+status = "backlog"
+priority = "medium"
+description = "Get typical timelines for different project types (chimney caps, flashing, custom work) for FAQ and service pages"
+estimated_time = "20 minutes"
+dependencies = []
+deliverables = [
+    "Standard chimney cap turnaround (e.g., 2-3 weeks)",
+    "Custom flashing projects timeline",
+    "Large architectural projects timeline",
+    "Rush order availability and pricing",
+    "Seasonal considerations (busy periods)"
+]
+why = """
+Customers want to know turnaround times. Currently FAQ uses 'contact for quote' approach,
+which works but is less informative. Providing typical ranges reduces friction.
+"""
+context = """
+CONTENT_COPY.md FAQ has question about turnaround but answer says 'varies by project'.
+Competitors often list typical timelines (helps set expectations).
+Can launch without specifics - quote request process handles this.
+"""
+reasoning_chain = [
+    "1. Turnaround time is common customer question",
+    "2. Providing ranges sets realistic expectations",
+    "3. Reduces unnecessary quote requests for time-sensitive projects",
+    "4. However, every project is custom (hard to generalize)",
+    "5. 'Contact for quote' approach works fine for launch",
+    "6. Can update FAQ later with typical ranges",
+    "7. May want seasonal notes (busy in spring/fall?)",
+    "8. Result: Helpful but not blocking - quote process handles this"
+]
+success_impact = """
+When BACKLOG-004 complete:
+✅ Better FAQ section (more informative)
+✅ Clearer customer expectations
+✅ May reduce time-waster inquiries
+⚠️ Launch proceeds with 'contact for quote' approach
+"""
+blocked_by_launch = false
+can_update_post_launch = true
+
+[tasks.BACKLOG-005]
+id = "BACKLOG-005"
+name = "Clarify Installation Service Radius Details"
+phase = "Backlog - Follow-up & Future Enhancements"
+assigned_engineer = "engineer_1"
+status = "backlog"
+priority = "low"
+description = "Confirm exact installation service radius and any installation partners for projects outside core area"
+estimated_time = "10 minutes"
+dependencies = []
+deliverables = [
+    "Installation service radius from Watts, OK",
+    "Installation pricing structure (included vs. separate)",
+    "Installer referrals for outside service area (if available)",
+    "DIY installation support (instructions, guidance)"
+]
+why = """
+Currently assuming 100-mile radius for installation. Specifics would help Service pages
+and FAQ. Not critical - nationwide customers handle their own installation or hire locally.
+"""
+context = """
+BUSINESS_INFO.md assumes 100-mile installation radius.
+Testimonials show nationwide shipping (MN, OH, NC) - customers handle installation.
+Service pages can say 'installation available locally' without specifics.
+"""
+reasoning_chain = [
+    "1. Installation service radius varies by project type",
+    "2. Many customers (especially nationwide) handle own installation",
+    "3. Can say 'installation available for local projects'",
+    "4. Specific radius (50 miles? 100 miles?) would be helpful",
+    "5. Installation pricing structure varies (trip charge, labor rate)",
+    "6. Can launch without specifics - quote process covers this",
+    "7. May have installer network for referrals",
+    "8. Result: Helpful detail but not necessary for launch"
+]
+success_impact = """
+When BACKLOG-005 complete:
+✅ Clearer Services page messaging
+✅ Better FAQ answer
+✅ Potential installer referral value-add
+⚠️ Launch proceeds with 'installation available locally'
+"""
+blocked_by_launch = false
+can_update_post_launch = true
+
+[tasks.BACKLOG-006]
+id = "BACKLOG-006"
+name = "Document Complete Materials List and Capabilities"
+phase = "Backlog - Follow-up & Future Enhancements"
+assigned_engineer = "engineer_1"
+status = "backlog"
+priority = "low"
+description = "Get comprehensive list of all materials worked with beyond copper and Rheinzink"
+estimated_time = "10 minutes"
+dependencies = []
+deliverables = [
+    "Complete materials list (copper, Rheinzink, stainless, aluminum, mild steel, etc.)",
+    "Material gauges/thicknesses available",
+    "Finish options (natural, patina varieties, painted, powder-coated)",
+    "Material sourcing (domestic, imported, specific suppliers)"
+]
+why = """
+Services pages mention copper and Rheinzink prominently. Likely also work with stainless steel,
+aluminum, mild steel. Complete list helps customers understand full capabilities.
+"""
+context = """
+BUSINESS_INFO.md confirms copper and Rheinzink.
+Current site emphasizes copper (primary specialty).
+CONTENT_COPY.md Services pages mention stainless as option.
+Competitors list full material ranges.
+"""
+reasoning_chain = [
+    "1. Copper is primary specialty (well-documented)",
+    "2. Rheinzink is premium offering (mentioned)",
+    "3. Stainless steel likely available (common alternative)",
+    "4. Aluminum, mild steel probably available for some projects",
+    "5. Can launch with 'copper, Rheinzink, and other premium metals'",
+    "6. Specific materials list enhances Services pages",
+    "7. Not critical - quote process clarifies material options",
+    "8. Result: Nice detail but copper focus is sufficient for launch"
+]
+success_impact = """
+When BACKLOG-006 complete:
+✅ More comprehensive Services pages
+✅ Clearer material options for customers
+✅ Potential SEO boost (more material keywords)
+⚠️ Launch proceeds with copper/Rheinzink focus
+"""
+blocked_by_launch = false
+can_update_post_launch = true
+
+[tasks.BACKLOG-007]
+id = "BACKLOG-007"
+name = "Document Equipment and Facility Details"
+phase = "Backlog - Follow-up & Future Enhancements"
+assigned_engineer = "engineer_1"
+status = "backlog"
+priority = "low"
+description = "Get details on shop equipment and capabilities for 'Our Facility' section of About page"
+estimated_time = "15 minutes"
+dependencies = ["BACKLOG-011"]
+deliverables = [
+    "Shop/facility size (square footage)",
+    "Key equipment list (CNC brake, shear, welding, etc.)",
+    "Technology/software used (CAD, design tools)",
+    "Quality control processes",
+    "Facility photos (if available)"
+]
+why = """
+'Our Facility' section in About page architecture includes equipment overview.
+Demonstrates modern capabilities ('21st century technology'). Facility photos
+would be needed to make this section compelling. Without photos, keep brief.
+"""
+context = """
+WATERWAYS_SITE_ARCHITECTURE.md About page includes 'Our Facility' section.
+Current messaging: 'CNC cutting', 'modern equipment', 'traditional tools'.
+No facility photos available (BACKLOG-011 addresses photo session).
+Competitors show facility tours (manufacturing visibility high value).
+"""
+reasoning_chain = [
+    "1. 'Our Facility' section strengthens 'modern technology' positioning",
+    "2. Equipment list demonstrates capabilities",
+    "3. However, facility section weak without photos",
+    "4. Can launch with brief equipment mention in About page",
+    "5. Full facility section better with photos (BACKLOG-011)",
+    "6. Not visitor-facing critical (customers care about results)",
+    "7. B2B customers may care more about capabilities",
+    "8. Result: Nice-to-have, contingent on photos for full value"
+]
+success_impact = """
+When BACKLOG-007 complete:
+✅ Stronger 'modern technology' positioning
+✅ More comprehensive About page
+✅ B2B credibility enhancement
+⚠️ Launch proceeds with brief equipment mention
+⚠️ Depends on BACKLOG-011 (photos) for full effectiveness
+"""
+blocked_by_launch = false
+can_update_post_launch = true
+blocks = []
+blocked_by = ["BACKLOG-011"]
+
+[tasks.BACKLOG-008]
+id = "BACKLOG-008"
+name = "Collect Detailed Company Founding Story"
+phase = "Backlog - Follow-up & Future Enhancements"
+assigned_engineer = "engineer_1"
+status = "backlog"
+priority = "low"
+description = "Gather the full founding story, Ray & Natalie's background, what inspired starting the business"
+estimated_time = "30 minutes"
+dependencies = []
+deliverables = [
+    "How Ray got into metalworking (apprenticeship, training)",
+    "Natalie's role and contributions",
+    "Why they started Water Ways (inspiration, gap in market)",
+    "Evolution of business focus over time",
+    "Key milestone projects or pivots",
+    "Personal passion for copper craftsmanship"
+]
+why = """
+Story-driven About pages connect emotionally and build trust. Current About page has
+business philosophy but lacks personal narrative. Founding story humanizes the business.
+"""
+context = """
+CONTENT_COPY.md About page has 'Our Story' section with placeholder for founding details.
+Current philosophy: 'Quality over bargain solutions', 'water penetration protection focus'.
+Strong philosophy exists but personal story would enhance.
+COMPETITIVE_RESEARCH_REPORT.md - competitors often lack compelling stories.
+"""
+reasoning_chain = [
+    "1. Personal stories create emotional connection",
+    "2. 'Why we started' explains business passion",
+    "3. Craftsman journey (apprenticeship) aligns with positioning",
+    "4. Ray & Natalie partnership story (husband/wife team)",
+    "5. Can launch with business philosophy (current content)",
+    "6. Founding story is enhancement, not requirement",
+    "7. May want to record/interview Ray for authenticity",
+    "8. Result: Great enhancement but not necessary for functional launch"
+]
+success_impact = """
+When BACKLOG-008 complete:
+✅ More compelling About page (emotional connection)
+✅ Differentiation from competitors
+✅ Stronger brand storytelling
+✅ Personal connection with Ray & Natalie
+⚠️ Launch proceeds with business philosophy focus
+"""
+blocked_by_launch = false
+can_update_post_launch = true
+
+[tasks.BACKLOG-009]
+id = "BACKLOG-009"
+name = "Gather Awards, Recognition, and Notable Projects"
+phase = "Backlog - Follow-up & Future Enhancements"
+assigned_engineer = "engineer_1"
+status = "backlog"
+priority = "low"
+description = "Collect any industry awards, recognition, notable projects, or media mentions"
+estimated_time = "10 minutes"
+dependencies = []
+deliverables = [
+    "Industry awards or recognition (if any)",
+    "Notable landmark projects beyond Mid-Continent Tower",
+    "Media mentions or press coverage",
+    "Trade publication features",
+    "Customer awards or 'best of' recognition"
+]
+why = """
+Awards and recognition are credibility signals. However, portfolio and testimonials
+already provide strong social proof. Awards would be bonus credibility, not required.
+"""
+context = """
+Currently have: Mid-Continent Tower (Tulsa) commercial project.
+Strong testimonials from MN, OH, NC customers.
+No awards/recognition mentioned on current site.
+May not have formal awards (small business, not competing for industry prizes).
+"""
+reasoning_chain = [
+    "1. Awards enhance credibility (bonus trust signal)",
+    "2. Current social proof already strong (testimonials, commercial project)",
+    "3. Small custom fabrication shops often don't pursue awards",
+    "4. Notable projects more valuable than generic awards",
+    "5. Mid-Continent Tower is strong credential",
+    "6. Can launch without awards section",
+    "7. If awards exist, easy to add to About page footer",
+    "8. Result: Nice-to-have but not expected or necessary"
+]
+success_impact = """
+When BACKLOG-009 complete:
+✅ Additional credibility if awards exist
+✅ About page 'Recognition' section
+⚠️ May not have formal awards (small business)
+⚠️ Launch proceeds with existing strong social proof
+"""
+blocked_by_launch = false
+can_update_post_launch = true
+
+[tasks.BACKLOG-010]
+id = "BACKLOG-010"
+name = "Collect Additional Customer Testimonials"
+phase = "Backlog - Follow-up & Future Enhancements"
+assigned_engineer = "engineer_1"
+status = "backlog"
+priority = "medium"
+description = "Gather 5-10 more customer testimonials to supplement existing 3 documented testimonials"
+estimated_time = "1-2 hours"
+dependencies = []
+deliverables = [
+    "5-10 additional customer testimonials",
+    "Customer names, locations, project types",
+    "Permission to use testimonials and names",
+    "Optional: Customer photos or project photos",
+    "Star ratings if available (Google reviews, etc.)"
+]
+why = """
+Currently have 3 strong testimonials (MN, OH, NC). More testimonials strengthen
+social proof and provide variety. Medium priority because testimonials convert visitors.
+"""
+context = """
+PORTFOLIO_PROJECTS.md documents 3 testimonials currently.
+CONTENT_COPY.md Homepage uses 3 testimonials.
+Competitors typically show 5-10+ testimonials.
+Can launch with 3 strong testimonials, but more is better for conversion.
+"""
+reasoning_chain = [
+    "1. Testimonials are high-value conversion elements",
+    "2. Currently have 3 strong testimonials (geographic diversity)",
+    "3. More testimonials show consistent quality",
+    "4. Variety in project types helps (different services)",
+    "5. Google reviews could supplement site testimonials",
+    "6. Can launch with 3 testimonials (sufficient social proof)",
+    "7. Adding more post-launch is easy",
+    "8. Result: Medium priority - more is better but 3 is workable"
+]
+success_impact = """
+When BACKLOG-010 complete:
+✅ Stronger social proof (5-10 vs 3 testimonials)
+✅ More service variety represented
+✅ Potential SEO boost (review schema)
+✅ Higher conversion rate
+⚠️ Launch proceeds fine with 3 strong testimonials
+"""
+blocked_by_launch = false
+can_update_post_launch = true
+priority_note = "Medium priority - testimonials impact conversion but 3 is sufficient for launch"
+
+[tasks.BACKLOG-011]
+id = "BACKLOG-011"
+name = "Schedule Professional Photo Session (Team, Facility, Process)"
+phase = "Backlog - Follow-up & Future Enhancements"
+assigned_engineer = "engineer_1"
+status = "backlog"
+priority = "medium"
+description = "Schedule and conduct professional photo session for team photos, facility images, and process documentation"
+estimated_time = "3-4 hours (session + editing)"
+dependencies = []
+deliverables = [
+    "Ray & Natalie professional headshots/portraits",
+    "Workshop exterior photo",
+    "Shop interior photos (multiple angles)",
+    "Equipment close-ups (CNC, tools, workspace)",
+    "Process documentation (fabrication steps)",
+    "Team at work candid photos",
+    "High-resolution images optimized for web"
+]
+why = """
+About page would be significantly enhanced with team and facility photos. Humanizes
+business and demonstrates capabilities. However, site can launch with product photos only.
+Product photos are hero content; team/facility photos are supporting content.
+"""
+context = """
+IMAGE_INVENTORY.md identifies this as critical gap.
+Currently have 17 product images, 0 team/facility images.
+WATERWAYS_SITE_ARCHITECTURE.md About page includes team/facility sections.
+COMPETITIVE_RESEARCH_REPORT.md shows manufacturing visibility as differentiator.
+Can launch without these photos - About page less compelling but functional.
+"""
+reasoning_chain = [
+    "1. Product photos demonstrate quality (have 17)",
+    "2. Team/facility photos humanize business (missing)",
+    "3. About page weaker without team photos but still functional",
+    "4. Photo session requires Ray & Natalie's time (3-4 hours)",
+    "5. Professional photographer recommended (or high-quality smartphone)",
+    "6. Can launch and add photos later (iterative improvement)",
+    "7. Some customers care about 'meet the team', others just want results",
+    "8. Result: Medium priority - nice enhancement but not blocking launch"
+]
+success_impact = """
+When BACKLOG-011 complete:
+✅ Significantly better About page (humanized)
+✅ 'Meet the Team' section viable
+✅ 'Our Facility' section compelling
+✅ Process documentation for transparency
+✅ Stronger 'modern technology' positioning
+⚠️ Launch proceeds with product photos only
+⚠️ About page functional but less personal without photos
+"""
+blocked_by_launch = false
+can_update_post_launch = true
+blocks = ["BACKLOG-007"]
+priority_note = "Medium priority - enhances About page but product photos sufficient for launch"
+
+[tasks.BACKLOG-012]
+id = "BACKLOG-012"
+name = "Expand Portfolio to 12-15 Projects with Photos"
+phase = "Backlog - Follow-up & Future Enhancements"
+assigned_engineer = "engineer_1"
+status = "backlog"
+priority = "medium"
+description = "Collect 8-11 additional projects from Ray to reach target portfolio of 12-15 projects"
+estimated_time = "2-3 hours"
+dependencies = []
+deliverables = [
+    "8-11 additional project case studies",
+    "Geographic diversity (especially Arkansas projects for local SEO)",
+    "Service type variety (flashing, roofing, architectural)",
+    "3-10 photos per project",
+    "Project descriptions, locations, dates, materials",
+    "Additional testimonials if available"
+]
+why = """
+Currently have 4 documented projects. Can build portfolio page with 4 + generic gallery
+from 17 product images. More projects would be better but not blocking. Medium priority
+because portfolio drives conversions.
+"""
+context = """
+PORTFOLIO_PROJECTS.md has 4 projects documented (MN, OH, NC, Tulsa).
+TARGET: 12-15 projects per original plan.
+Can launch with 4 feature projects + gallery of 17 images.
+Need Arkansas projects specifically for local SEO.
+Competitors show 10-20+ projects typically.
+"""
+reasoning_chain = [
+    "1. Portfolio page is lead generation tool (high value)",
+    "2. Currently have 4 strong projects (geographic diversity)",
+    "3. Can launch with 4 featured projects + image gallery",
+    "4. More projects show range and consistency",
+    "5. Arkansas projects needed for local SEO (critical gap)",
+    "6. Can expand portfolio post-launch iteratively",
+    "7. Requires Ray's time (select projects, provide details)",
+    "8. Result: Medium priority - 4 works for launch, more is better"
+]
+success_impact = """
+When BACKLOG-012 complete:
+✅ Comprehensive portfolio (12-15 vs 4 projects)
+✅ Arkansas local SEO boost (currently missing)
+✅ Service variety demonstrated (flashing, roofing, architectural)
+✅ More conversion opportunities
+⚠️ Launch proceeds with 4 projects + gallery
+⚠️ Arkansas SEO gap remains until local projects added
+"""
+blocked_by_launch = false
+can_update_post_launch = true
+priority_note = "Medium priority - portfolio impacts conversion, but 4 projects sufficient for V1 launch"
+critical_gap = "Arkansas projects needed for local SEO (Fayetteville, Bentonville, Rogers, Siloam Springs)"
+
+[tasks.BACKLOG-013]
+id = "BACKLOG-013"
+name = "Define Payment Terms and Warranty Policy"
+phase = "Backlog - Follow-up & Future Enhancements"
+assigned_engineer = "engineer_1"
+status = "backlog"
+priority = "low"
+description = "Document payment structure (deposit, final payment, methods) and warranty/guarantee policy"
+estimated_time = "15 minutes"
+dependencies = []
+deliverables = [
+    "Payment terms (deposit percentage, final payment timing)",
+    "Accepted payment methods (credit cards, checks, wire transfer, financing)",
+    "Warranty/guarantee policy (materials, workmanship, duration)",
+    "Return/revision policy for custom work",
+    "Update FAQ with payment/warranty details"
+]
+why = """
+FAQ and Services pages reference payment/warranty but use 'contact us' approach.
+Providing specifics reduces friction. However, custom work often requires custom terms,
+so 'contact for quote' approach is reasonable.
+"""
+context = """
+CONTENT_COPY.md FAQ has payment question but generic answer.
+Currently assumed: Standard payment methods (credit cards, checks).
+Custom fabrication typically requires deposit (30-50% common).
+Warranty varies (materials lifetime, workmanship 1-5 years typical).
+Can launch with 'contact for quote' on terms.
+"""
+reasoning_chain = [
+    "1. Payment terms are common customer question",
+    "2. Custom work makes standard terms difficult",
+    "3. Can provide ranges (e.g., 'typically 30-50% deposit')",
+    "4. Warranty policy strengthens trust (shows confidence)",
+    "5. However, 'contact for quote' approach works fine",
+    "6. Some customers need quote before caring about terms",
+    "7. Can update FAQ post-launch with terms",
+    "8. Result: Nice-to-have but quote process handles this"
+]
+success_impact = """
+When BACKLOG-013 complete:
+✅ More informative FAQ
+✅ Clearer customer expectations
+✅ Potential trust boost (warranty policy)
+⚠️ Launch proceeds with 'contact for quote' approach
+"""
+blocked_by_launch = false
+can_update_post_launch = true
+
+[tasks.BACKLOG-014]
+id = "BACKLOG-014"
+name = "Verify and Optimize Exact Business Hours"
+phase = "Backlog - Follow-up & Future Enhancements"
+assigned_engineer = "engineer_1"
+status = "backlog"
+priority = "low"
+description = "Confirm exact business hours from Ray (currently using assumed Mon-Fri 8AM-5PM CST)"
+estimated_time = "5 minutes"
+dependencies = []
+deliverables = [
+    "Exact business hours (days, times, timezone)",
+    "Closed dates (holidays, vacation schedule)",
+    "After-hours contact availability (if any)",
+    "Appointment-only details (if applicable)",
+    "Update Schema markup and Contact page"
+]
+why = """
+Currently using assumed standard hours (Mon-Fri 8AM-5PM CST) in Schema markup.
+Actual hours may differ. Easy to update but not critical - phone number is primary contact.
+"""
+context = """
+BUSINESS_INFO.md uses assumed standard hours.
+Schema LocalBusiness requires hours for optimal SEO.
+Contact page will display hours.
+Facebook page showed 'Closed now' but no specific hours listed.
+"""
+reasoning_chain = [
+    "1. Business hours needed for Schema markup (LocalBusiness)",
+    "2. Currently using industry-standard assumption",
+    "3. Actual hours may differ (custom shop may have flexible hours)",
+    "4. Phone number is primary contact method (more important than hours)",
+    "5. Can launch with assumed hours in Schema",
+    "6. Easy 5-minute question for Ray",
+    "7. Update takes 5 minutes (Schema + Contact page)",
+    "8. Result: Nice-to-have verification, not blocking"
+]
+success_impact = """
+When BACKLOG-014 complete:
+✅ Accurate Schema markup hours
+✅ Accurate Contact page information
+✅ Better customer expectations
+⚠️ Launch proceeds with assumed standard hours
+"""
+blocked_by_launch = false
+can_update_post_launch = true
 
 [meta.validation]
 completion_threshold = 1.0
