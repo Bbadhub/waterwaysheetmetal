@@ -10,7 +10,17 @@
       "Read(//c/Users/Brett/Dropbox/Ferret9 Global/ÆtherLight_Lumina/**)",
       "Read(//c/Users/Brett/Dropbox/Ferret9 Global/ÆtherLight_Lumina/sprint-system/scripts/**)",
       "Bash(curl -O https://waterwayssheetmetal.com/wp-content/gallery/showcase/pb190444.jpg)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(python scripts/optimize_images.py:*)",
+      "Bash(tee:*)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(find:*)",
+      "Bash(awk:*)",
+      "Bash(awk '{sizes[$1] = sizes[$1] \"\"\"\" \"\"\"\" $2} END {for (size in sizes) {split(sizes[size], files); if (length(files) > 1) print \"\"\"\"Size:\"\"\"\", size, \"\"\"\"bytes -\"\"\"\", sizes[size]}}')",
+      "Bash(python scripts/find_renamed_duplicates.py:*)",
+      "Bash(python scripts/refactor_to_unique_images.py:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []

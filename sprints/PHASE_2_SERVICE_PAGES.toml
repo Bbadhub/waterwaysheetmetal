@@ -1,0 +1,928 @@
+# Water Ways Sheet Metal - Phase 2: Service Pages & Portfolio Build
+# Sprint Period: 2025-10-28 to 2025-11-25 (4 weeks)
+# Pattern: Pattern-SPRINT-001 (Chain of Thought Sprint Planning)
+# Priority: HIGH - Core conversion engine implementation
+
+[meta]
+sprint_name = "Phase 2: Service Pages & Portfolio Build"
+version = "1.0"
+created = "2025-10-28"
+status = "active"
+sprint_period = "2025-10-28 to 2025-11-25"
+focus_area = "Build conversion-focused service pages and portfolio to convert traffic to qualified leads"
+total_tasks = 14
+estimated_weeks = 4
+priority = "high"
+
+[meta.strategic_direction]
+philosophy = "Every page is a landing page, every section tells our story, every interaction moves toward a quote"
+focus = "Solution-based, problem-solving, trust-building with visual proof"
+cta_strategy = "8-10 CTAs per page at strategic decision points"
+image_strategy = "15-25 optimized images per service page, progressive disclosure"
+performance_target = "Lighthouse >90, <2MB per page, <2s load time"
+
+[meta.dependencies]
+phase_1_complete = true
+images_optimized = 894
+homepage_conversion_model = "index.html (18 CTAs, problem-focused)"
+css_framework = "css/conversion-enhancements.css"
+architecture_plan = "SITE_ARCHITECTURE_PLAN.md"
+
+[meta.success_criteria]
+pages_built = 14
+images_integrated = "200+"
+avg_ctas_per_page = "8-10"
+conversion_funnel_complete = "4 main service pages"
+portfolio_depth = "Grid + 5 featured detail pages"
+lighthouse_score = ">90"
+
+# ============================================================
+# WEEK 1: PRIORITY SERVICE PAGES (Highest Traffic)
+# ============================================================
+
+[tasks.PHASE2-001]
+id = "PHASE2-001"
+name = "Build Chimney Caps Service Page"
+phase = "Week 1 - Service Pages"
+assigned_engineer = "engineer_1"
+status = "pending"
+completion_percentage = 0
+estimated_time = "8-10 hours"
+priority = "critical"
+dependencies = []
+
+description = """
+Build comprehensive conversion-focused Chimney Caps service page following
+homepage model. This is the highest-traffic service (chimney problems are
+most common customer pain point).
+"""
+
+deliverables = [
+    "services/chimney-caps.html - Full conversion funnel page",
+    "15-20 optimized images integrated from chimney-caps folders",
+    "8-10 CTAs strategically placed",
+    "Problem → Solution → Proof → Invitation structure",
+    "Link to Installation Process subpage",
+    "Schema Service markup"
+]
+
+why = """
+Chimney caps are the #1 service offering per existing site analysis.
+Most common customer problem: "Water is destroying my chimney"
+Highest search volume: "copper chimney caps", "chimney cap installation"
+Converting this traffic = immediate revenue impact.
+"""
+
+context = """
+SITE_ARCHITECTURE_PLAN.md defines this as Priority #1 service page.
+EXISTING_SITE_ANALYSIS.md shows 51+ chimney cap images across 5 galleries.
+Phase 0 identified: Main gallery (17), Minnesota project (17), Ohio (10), Pinion (5).
+IMAGE_OPTIMIZATION_REPORT.md confirms all images optimized and ready.
+"""
+
+reasoning_chain = [
+    "1. Homepage now converts visitors → need service pages to close the sale",
+    "2. Chimney caps = most common service (water damage is #1 homeowner pain)",
+    "3. Existing site: /chimney-cap/ page + 17-image gallery + subpages",
+    "4. SITE_GAP_ANALYSIS.md: We have images but not integrated into HTML",
+    "5. Conversion strategy: Problem (water damage) → Solution (custom copper) → Proof (gallery + testimonials)",
+    "6. Paul M. testimonial: 'Zero leaks for 3+ years' = perfect social proof",
+    "7. Tom Z. testimonial: 'Caps look like they've been there 100 years' = craftsmanship proof",
+    "8. Link to Installation Process subpage (PHASE2-005) for educational depth",
+    "9. Result: Complete sales funnel for #1 service offering"
+]
+
+content_structure = """
+1. HERO: "Is Water Destroying Your Chimney?" (problem-focused)
+   - Subhead: Cost of inaction ($5K+ masonry damage)
+   - Hero image: Dramatic chimney cap installation
+   - Dual CTAs: "Get Free Quote" + "Call (479) 957-3794"
+
+2. PROBLEM SECTION: "The Hidden Cost of Cheap Chimney Caps"
+   - Standard caps rust/crack in 5-10 years
+   - Water infiltration consequences
+   - Financial impact: $5K+ repairs, property value loss
+   - Emotional impact: Stress, recurring problems
+
+3. SOLUTION SECTION: "Custom Copper Caps - 100+ Year Protection"
+   - Why copper: Doesn't rust, develops protective patina
+   - Custom fit: Measured precisely for your chimney
+   - Hand-crafted: Sealed seams, quality materials
+   - Lifetime warranty on craftsmanship
+   - CTA: "See How We Build It"
+
+4. STYLES GALLERY: "Choose Your Style"
+   - French Curved
+   - Tudor
+   - Bermuda Hip
+   - Custom designs
+   - 6-8 style example images
+   - CTA: "Get Custom Design Quote"
+
+5. BENEFITS SECTION: "Why Water Ways Chimney Caps"
+   - Checkmark list with icons
+   - ✓ Stops water infiltration permanently
+   - ✓ Prevents $5,000+ in masonry damage
+   - ✓ Adds architectural beauty & property value
+   - ✓ Lifetime warranty on craftsmanship
+   - ✓ Custom-fit to exact dimensions
+   - ✓ Nationwide shipping available
+
+6. PROCESS OVERVIEW: "How It Works"
+   - Step 1: Consultation & Measurement
+   - Step 2: Custom Design & Quote
+   - Step 3: Expert Fabrication
+   - Step 4: Installation or Delivery
+   - Link to detailed Installation Process page
+   - CTA: "Start Your Project"
+
+7. PHOTO GALLERY: "Our Work" (15-20 images)
+   - Main gallery: Various cap styles
+   - Installation process photos
+   - Before/after
+   - Patina progression
+   - Lazy load, lightbox functionality
+   - CTA: "Get This for Your Home"
+
+8. TESTIMONIALS: "Real Results"
+   - Paul M. (Minnesota): "Zero leaks for 3+ years"
+   - Tom Z. (Ohio): "Caps look like they've been there 100 years"
+   - Include customer photos
+   - Link to full portfolio detail pages
+   - CTA: "Join Our Satisfied Customers"
+
+9. INSTALLATION INFO: "Professional Installation"
+   - Brief overview of installation importance
+   - DIY vs Professional comparison
+   - Link to Installation Process subpage
+   - Local installation (AR, OK, MO, KS)
+   - Nationwide shipping with instructions
+   - CTA: "Learn About Installation"
+
+10. FAQ SECTION: "Common Questions"
+    - "How long does a copper cap last?"
+    - "Can you match my home's style?"
+    - "Do you ship nationwide?"
+    - "What's the cost?"
+    - "How long does fabrication take?"
+    - CTA after FAQs: "Still have questions? Get answers"
+
+11. FINAL CTA: "Ready to Protect Your Chimney?"
+    - Urgency: "Spring 2025 projects booking now"
+    - Guarantee badges
+    - Dual CTAs: "Get Free Quote" + Phone
+    - Trust signals
+"""
+
+images_to_integrate = [
+    "chimney-caps/main/featured/* (17 images - various styles)",
+    "chimney-caps/minnesota-delivery/featured/* (3-5 showcase)",
+    "chimney-caps/ohio-project/featured/* (3-5 showcase)",
+    "reviews/* (Paul M., Tom Z. photos)",
+    "heroes/* (hero background options)"
+]
+
+ctas = [
+    "Header: Get Quote button + Phone",
+    "Hero: Get Free Quote + Call Now",
+    "After Problem: See Our Solutions",
+    "After Styles Gallery: Get Custom Design",
+    "After Process: Start Your Project",
+    "After Gallery: Get This for Your Home",
+    "After Testimonials: Join Our Customers",
+    "After Installation: Learn More",
+    "Final CTA: Get Free Quote + Phone"
+]
+
+success_impact = """
+When PHASE2-001 complete:
+✅ #1 service offering has full conversion funnel
+✅ Traffic from "chimney cap" searches converts to leads
+✅ 15-20 visual proof images showcase expertise
+✅ 8-10 CTAs provide continuous conversion opportunities
+✅ Link to Installation subpage provides educational depth
+✅ Foundation template for other service pages (DRY principle)
+"""
+
+# ============================================================
+
+[tasks.PHASE2-002]
+id = "PHASE2-002"
+name = "Build Flashing & Weatherproofing Service Page"
+phase = "Week 1 - Service Pages"
+assigned_engineer = "engineer_1"
+status = "pending"
+completion_percentage = 0
+estimated_time = "8-10 hours"
+priority = "critical"
+dependencies = ["PHASE2-001"]
+
+description = """
+Build comprehensive Flashing service page targeting "roof leak" and
+"ceiling stain" searches. This is high-urgency traffic (active leaks).
+"""
+
+deliverables = [
+    "services/flashing.html - Full conversion funnel page",
+    "20-25 optimized images from flashing folders",
+    "8-10 CTAs",
+    "Featured: Bay Window Through-Wall Flashing case study link",
+    "Problem → Solution → Proof → Invitation structure"
+]
+
+why = """
+Flashing failures = active leaks = high-urgency customers ready to buy.
+Search intent: "roof leak around chimney", "ceiling water stains"
+These customers need immediate solution = higher conversion rate.
+Bay window TWF case study (20 images) = powerful expertise demonstration.
+"""
+
+context = """
+SITE_ARCHITECTURE_PLAN.md: Priority #2 service page.
+EXISTING_SITE_ANALYSIS.md: 56+ flashing images across 4 galleries.
+Bay window TWF: 20-image installation series (detailed case study).
+IMAGE_OPTIMIZATION_REPORT.md: All flashing images optimized.
+"""
+
+reasoning_chain = [
+    "1. Flashing failures cause active leaks = urgent customer pain",
+    "2. High search volume: 'chimney flashing leak', 'roof leak chimney'",
+    "3. Existing site shows extensive flashing work (56+ images)",
+    "4. Bay window TWF project = 20-image step-by-step = credibility builder",
+    "5. Conversion strategy: Active leak (panic) → Expert solution (relief) → Proof (they can do it)",
+    "6. Link to Bay Window Case Study subpage (PHASE2-006) = deep expertise",
+    "7. Multiple flashing types: chimney, through-wall, step, valley",
+    "8. Result: Convert high-urgency leak traffic"
+]
+
+content_structure = """
+1. HERO: "Ceiling Stains? Roof Leaks Around Chimneys?" (urgent problem)
+2. PROBLEM: "Cheap Flashing Fails - Water Destroys Your Home"
+3. SOLUTION: "Expert Copper Flashing That Seals for Life"
+4. FLASHING TYPES: Chimney, Through-Wall, Step, Valley (with images)
+5. FEATURED CASE STUDY: Bay Window Through-Wall Flashing (teaser with link)
+6. BENEFITS: Eliminates leaks, prevents mold/rot, outlasts roof
+7. MATERIALS: Copper vs Rheinzink comparison
+8. PROCESS: Inspection → Fabrication → Expert installation
+9. PHOTO GALLERY: 20-25 flashing installation images
+10. TESTIMONIALS: Leak-fix success stories
+11. FINAL CTA: "Stop Leaks Permanently"
+"""
+
+images_to_integrate = [
+    "flashing/main/featured/* (9 images)",
+    "flashing/bay-window-twf/featured/* (20 images - featured prominently)",
+    "flashing/through-wall-flashing/featured/* (if available)",
+    "heroes/* (leak damage hero images)"
+]
+
+ctas = [
+    "Header: Get Quote + Phone",
+    "Hero: Stop My Leaks + Call Now",
+    "After Problem: See Flashing Solutions",
+    "After Flashing Types: Get Quote for My Type",
+    "After Bay Window: View Full Case Study",
+    "After Gallery: Fix My Leaks Now",
+    "After Testimonials: Get Leak-Free Guarantee",
+    "Final CTA: Stop Leaks Today + Phone"
+]
+
+success_impact = """
+When PHASE2-002 complete:
+✅ High-urgency leak traffic converts (ready-to-buy customers)
+✅ Bay window case study demonstrates complex project capability
+✅ 20-25 images provide extensive visual proof
+✅ Link to case study subpage adds educational depth
+✅ Multiple flashing types = comprehensive solution showcase
+"""
+
+# ============================================================
+
+[tasks.PHASE2-003]
+id = "PHASE2-003"
+name = "Build Roofing & Gutters Service Page"
+phase = "Week 2 - Service Pages"
+assigned_engineer = "engineer_1"
+status = "pending"
+completion_percentage = 0
+estimated_time = "6-8 hours"
+priority = "high"
+dependencies = ["PHASE2-002"]
+
+description = """
+Build Roofing & Gutters service page targeting "lifetime roofing" and
+"tired of replacing roof" searches. High-ticket service (ROI positioning).
+"""
+
+deliverables = [
+    "services/roofing-gutters.html - Full conversion funnel page",
+    "10-15 optimized images",
+    "8-10 CTAs",
+    "ROI calculator or comparison chart",
+    "Lifetime value positioning"
+]
+
+why = """
+Copper roofing = highest-ticket service = lifetime value positioning.
+Target: Homeowners frustrated with repeated roof replacements.
+ROI angle: "Last roof you'll ever install" = compelling value prop.
+Differentiates from commodity roofing (shingles).
+"""
+
+reasoning_chain = [
+    "1. Asphalt roofs last 15-20 years = repeated $15K+ replacements",
+    "2. Copper roofs last 100+ years = one investment, zero replacements",
+    "3. Target: Homeowners replacing roof for 2nd or 3rd time (frustration)",
+    "4. Search intent: 'lifetime roofing', 'copper roof cost', 'stop replacing roof'",
+    "5. ROI positioning: Cost vs lifetime of shingle replacements",
+    "6. Conversion strategy: Frustration → Lifetime solution → Cost justification",
+    "7. Secondary: Custom copper gutters (premium add-on)",
+    "8. Result: Convert high-ticket lifetime roofing projects"
+]
+
+content_structure = """
+1. HERO: "Tired of Replacing Your Roof Every 20 Years?"
+2. PROBLEM: "The $100K+ Lifetime Cost of Cheap Roofs"
+3. SOLUTION: "Standing Seam Copper - The Last Roof You'll Install"
+4. ROI SECTION: Visual comparison (shingles vs copper lifetime cost)
+5. ROOFING OPTIONS: Standing seam, ridge caps, valleys
+6. GUTTER SYSTEMS: Custom copper gutters, half-round, rain chains
+7. BENEFITS: 100+ year life, zero maintenance, property value increase
+8. PATINA: Beautiful aging process (photo timeline)
+9. PHOTO GALLERY: 10-15 copper roof installations
+10. TESTIMONIALS: Lifetime roofing satisfaction
+11. FINAL CTA: "Invest Once, Protect Forever"
+"""
+
+success_impact = """
+When PHASE2-003 complete:
+✅ High-ticket roofing projects convert
+✅ ROI positioning justifies premium pricing
+✅ Lifetime value angle differentiates from commodity roofing
+✅ Cross-sell opportunity (roof + gutters + flashing)
+"""
+
+# ============================================================
+
+[tasks.PHASE2-004]
+id = "PHASE2-004"
+name = "Build Custom Architectural Metalwork Service Page"
+phase = "Week 2 - Service Pages"
+assigned_engineer = "engineer_1"
+status = "pending"
+completion_percentage = 0
+estimated_time = "8-10 hours"
+priority = "high"
+dependencies = ["PHASE2-003"]
+
+description = """
+Build Custom Metalwork service page targeting "unique vision" and
+high-end residential/commercial projects. Showcases full capabilities.
+"""
+
+deliverables = [
+    "services/custom-metalwork.html - Full conversion funnel page",
+    "20-30 optimized images (diverse projects)",
+    "8-10 CTAs",
+    "Link to Interior Metalwork subpage",
+    "Commercial capability showcase"
+]
+
+why = """
+Custom metalwork = highest margin, showcases full expertise.
+Target: Architects, designers, high-end homeowners.
+Demonstrates: "We can build anything you can imagine"
+Includes: Cupolas, finials, awnings, interior work, commercial.
+"""
+
+reasoning_chain = [
+    "1. Custom projects = highest margin + creative fulfillment",
+    "2. Target: Unique architectural visions (can't find off-shelf)",
+    "3. Search intent: 'custom copper cupola', 'architectural metalwork', 'copper awning'",
+    "4. Showcase diversity: Awnings (6), Interior (3), Architectural (4), Mid-Continent Tower",
+    "5. Conversion strategy: Frustration with mass-produced → Collaborative custom design",
+    "6. Commercial projects (Mid-Continent Tower) = credibility for large-scale work",
+    "7. Interior metalwork subpage (PHASE2-008) = niche high-end market",
+    "8. Result: Convert high-margin custom project inquiries"
+]
+
+content_structure = """
+1. HERO: "Your Architectural Vision Deserves Better Than Off-the-Shelf"
+2. PROBLEM: "Mass-Produced Doesn't Fit, Custom Is Hard to Find"
+3. SOLUTION: "Collaborative Custom Design - From Vision to Reality"
+4. SERVICES GRID:
+   - Cupolas & Roof Features
+   - Finials & Weathervanes
+   - Awnings & Canopies (6 photos)
+   - Interior Metalwork (link to subpage)
+   - Louvers & Roof Vents
+   - Commercial Projects
+5. FEATURED: Mid-Continent Tower (commercial capability)
+6. PROCESS: Consultation → Design → Fabrication → Installation
+7. PHOTO GALLERY: 20-30 diverse custom projects
+8. TESTIMONIALS: Custom project success stories
+9. FINAL CTA: "Let's Bring Your Vision to Life"
+"""
+
+success_impact = """
+When PHASE2-004 complete:
+✅ High-margin custom projects convert
+✅ Full service capability demonstrated
+✅ Commercial credibility established
+✅ Unique positioning: "We can build anything"
+✅ 4 main service pages complete = core conversion engine ready
+"""
+
+# ============================================================
+# WEEK 3: EDUCATIONAL SUBPAGES & ABOUT ENHANCEMENT
+# ============================================================
+
+[tasks.PHASE2-005]
+id = "PHASE2-005"
+name = "Build Chimney Cap Installation Process Subpage"
+phase = "Week 3 - Educational Content"
+assigned_engineer = "engineer_1"
+status = "pending"
+completion_percentage = 0
+estimated_time = "4-5 hours"
+priority = "medium"
+dependencies = ["PHASE2-001"]
+
+description = """
+Educational subpage showing professional chimney cap installation process.
+Builds trust, demonstrates expertise, linked from main Chimney Caps page.
+"""
+
+deliverables = [
+    "services/chimney-caps/installation-process.html",
+    "10-15 installation step photos",
+    "Step-by-step process walkthrough",
+    "DIY vs Professional comparison"
+]
+
+why = """
+Educational content builds trust and expertise perception.
+Homeowners researching installation = qualify leads.
+DIY vs Professional comparison = nudge toward professional service.
+SEO: "chimney cap installation" informational searches.
+"""
+
+content_structure = """
+1. HERO: "How Professional Chimney Cap Installation Works"
+2. WHY INSTALLATION MATTERS: Improper install = leaks continue
+3. STEP-BY-STEP: 8-10 installation steps with photos
+4. DIY vs PROFESSIONAL: Risk comparison
+5. SERVICE AREA: Where we install (AR, OK, MO, KS)
+6. SHIPPING: Nationwide with detailed instructions
+7. CTA: "Let Our Experts Handle It"
+"""
+
+success_impact = """
+When PHASE2-005 complete:
+✅ Educational depth for informed buyers
+✅ Expertise demonstration = trust building
+✅ SEO for informational "installation" searches
+✅ Qualifies leads (DIY vs Professional decision)
+"""
+
+# ============================================================
+
+[tasks.PHASE2-006]
+id = "PHASE2-006"
+name = "Build Bay Window Flashing Case Study Subpage"
+phase = "Week 3 - Educational Content"
+assigned_engineer = "engineer_1"
+status = "pending"
+completion_percentage = 0
+estimated_time = "4-5 hours"
+priority = "medium"
+dependencies = ["PHASE2-002"]
+
+description = """
+Detailed case study of complex bay window through-wall flashing project.
+20-image step-by-step walkthrough. Demonstrates advanced capability.
+"""
+
+deliverables = [
+    "services/flashing/bay-window-case-study.html",
+    "20 images integrated (complete installation series)",
+    "Detailed narrative of fabrication and installation",
+    "Challenge → Approach → Results structure"
+]
+
+why = """
+Complex project = expertise demonstration.
+20-image series = comprehensive visual proof.
+"If we can do this curved bay window, we can handle your project"
+SEO: "bay window flashing", "through-wall flashing"
+"""
+
+content_structure = """
+1. HERO: "Complex Curved Bay Window Flashing - A Case Study"
+2. THE CHALLENGE: Custom curved flashing for bay window
+3. OUR APPROACH: Custom fabrication, through-wall integration
+4. STEP-BY-STEP GALLERY: 20 images (shop → installation → finished)
+5. RESULTS: Perfect seal, zero leaks, architectural beauty
+6. CTA: "Need Complex Flashing? We Can Handle It"
+"""
+
+success_impact = """
+When PHASE2-006 complete:
+✅ Complex project capability proven
+✅ 20-image visual proof = extensive credibility
+✅ Educational depth for informed buyers
+✅ SEO for specific "bay window flashing" searches
+"""
+
+# ============================================================
+
+[tasks.PHASE2-007]
+id = "PHASE2-007"
+name = "Build Interior Metalwork Subpage"
+phase = "Week 3 - Educational Content"
+assigned_engineer = "engineer_1"
+status = "pending"
+completion_percentage = 0
+estimated_time = "4-5 hours"
+priority = "medium"
+dependencies = ["PHASE2-004"]
+
+description = """
+Showcase interior copper metalwork (fireplace surrounds, railings, artistic
+pieces). Niche high-end market, demonstrates versatility beyond roofing.
+"""
+
+deliverables = [
+    "services/custom-metalwork/interior.html",
+    "8-12 interior project images",
+    "Project type showcase (fireplace, railings, hoods, artistic)",
+    "Materials and finish options"
+]
+
+why = """
+Interior work = high-end market, high margin.
+Target: Interior designers, architects, luxury homeowners.
+Demonstrates: "We do more than just roofs"
+Niche positioning: Artistic copper interior features.
+"""
+
+content_structure = """
+1. HERO: "Copper Artistry for Your Interior Spaces"
+2. PROJECT TYPES: Fireplace, railings, range hoods, artistic
+3. GALLERY: 8-12 interior project photos
+4. MATERIALS: Copper, brass, patinated finishes
+5. DESIGN PROCESS: Collaborative, custom
+6. CTA: "Transform Your Interior"
+"""
+
+success_impact = """
+When PHASE2-007 complete:
+✅ Niche high-end market addressed
+✅ Versatility beyond roofing demonstrated
+✅ Interior designer referral opportunity
+✅ Artistic positioning = premium pricing
+"""
+
+# ============================================================
+
+[tasks.PHASE2-008]
+id = "PHASE2-008"
+name = "Enhance About Us Page"
+phase = "Week 3 - Trust Building"
+assigned_engineer = "engineer_1"
+status = "pending"
+completion_percentage = 0
+estimated_time = "4-6 hours"
+priority = "medium"
+dependencies = []
+
+description = """
+Transform About page into trust-building, story-driven conversion page.
+Meet Ray & Natalie, 20+ years story, why choose family-owned craftsmanship.
+"""
+
+deliverables = [
+    "about.html - Enhanced with story, photos, process, values",
+    "8-10 images (Ray, Natalie, workshop, process)",
+    "Origin story + values + process transparency",
+    "6+ CTAs"
+]
+
+why = """
+About page = trust building for serious buyers.
+Family-owned story = differentiation from corporations.
+20+ years experience = credibility.
+Process transparency = confidence in quality.
+"""
+
+content_structure = """
+1. HERO: "Meet the Master Craftsmen Behind Your Protection"
+2. ORIGIN STORY: How Water Ways started, why copper matters
+3. RAY & NATALIE: Photos + bios, hands-on involvement
+4. OUR PROCESS: 4-step detailed (measure, design, fabricate, install)
+5. WHY COPPER: Material education (100+ year lifespan)
+6. QUALITY COMMITMENT: Standards, warranty, pride
+7. SERVICE AREA: Map (AR, OK, MO, KS + nationwide)
+8. CTA: "Start Your Project with Confidence"
+"""
+
+success_impact = """
+When PHASE2-008 complete:
+✅ Trust built through personal story
+✅ Family-owned positioning = differentiation
+✅ Process transparency = quality confidence
+✅ Ray & Natalie as faces of brand = personal connection
+"""
+
+# ============================================================
+# WEEK 4: PORTFOLIO EXPANSION
+# ============================================================
+
+[tasks.PHASE2-009]
+id = "PHASE2-009"
+name = "Expand Portfolio Grid Page"
+phase = "Week 4 - Portfolio"
+assigned_engineer = "engineer_1"
+status = "pending"
+completion_percentage = 0
+estimated_time = "6-8 hours"
+priority = "high"
+dependencies = ["PHASE2-001", "PHASE2-002", "PHASE2-003", "PHASE2-004"]
+
+description = """
+Transform portfolio into comprehensive grid with 24-30 projects, filtering,
+and links to detailed case studies. Visual social proof engine.
+"""
+
+deliverables = [
+    "portfolio.html - Expanded grid with 24-30 project cards",
+    "Filter tabs (All, Chimney Caps, Flashing, Roofing, Custom)",
+    "Thumbnail images (600px) for all projects",
+    "Links to 5 featured detail pages",
+    "Lazy loading for performance"
+]
+
+why = """
+Portfolio = visual social proof = conversion driver.
+24-30 projects = "We've done this hundreds of times"
+Filtering = easy navigation by interest area.
+Links to detail pages = depth for serious buyers.
+"""
+
+content_structure = """
+1. HERO: "20+ Years of Custom Copper Craftsmanship"
+2. FILTER TABS: All | Chimney Caps | Flashing | Roofing | Custom
+3. PROJECT GRID: 24-30 cards (image, title, location, type)
+4. STATS BAR: "100+ Projects | 4-State Service | 100% Custom"
+5. CTA: "Your Project Could Be Next"
+"""
+
+success_impact = """
+When PHASE2-009 complete:
+✅ Comprehensive visual proof (24-30 projects)
+✅ Easy filtering by service type
+✅ Links to detailed case studies
+✅ Social proof at scale
+"""
+
+# ============================================================
+
+[tasks.PHASE2-010]
+id = "PHASE2-010"
+name = "Build Minnesota Chimney Shroud Portfolio Detail"
+phase = "Week 4 - Portfolio Details"
+assigned_engineer = "engineer_1"
+status = "pending"
+completion_percentage = 0
+estimated_time = "3-4 hours"
+priority = "medium"
+dependencies = ["PHASE2-009"]
+
+description = """
+Detailed portfolio page for Paul M. Minnesota project. Nationwide shipping
+proof, customer testimonial case study with 17 images.
+"""
+
+deliverables = [
+    "portfolio/minnesota-chimney-shroud.html",
+    "17 images from minnesota-delivery folder",
+    "Full Paul M. testimonial",
+    "Challenge → Solution → Results narrative"
+]
+
+content_structure = """
+1. HERO: "Custom Copper Shroud Shipped to Minnesota"
+2. CHALLENGE: Customer need, long-distance project
+3. SOLUTION: Custom fabrication, perfect packaging
+4. GALLERY: 17 images (fabrication → shipping → installed)
+5. TESTIMONIAL: Full Paul M. quote
+6. RESULTS: "Zero leaks for 3+ years"
+7. CTA: "We Ship Nationwide"
+"""
+
+# ============================================================
+
+[tasks.PHASE2-011]
+id = "PHASE2-011"
+name = "Build Ohio French Country Portfolio Detail"
+phase = "Week 4 - Portfolio Details"
+assigned_engineer = "engineer_1"
+status = "pending"
+completion_percentage = 0
+estimated_time = "3-4 hours"
+priority = "medium"
+dependencies = ["PHASE2-009"]
+
+description = """
+Detailed portfolio page for Tom Z. Ohio project. Custom design collaboration,
+patina expertise showcase with 10 images.
+"""
+
+deliverables = [
+    "portfolio/ohio-french-country.html",
+    "10 images from ohio-project folder",
+    "Full Tom Z. testimonial",
+    "Custom design + patina process narrative"
+]
+
+content_structure = """
+1. HERO: "French Country Estate Chimney Caps"
+2. CHALLENGE: Match architecture, aged patina finish
+3. SOLUTION: Collaborative design, custom patina
+4. GALLERY: 10 images (caps in various stages)
+5. TESTIMONIAL: Full Tom Z. quote
+6. RESULTS: "Looks like they've been there 100 years"
+7. CTA: "Get Custom Design"
+"""
+
+# ============================================================
+
+[tasks.PHASE2-012]
+id = "PHASE2-012"
+name = "Build Bay Window Flashing Portfolio Detail"
+phase = "Week 4 - Portfolio Details"
+assigned_engineer = "engineer_1"
+status = "pending"
+completion_percentage = 0
+estimated_time = "3-4 hours"
+priority = "medium"
+dependencies = ["PHASE2-009"]
+
+description = """
+Portfolio detail showcasing complex bay window flashing. Can potentially
+combine with case study subpage (PHASE2-006) or be separate showcase.
+"""
+
+deliverables = [
+    "portfolio/bay-window-flashing.html",
+    "20 images from bay-window-twf folder",
+    "Complex project narrative"
+]
+
+# ============================================================
+
+[tasks.PHASE2-013]
+id = "PHASE2-013"
+name = "Build Mid-Continent Tower Portfolio Detail"
+phase = "Week 4 - Portfolio Details"
+assigned_engineer = "engineer_1"
+status = "pending"
+completion_percentage = 0
+estimated_time = "3-4 hours"
+priority = "low"
+dependencies = ["PHASE2-009"]
+
+description = """
+Commercial project showcase. Demonstrates large-scale capability,
+historic preservation work, Tulsa landmark.
+"""
+
+deliverables = [
+    "portfolio/mid-continent-tower.html",
+    "Architectural images of tower project",
+    "Commercial capability narrative"
+]
+
+content_structure = """
+1. HERO: "Historic Tulsa Landmark Restoration"
+2. CHALLENGE: Commercial scale, historic preservation
+3. SOLUTION: Period-appropriate copper work
+4. GALLERY: Tower project photos
+5. RESULTS: "Preserving Tulsa's architectural heritage"
+6. CTA: "Commercial Projects Welcome"
+"""
+
+# ============================================================
+
+[tasks.PHASE2-014]
+id = "PHASE2-014"
+name = "Enhance Contact & FAQ Pages"
+phase = "Week 4 - Final Enhancements"
+assigned_engineer = "engineer_1"
+status = "pending"
+completion_percentage = 0
+estimated_time = "3-4 hours"
+priority = "medium"
+dependencies = []
+
+description = """
+Enhance Contact page with urgency, multiple methods, expectations.
+Enhance FAQ with CTAs, filtering, problem-solution framing.
+"""
+
+deliverables = [
+    "contact.html - Enhanced with urgency banner, process expectations",
+    "faq.html - Enhanced with CTAs every 5 questions, filtering"
+]
+
+content_enhancements = """
+CONTACT:
+- Urgency: "Spring 2025 booking, quote in 48 hours"
+- Multiple methods: Form, phone, email, address
+- What to expect: Timeline, process, consultation details
+- Service area emphasis: AR, OK, MO, KS + nationwide
+
+FAQ:
+- Filtering by category: Caps, Flashing, Roofing, Custom
+- CTA after every 5 questions: "Get personalized answers"
+- Problem-solution framing: "How do I stop...?" format
+"""
+
+# ============================================================
+# SUCCESS METRICS
+# ============================================================
+
+[metrics]
+pages_to_build = 14
+estimated_total_hours = "75-95 hours"
+target_completion = "4 weeks (2025-11-25)"
+
+[metrics.deliverables]
+service_pages = 4
+subpages = 3
+portfolio_pages = 5
+enhanced_core_pages = 2
+total_pages = 14
+
+[metrics.images]
+images_to_integrate = "200+"
+service_page_images = "15-25 per page"
+portfolio_images = "10-20 per detail page"
+
+[metrics.conversion]
+ctas_per_page = "8-10"
+total_ctas = "120-140 across all pages"
+conversion_funnels = 4
+
+[metrics.performance]
+lighthouse_target = ">90"
+page_load_target = "<2s"
+page_weight_target = "<2MB"
+mobile_friendly = "100%"
+
+# ============================================================
+# IMPLEMENTATION PLAN
+# ============================================================
+
+[implementation.week_1]
+focus = "Priority Service Pages (Highest Traffic)"
+tasks = ["PHASE2-001", "PHASE2-002"]
+estimated_hours = "16-20 hours"
+deliverables = "Chimney Caps + Flashing service pages"
+goal = "Convert #1 and #2 highest-traffic service searches"
+
+[implementation.week_2]
+focus = "Complete Service Pages"
+tasks = ["PHASE2-003", "PHASE2-004"]
+estimated_hours = "14-18 hours"
+deliverables = "Roofing & Gutters + Custom Metalwork pages"
+goal = "Complete core conversion engine (4 service pages)"
+
+[implementation.week_3]
+focus = "Educational Depth & Trust Building"
+tasks = ["PHASE2-005", "PHASE2-006", "PHASE2-007", "PHASE2-008"]
+estimated_hours = "16-21 hours"
+deliverables = "3 subpages + About Us enhancement"
+goal = "Build authority, answer objections, establish trust"
+
+[implementation.week_4]
+focus = "Portfolio Expansion & Social Proof"
+tasks = ["PHASE2-009", "PHASE2-010", "PHASE2-011", "PHASE2-012", "PHASE2-013", "PHASE2-014"]
+estimated_hours = "21-27 hours"
+deliverables = "Portfolio grid + 4 detail pages + Contact/FAQ enhancements"
+goal = "Comprehensive visual social proof, conversion optimization"
+
+# ============================================================
+# READY TO BUILD
+# ============================================================
+
+[readiness]
+foundation_complete = true
+homepage_model = "index.html (18 CTAs, problem-focused)"
+images_ready = "894 optimized files"
+css_framework = "conversion-enhancements.css"
+architecture_planned = "SITE_ARCHITECTURE_PLAN.md"
+sprint_organized = "14 tasks with Chain of Thought planning"
+
+next_action = "Begin PHASE2-001: Build Chimney Caps Service Page"
+recommended_order = "Week 1 → Week 2 → Week 3 → Week 4 (priority-based)"

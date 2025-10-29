@@ -19,6 +19,7 @@
 
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/conversion-enhancements.css">
 
   <link rel="icon" type="image/png" href="images/logo/favicon.png">
 </head>
@@ -87,139 +88,141 @@
 
   <main id="main-content">
 
-    <section class="page-hero">
+    <!-- Hero Section -->
+    <section class="hero">
       <div class="container">
-        <h1 class="page-title">Our Portfolio</h1>
-        <p class="page-subtitle">A showcase of custom copper and sheet metal work across the region and nationwide</p>
+        <div class="hero-grid">
+          <!-- Hero Content (55%) -->
+          <div class="hero-content">
+            <div class="hero-eyebrow">Craftsmanship That Lasts Generations</div>
+            <h1 class="hero-title">Our Portfolio of Custom Metalwork</h1>
+            <p class="hero-subtitle">From residential chimney caps shipped nationwide to commercial restoration on historic landmarks—each project reflects our commitment to quality craftsmanship, precision fabrication, and lifetime durability.</p>
+            <div class="hero-value-props">
+              <div class="value-prop">
+                <svg class="value-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Nationwide shipping excellence</span>
+              </div>
+              <div class="value-prop">
+                <svg class="value-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Custom fabrication for every project</span>
+              </div>
+              <div class="value-prop">
+                <svg class="value-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>From residential to commercial restoration</span>
+              </div>
+            </div>
+            <div class="hero-cta">
+              <a href="contact.html#quote-form" class="btn btn-primary btn-lg">Request a Free Quote</a>
+              <a href="tel:+14799573794" class="btn btn-secondary btn-lg">Call (479) 957-3794</a>
+            </div>
+          </div>
+
+          <!-- Hero Image (45%) -->
+          <div class="hero-image">
+            <picture>
+              <source srcset="images-optimized/chimney-caps/featured/ohio-french-caps.webp" type="image/webp">
+              <source srcset="images-optimized/chimney-caps/featured/ohio-french-caps.jpg" type="image/jpeg">
+              <img src="images-optimized/chimney-caps/featured/ohio-french-caps.jpg" alt="Custom copper chimney caps portfolio" loading="eager" width="1200" height="900">
+            </picture>
+            <div class="hero-image-badge">
+              <span class="badge-text">Nationwide Projects</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="section-padding">
+    <!-- Featured Projects Section -->
+    <section class="section-padding bg-light">
       <div class="container">
         <h2 class="section-title centered">Featured Projects</h2>
-        <p class="section-intro centered">From residential chimney caps to commercial restoration, each project reflects our commitment to quality craftsmanship and lifetime durability.</p>
+        <p class="section-intro centered">Each project showcases our precision craftsmanship and commitment to customer satisfaction—from initial consultation to final installation.</p>
 
-        <div class="portfolio-grid">
+        <div class="projects-grid">
 
           <!-- Project 1: Minnesota -->
-          <article class="portfolio-project" id="minnesota-project">
+          <article class="project-card" id="minnesota-project">
             <div class="project-image">
-              <img src="images/chimney-caps/minnesota-shroud.jpg" alt="Custom copper chimney shroud Minneapolis Minnesota" loading="lazy" width="600" height="400">
+              <picture>
+                <source srcset="images-optimized/chimney-caps/featured/custom-cap-1.webp" type="image/webp">
+                <source srcset="images-optimized/chimney-caps/featured/custom-cap-1.jpg" type="image/jpeg">
+                <img src="images-optimized/chimney-caps/featured/custom-cap-1.jpg" alt="Custom copper chimney shroud Minneapolis Minnesota" loading="lazy" width="1200" height="900">
+              </picture>
             </div>
-            <div class="project-details">
+            <div class="project-content">
               <span class="project-category">Chimney Caps</span>
-              <h3 class="project-name">Minnesota Copper Chimney Shroud</h3>
+              <h3 class="project-title">Minnesota Copper Chimney Shroud</h3>
               <p class="project-location">Minneapolis, MN</p>
-              <p class="project-description">Custom-fabricated copper chimney shroud shipped nationwide for residential installation. Precision craftsmanship with progress photo updates throughout fabrication, delivered early in beautiful custom wood crate with zero damage.</p>
-
-              <blockquote class="project-testimonial">
-                <p>"We are 100% convinced we made the right decision. Ray Hines' professionalism, knowledge, and craftsmanship are outstanding. He sent progress photos throughout fabrication, and the shroud arrived early in a beautiful custom wood crate with zero damage. Excellent experience from start to finish."</p>
-                <footer>
-                  <strong>Paul M.</strong>
-                  <span>Minneapolis, MN</span>
-                </footer>
+              <p>Custom-fabricated copper shroud shipped nationwide. Progress photos throughout fabrication, delivered early in custom wood crate with zero damage.</p>
+              <blockquote class="project-quote">
+                "We are 100% convinced we made the right decision. Ray Hines' professionalism, knowledge, and craftsmanship are outstanding."
+                <cite>— Paul M., Minneapolis, MN</cite>
               </blockquote>
-
-              <div class="project-highlights">
-                <h4>Project Highlights:</h4>
-                <ul>
-                  <li>Custom copper fabrication for long-distance client</li>
-                  <li>Progress photos provided during fabrication</li>
-                  <li>Professional custom wood crating</li>
-                  <li>Early delivery with zero shipping damage</li>
-                  <li>Nationwide shipping excellence</li>
-                </ul>
-              </div>
             </div>
           </article>
 
           <!-- Project 2: Ohio -->
-          <article class="portfolio-project" id="ohio-project">
+          <article class="project-card" id="ohio-project">
             <div class="project-image">
-              <img src="images/chimney-caps/ohio-french-caps.jpg" alt="French Country copper chimney caps Ohio" loading="lazy" width="600" height="400">
+              <picture>
+                <source srcset="images-optimized/chimney-caps/featured/ohio-french-caps.webp" type="image/webp">
+                <source srcset="images-optimized/chimney-caps/featured/ohio-french-caps.jpg" type="image/jpeg">
+                <img src="images-optimized/chimney-caps/featured/ohio-french-caps.jpg" alt="French Country copper chimney caps Ohio" loading="lazy" width="1200" height="900">
+              </picture>
             </div>
-            <div class="project-details">
+            <div class="project-content">
               <span class="project-category">Chimney Caps</span>
-              <h3 class="project-name">French Country Chimney Caps</h3>
+              <h3 class="project-title">French Country Chimney Caps</h3>
               <p class="project-location">Ohio</p>
-              <p class="project-description">Aged patina copper caps matching existing roof elements on French Country estate. Designed from customer photos, with custom patina matching from reference photo. Ray calculated proper opening sizes for drafting requirements, ensuring both aesthetic beauty and functional performance.</p>
-
-              <blockquote class="project-testimonial">
-                <p>"We are very glad we chose Waterways. They are a fantastic company! Ray helped design our caps from photos, calculated the proper sizing for drafting, and matched the patina from our reference photo perfectly. The caps arrived ahead of schedule in excellent crating. Products arrived in perfect condition, and they look stunning on our French Country home."</p>
-                <footer>
-                  <strong>Tom Z.</strong>
-                  <span>Ohio</span>
-                </footer>
+              <p>Aged patina copper caps matching existing roof elements. Custom patina color matching and technical calculations for proper drafting performance.</p>
+              <blockquote class="project-quote">
+                "Ray helped design our caps from photos, calculated the proper sizing, and matched the patina perfectly. They look stunning on our French Country home."
+                <cite>— Tom Z., Ohio</cite>
               </blockquote>
-
-              <div class="project-highlights">
-                <h4>Project Highlights:</h4>
-                <ul>
-                  <li>Design assistance from photos and measurements</li>
-                  <li>Custom patina color matching</li>
-                  <li>Technical calculations for proper drafting</li>
-                  <li>Multiple caps for French Country architecture</li>
-                  <li>Ahead-of-schedule delivery</li>
-                  <li>Excellent crating and packaging</li>
-                </ul>
-              </div>
             </div>
           </article>
 
           <!-- Project 3: North Carolina -->
-          <article class="portfolio-project" id="nc-project">
+          <article class="project-card" id="nc-project">
             <div class="project-image">
-              <img src="images/chimney-caps/nc-custom-cap.jpg" alt="Custom copper chimney cap North Carolina" loading="lazy" width="600" height="400">
+              <picture>
+                <source srcset="images-optimized/chimney-caps/featured/custom-cap-1.webp" type="image/webp">
+                <source srcset="images-optimized/chimney-caps/featured/custom-cap-1.jpg" type="image/jpeg">
+                <img src="images-optimized/chimney-caps/featured/custom-cap-1.jpg" alt="Custom copper chimney cap North Carolina" loading="lazy" width="1200" height="900">
+              </picture>
             </div>
-            <div class="project-details">
+            <div class="project-content">
               <span class="project-category">Chimney Caps</span>
-              <h3 class="project-name">Custom Residential Chimney Cap</h3>
+              <h3 class="project-title">Custom Residential Chimney Cap</h3>
               <p class="project-location">North Carolina</p>
-              <p class="project-description">Precision-crafted copper chimney cap designed for long-distance client project. Artistic craftsmanship and consistent communication throughout the process resulted in exceptional aesthetic appeal that stands out in the neighborhood.</p>
-
-              <blockquote class="project-testimonial">
-                <p>"We have the best-looking chimney cap in town! Ray and Natalie are true artists. The quality of the crate construction alone showed their attention to detail. Communication was consistent throughout, and we couldn't be happier with our purchase."</p>
-                <footer>
-                  <strong>Sarah P.</strong>
-                  <span>North Carolina</span>
-                  <span class="project-date">May 2021</span>
-                </footer>
+              <p>Precision-crafted copper chimney cap with artistic craftsmanship and consistent communication throughout. Exceptional aesthetic appeal with high-quality custom crating.</p>
+              <blockquote class="project-quote">
+                "We have the best-looking chimney cap in town! Ray and Natalie are true artists. Communication was consistent throughout."
+                <cite>— Sarah P., North Carolina</cite>
               </blockquote>
-
-              <div class="project-highlights">
-                <h4>Project Highlights:</h4>
-                <ul>
-                  <li>Artistic craftsmanship and attention to detail</li>
-                  <li>Consistent communication throughout project</li>
-                  <li>High-quality custom wood crating</li>
-                  <li>Exceptional aesthetic appeal</li>
-                  <li>Nationwide shipping to North Carolina</li>
-                </ul>
-              </div>
             </div>
           </article>
 
           <!-- Project 4: Tulsa -->
-          <article class="portfolio-project" id="tulsa-project">
+          <article class="project-card" id="tulsa-project">
             <div class="project-image">
-              <img src="images/architectural/mid-continent-tower.jpg" alt="Mid-Continent Tower Tulsa copper restoration commercial project" loading="lazy" width="600" height="400">
+              <picture>
+                <source srcset="images-optimized/architectural/featured/custom-metalwork-1.webp" type="image/webp">
+                <source srcset="images-optimized/architectural/featured/custom-metalwork-1.jpg" type="image/jpeg">
+                <img src="images-optimized/architectural/featured/custom-metalwork-1.jpg" alt="Mid-Continent Tower Tulsa copper restoration" loading="lazy" width="1200" height="900">
+              </picture>
             </div>
-            <div class="project-details">
+            <div class="project-content">
               <span class="project-category">Commercial Restoration</span>
-              <h3 class="project-name">Mid-Continent Tower Restoration</h3>
+              <h3 class="project-title">Mid-Continent Tower Restoration</h3>
               <p class="project-location">Tulsa, OK</p>
-              <p class="project-description">Commercial copper restoration on historic Tulsa landmark building. Demonstrates our capability to handle large-scale commercial projects while maintaining the precision and quality standards that define our residential work. This prestigious project showcases our expertise in architectural copper work for institutional and commercial clients.</p>
-
-              <div class="project-highlights">
-                <h4>Project Highlights:</h4>
-                <ul>
-                  <li>Historic landmark restoration</li>
-                  <li>Commercial-scale copper fabrication</li>
-                  <li>Architectural metalwork for high-rise building</li>
-                  <li>Professional and institutional client experience</li>
-                  <li>Notable Tulsa landmark project</li>
-                </ul>
-              </div>
+              <p>Commercial copper restoration on historic Tulsa landmark. Large-scale commercial copper fabrication demonstrating our capability for institutional and commercial clients.</p>
             </div>
           </article>
 
@@ -227,39 +230,50 @@
       </div>
     </section>
 
-    <section class="section-padding bg-light">
-      <div class="container-narrow">
-        <h2 class="section-title centered">Project Categories</h2>
+    <!-- Services Overview Section -->
+    <section class="section-padding">
+      <div class="container">
+        <h2 class="section-title centered">Explore Our Services</h2>
+        <p class="section-intro centered">From chimney caps to full copper roofing—discover what we can create for your property.</p>
 
-        <div class="categories-grid">
-          <div class="category-card">
-            <h3>Chimney Caps & Tops</h3>
-            <p>Custom copper chimney caps in every style and configuration, from simple single-flue caps to elaborate French curve designs.</p>
-            <a href="services/chimney-caps.html" class="btn btn-tertiary">View Chimney Cap Services →</a>
-          </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-content">
+              <h3 class="service-title">Chimney Caps & Tops</h3>
+              <p class="service-description">Custom copper chimney caps in every style and configuration, from simple single-flue caps to elaborate French curve designs.</p>
+              <a href="services/chimney-caps.html" class="btn btn-secondary">View Chimney Cap Services →</a>
+            </div>
+          </article>
 
-          <div class="category-card">
-            <h3>Flashing & Weatherproofing</h3>
-            <p>Expert flashing solutions for through-wall, chimney, bay window, and complex architectural applications.</p>
-            <a href="services/flashing.html" class="btn btn-tertiary">View Flashing Services →</a>
-          </div>
+          <article class="service-card">
+            <div class="service-content">
+              <h3 class="service-title">Flashing & Weatherproofing</h3>
+              <p class="service-description">Expert flashing solutions for through-wall, chimney, bay window, and complex architectural applications.</p>
+              <a href="services/flashing.html" class="btn btn-secondary">View Flashing Services →</a>
+            </div>
+          </article>
 
-          <div class="category-card">
-            <h3>Roofing & Gutters</h3>
-            <p>Copper roofing for turrets, dormers, and full roof systems. Concealed gutters, rain chains, and architectural details.</p>
-            <a href="services/roofing-gutters.html" class="btn btn-tertiary">View Roofing Services →</a>
-          </div>
+          <article class="service-card">
+            <div class="service-content">
+              <h3 class="service-title">Roofing & Gutters</h3>
+              <p class="service-description">Copper roofing for turrets, dormers, and full roof systems. Concealed gutters, rain chains, and architectural details.</p>
+              <a href="services/roofing-gutters.html" class="btn btn-secondary">View Roofing Services →</a>
+            </div>
+          </article>
 
-          <div class="category-card">
-            <h3>Custom Metalwork</h3>
-            <p>Unique architectural elements including cupolas, finials, awnings, louvers, and specialty fabrication.</p>
-            <a href="services/custom-metalwork.html" class="btn btn-tertiary">View Custom Services →</a>
-          </div>
+          <article class="service-card">
+            <div class="service-content">
+              <h3 class="service-title">Custom Metalwork</h3>
+              <p class="service-description">Unique architectural elements including cupolas, finials, awnings, louvers, and specialty fabrication.</p>
+              <a href="services/custom-metalwork.html" class="btn btn-secondary">View Custom Services →</a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="final-cta section-padding">
+    <!-- Final CTA Section -->
+    <section class="final-cta section-padding bg-light">
       <div class="container-narrow centered">
         <h2 class="cta-title">Ready to Start Your Custom Metalwork Project?</h2>
         <p class="cta-description">Let's create something exceptional together. From initial consultation to final installation, we'll guide you through every step of the process.</p>
@@ -267,7 +281,7 @@
           <a href="contact.html#quote-form" class="btn btn-primary btn-lg">Request a Free Quote</a>
           <a href="tel:+14799573794" class="btn btn-secondary btn-lg">Call (479) 957-3794</a>
         </div>
-        <p class="cta-subtext">Serving Arkansas, Oklahoma, Missouri, Kansas, and nationwide shipping available.</p>
+        <p class="cta-subtext">Serving Arkansas, Oklahoma, Missouri, Kansas • Nationwide shipping available</p>
       </div>
     </section>
 

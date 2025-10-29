@@ -1,0 +1,315 @@
+/*
+ * Water Ways Sheet Metal - Conversion Enhancement Styles
+ * Created: 2025-10-28
+ * Pattern: Pattern-CONTEXT-002
+ *
+ * Styles for problem-focused, emotionally compelling conversion funnel
+ */
+
+/* ============================================================
+ * HEADER ENHANCEMENTS
+ * ============================================================ */
+
+/* Phone number in header */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.nav-phone {
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-copper-primary);
+  font-size: var(--font-size-md);
+  white-space: nowrap;
+  transition: var(--transition-colors);
+}
+
+.nav-phone:hover {
+  color: var(--color-copper-dark);
+  text-decoration: none;
+}
+
+/* ============================================================
+ * HERO SECTION IMPROVEMENTS
+ * ============================================================ */
+
+/* Hero eyebrow text */
+.hero-eyebrow {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-copper-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-sm);
+}
+
+/* Hero value props */
+.hero-value-props {
+  margin: var(--space-xl) 0;
+}
+
+.value-prop {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+
+.value-icon {
+  flex-shrink: 0;
+  color: var(--color-copper-primary);
+}
+
+.value-prop span {
+  font-size: var(--font-size-md);
+  color: var(--color-text-primary);
+}
+
+/* Hero trust line */
+.hero-trust {
+  margin-top: var(--space-lg);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: 0;
+}
+
+/* Hero image badge */
+.hero-image {
+  position: relative;
+}
+
+.hero-image-badge {
+  position: absolute;
+  bottom: var(--space-lg);
+  right: var(--space-lg);
+  background-color: var(--color-copper-primary);
+  color: white;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-sm);
+  box-shadow: var(--shadow-lg);
+}
+
+/* ============================================================
+ * SERVICE CARD ENHANCEMENTS
+ * ============================================================ */
+
+/* Service problem callout */
+.service-problem {
+  display: inline-block;
+  background-color: #FEF3E2;
+  color: #D97706;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--space-md);
+}
+
+/* Service solution highlight */
+.service-solution {
+  background-color: #F0F9FF;
+  border-left: 3px solid var(--color-copper-primary);
+  padding: var(--space-md);
+  margin: var(--space-md) 0;
+  font-size: var(--font-size-sm);
+}
+
+/* Service benefits list */
+.service-benefits {
+  list-style: none;
+  margin: var(--space-lg) 0;
+}
+
+.service-benefits li {
+  padding-left: 0;
+  margin-bottom: var(--space-sm);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-relaxed);
+}
+
+.service-benefits li::before {
+  content: none;
+}
+
+/* Service CTA group */
+.service-cta-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+}
+
+/* ============================================================
+ * URGENCY BANNER
+ * ============================================================ */
+
+.urgency-banner {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  color: white;
+  padding: var(--space-xl) 0;
+}
+
+.urgency-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-md);
+}
+
+.urgency-icon {
+  font-size: var(--font-size-3xl);
+}
+
+.urgency-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.urgency-text strong {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+}
+
+.urgency-text span {
+  font-size: var(--font-size-sm);
+  opacity: 0.9;
+}
+
+/* ============================================================
+ * TESTIMONIAL ENHANCEMENTS
+ * ============================================================ */
+
+.testimonial-rating {
+  color: #FCD34D;
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--space-sm);
+}
+
+.testimonial-result {
+  display: block;
+  margin-top: var(--space-xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-copper-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* ============================================================
+ * FINAL CTA ENHANCEMENTS
+ * ============================================================ */
+
+.cta-eyebrow {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-copper-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-sm);
+}
+
+/* Guarantee badges */
+.cta-guarantees {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--space-lg);
+  margin: var(--space-2xl) 0;
+  padding: var(--space-xl) 0;
+  border-top: 1px solid var(--color-border-light);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.guarantee-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-sm);
+}
+
+.guarantee-badge svg {
+  margin-bottom: var(--space-sm);
+}
+
+.guarantee-badge strong {
+  font-size: var(--font-size-md);
+  color: var(--color-text-primary);
+  display: block;
+}
+
+.guarantee-badge span {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+/* Trust signals */
+.cta-trust-signals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-lg);
+  margin: var(--space-xl) 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.cta-trust-signals span {
+  white-space: nowrap;
+}
+
+/* Urgency message */
+.cta-urgency {
+  margin-top: var(--space-xl);
+  padding: var(--space-md) var(--space-lg);
+  background-color: #FEF3E2;
+  border-left: 4px solid var(--color-copper-primary);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-sm);
+}
+
+/* ============================================================
+ * RESPONSIVE BREAKPOINTS
+ * ============================================================ */
+
+/* Tablet: 768px and up */
+@media (min-width: 768px) {
+  .hero-cta {
+    flex-direction: row;
+  }
+
+  .service-cta-group {
+    flex-direction: row;
+  }
+
+  .urgency-content {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .urgency-text {
+    flex: 1;
+  }
+}
+
+/* Desktop: 1024px and up */
+@media (min-width: 1024px) {
+  .nav-phone {
+    font-size: var(--font-size-base);
+  }
+
+  .hero-eyebrow {
+    font-size: var(--font-size-base);
+  }
+
+  .hero-title {
+    font-size: var(--font-size-4xl);
+  }
+
+  .service-cta-group {
+    gap: var(--space-md);
+  }
+}

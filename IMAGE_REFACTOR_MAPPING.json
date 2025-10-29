@@ -1,0 +1,668 @@
+{
+  "summary": {
+    "original_files": 184,
+    "unique_images": 102,
+    "deleted_duplicates": 50,
+    "kept_files": 101
+  },
+  "kept_files": [
+    {
+      "path": "branding\\P7260047-ray-annealing-2493.jpg",
+      "filename": "P7260047-ray-annealing-2493.jpg",
+      "size": 14450,
+      "hash": "20fcd53286d804ec15f3bea4395b8ccd"
+    },
+    {
+      "path": "branding\\P7260051-natalie-hammering-2491.jpg",
+      "filename": "P7260051-natalie-hammering-2491.jpg",
+      "size": 15262,
+      "hash": "893e21d280b67791deebec986b8e3c25"
+    },
+    {
+      "path": "branding\\P8270016-natalie-shear-2491.jpg",
+      "filename": "P8270016-natalie-shear-2491.jpg",
+      "size": 14074,
+      "hash": "cbd12d47c1c6b2fc2b3cad42ce5a9f90"
+    },
+    {
+      "path": "architectural\\custom-metalwork-1.jpg",
+      "filename": "custom-metalwork-1.jpg",
+      "size": 332301,
+      "hash": "3508d735b0fc7b259f829343a35a9606"
+    },
+    {
+      "path": "architectural\\pa220068.jpg",
+      "filename": "pa220068.jpg",
+      "size": 683724,
+      "hash": "4154a191a466510805bb9c4e4cd5f58c"
+    },
+    {
+      "path": "branding\\Waterways-Logo-Header-Transparent.png",
+      "filename": "Waterways-Logo-Header-Transparent.png",
+      "size": 48575,
+      "hash": "7f41990c9d8ef4017ac03958bdaeb8ff"
+    },
+    {
+      "path": "chimney-caps\\custom-cap-1.jpg",
+      "filename": "custom-cap-1.jpg",
+      "size": 409779,
+      "hash": "0e9f5ade7781cff422cc8556960e09d3"
+    },
+    {
+      "path": "chimney-caps\\ohio-french-caps.jpg",
+      "filename": "ohio-french-caps.jpg",
+      "size": 275985,
+      "hash": "5bb7d8595e93aa902d9f2b94269b8044"
+    },
+    {
+      "path": "chimney-caps\\chimney-pots\\055217-r1-11a-octagon-installed-249.jpg",
+      "filename": "055217-r1-11a-octagon-installed-249.jpg",
+      "size": 5631,
+      "hash": "c5f909e01f53ea199afba5ddf4be245c"
+    },
+    {
+      "path": "chimney-caps\\chimney-pots\\740209-r1-18-octagon-installing-249.jpg",
+      "filename": "740209-r1-18-octagon-installing-249.jpg",
+      "size": 6006,
+      "hash": "f459a00a6a5a6424399af37881eec263"
+    },
+    {
+      "path": "chimney-caps\\main\\img_1987-001.jpg",
+      "filename": "img_1987-001.jpg",
+      "size": 215263,
+      "hash": "5c61053d51b59d9741e11171e36ce373"
+    },
+    {
+      "path": "chimney-caps\\main\\img_2005.jpg",
+      "filename": "img_2005.jpg",
+      "size": 223824,
+      "hash": "e4a36e184a7cc79099233f7b09b14138"
+    },
+    {
+      "path": "chimney-caps\\main\\img_2057_lightened.jpg",
+      "filename": "img_2057_lightened.jpg",
+      "size": 1519116,
+      "hash": "1456921fe640408d07e99617d8a84a7b"
+    },
+    {
+      "path": "chimney-caps\\main\\img_2060.jpg",
+      "filename": "img_2060.jpg",
+      "size": 242644,
+      "hash": "7a65ed64642f1b971127ff86db78f0b8"
+    },
+    {
+      "path": "chimney-caps\\main\\img_2066.jpg",
+      "filename": "img_2066.jpg",
+      "size": 203141,
+      "hash": "45a729f5ea34208bc971d7c785920db0"
+    },
+    {
+      "path": "chimney-caps\\main\\img_2178.jpg",
+      "filename": "img_2178.jpg",
+      "size": 224646,
+      "hash": "a3903282a70404bed9061fe057b849ac"
+    },
+    {
+      "path": "chimney-caps\\main\\img_2229.jpg",
+      "filename": "img_2229.jpg",
+      "size": 354078,
+      "hash": "e8451edfadc8936eb023a99ae267e8e6"
+    },
+    {
+      "path": "chimney-caps\\main\\img_2270.jpg",
+      "filename": "img_2270.jpg",
+      "size": 278619,
+      "hash": "0e07c75b0065a7b6a762e4ca88970872"
+    },
+    {
+      "path": "chimney-caps\\main\\p3140071.jpg",
+      "filename": "p3140071.jpg",
+      "size": 280065,
+      "hash": "412c9eba43c1d65a73c451ae7e3d5286"
+    },
+    {
+      "path": "chimney-caps\\main\\p3140073.jpg",
+      "filename": "p3140073.jpg",
+      "size": 284006,
+      "hash": "a786769736138ffced516490ac74b124"
+    },
+    {
+      "path": "chimney-caps\\main\\p9010169.jpg",
+      "filename": "p9010169.jpg",
+      "size": 386976,
+      "hash": "1e182b509b8cdbfeded4f15cd2dfb49f"
+    },
+    {
+      "path": "chimney-caps\\main\\p9010172.jpg",
+      "filename": "p9010172.jpg",
+      "size": 261439,
+      "hash": "bc00673fdfc7991a9d6f4ffa44860859"
+    },
+    {
+      "path": "chimney-caps\\main\\pb150130.jpg",
+      "filename": "pb150130.jpg",
+      "size": 157552,
+      "hash": "0fa519b574e7371761164ec3c16c93a3"
+    },
+    {
+      "path": "chimney-caps\\main\\wsm_0611-029.jpg",
+      "filename": "wsm_0611-029.jpg",
+      "size": 680055,
+      "hash": "fe2e86bcd5a7b5538d0484afc6dcb08b"
+    },
+    {
+      "path": "chimney-caps\\main\\wsm_0611-032.jpg",
+      "filename": "wsm_0611-032.jpg",
+      "size": 645025,
+      "hash": "e829507ae840437cc9c6797f4f4d7c96"
+    },
+    {
+      "path": "chimney-caps\\main\\wsm_0611-040.jpg",
+      "filename": "wsm_0611-040.jpg",
+      "size": 713843,
+      "hash": "c776247b2802e2e6fc21416ef4d7fc84"
+    },
+    {
+      "path": "chimney-caps\\main\\wsm_0611-195.jpg",
+      "filename": "wsm_0611-195.jpg",
+      "size": 595204,
+      "hash": "bf20f33b0e1a16145b00593bd697d432"
+    },
+    {
+      "path": "chimney-caps\\ohio-project\\IMG_1447-cropped.JPG",
+      "filename": "IMG_1447-cropped.JPG",
+      "size": 472984,
+      "hash": "5581daafe4699a0f7a4a235f7ce5c286"
+    },
+    {
+      "path": "chimney-caps\\ohio-project\\IMG_1451-cropped.JPG",
+      "filename": "IMG_1451-cropped.JPG",
+      "size": 561536,
+      "hash": "d53cd3dc2762716de84821a163d55ab9"
+    },
+    {
+      "path": "chimney-caps\\ohio-project\\IMG_1454-cropped.JPG",
+      "filename": "IMG_1454-cropped.JPG",
+      "size": 342950,
+      "hash": "b94b879c774861d32ab8f56396d3fcfa"
+    },
+    {
+      "path": "chimney-caps\\ohio-project\\IMG_1457.JPG",
+      "filename": "IMG_1457.JPG",
+      "size": 636701,
+      "hash": "3fcb6a58b88587f73dc7a87332002194"
+    },
+    {
+      "path": "chimney-caps\\pinion-review\\IMG_0696-cropped.JPG",
+      "filename": "IMG_0696-cropped.JPG",
+      "size": 603004,
+      "hash": "9a56973563c9b6f2a3e061f59a4a081b"
+    },
+    {
+      "path": "chimney-caps\\pinion-review\\IMG_0837-cropped.JPG",
+      "filename": "IMG_0837-cropped.JPG",
+      "size": 615174,
+      "hash": "7ce90fa9ee7e9650e004fbccda2002b5"
+    },
+    {
+      "path": "chimney-caps\\pinion-review\\IMG_0839.JPG",
+      "filename": "IMG_0839.JPG",
+      "size": 377632,
+      "hash": "a255365e670650c290be8c18677b906e"
+    },
+    {
+      "path": "chimney-caps\\pinion-review\\IMG_0840.JPG",
+      "filename": "IMG_0840.JPG",
+      "size": 660866,
+      "hash": "69e77495429cf4a7c192f3613842f19e"
+    },
+    {
+      "path": "chimney-caps\\pinion-review\\IMG_0843.JPG",
+      "filename": "IMG_0843.JPG",
+      "size": 662262,
+      "hash": "323f61a501255e30745e338f0ea8047e"
+    },
+    {
+      "path": "flashing\\copper-roof-on-turret-1.png",
+      "filename": "copper-roof-on-turret-1.png",
+      "size": 948067,
+      "hash": "e0c66cd0257150f3d513f97e91540ba6"
+    },
+    {
+      "path": "gutters\\p4170196.jpg",
+      "filename": "p4170196.jpg",
+      "size": 210361,
+      "hash": "9e76171b46c83561828c75dc89ed3726"
+    },
+    {
+      "path": "roofing\\copper-roof-1.jpg",
+      "filename": "copper-roof-1.jpg",
+      "size": 252687,
+      "hash": "a565680b2854171d2ba0ec2000381af8"
+    },
+    {
+      "path": "flashing\\p7230035.jpg",
+      "filename": "p7230035.jpg",
+      "size": 698891,
+      "hash": "e3014fe26df86f5f34d8c78aceb28868"
+    },
+    {
+      "path": "interior\\p8120302.jpg",
+      "filename": "p8120302.jpg",
+      "size": 234429,
+      "hash": "c1682474fb925442cb9587e0ced9fce3"
+    },
+    {
+      "path": "flashing\\p8160051.jpg",
+      "filename": "p8160051.jpg",
+      "size": 384043,
+      "hash": "1cd2eb27919ca5b37e4a959b0c2e172a"
+    },
+    {
+      "path": "interior\\p8180332.jpg",
+      "filename": "p8180332.jpg",
+      "size": 339315,
+      "hash": "7fe3b4d65083b6858d1e5feff505f22f"
+    },
+    {
+      "path": "flashing\\p9240265_0.jpg",
+      "filename": "p9240265_0.jpg",
+      "size": 332502,
+      "hash": "21273e087414ded7bcf87b246eac991b"
+    },
+    {
+      "path": "flashing\\pa250018.jpg",
+      "filename": "pa250018.jpg",
+      "size": 683101,
+      "hash": "d2fd196a3e288e3914348e748c8fd515"
+    },
+    {
+      "path": "flashing\\pa260065.jpg",
+      "filename": "pa260065.jpg",
+      "size": 403050,
+      "hash": "917df9e07414a6f3b4aa20fe2eaf8ace"
+    },
+    {
+      "path": "flashing\\copper-flashing-1.jpg",
+      "filename": "copper-flashing-1.jpg",
+      "size": 541836,
+      "hash": "a625a13cf4cfb19f7b43a968ac9546ae"
+    },
+    {
+      "path": "flashing\\pb190468.jpg",
+      "filename": "pb190468.jpg",
+      "size": 340403,
+      "hash": "e16a247a79ea161ed85f1cc24f529229"
+    },
+    {
+      "path": "interior\\pc030042.jpg",
+      "filename": "pc030042.jpg",
+      "size": 678040,
+      "hash": "adf058536700f98c5e0ad05f7f56f1c5"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\a01-prefabtopforbaywindow-framedinshop_wtwf.jpg",
+      "filename": "a01-prefabtopforbaywindow-framedinshop_wtwf.jpg",
+      "size": 638214,
+      "hash": "a433e681f9b506cb4e00b014bce54d6e"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\a02-topforbaywindow-framedandflashed_wtwf-readytoinstall.jpg",
+      "filename": "a02-topforbaywindow-framedandflashed_wtwf-readytoinstall.jpg",
+      "size": 641812,
+      "hash": "2537ef5aa3c0a80fa2f185dd40a2048e"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\a03-baywindowinstalled_wsidetwfandheadertwf.jpg",
+      "filename": "a03-baywindowinstalled_wsidetwfandheadertwf.jpg",
+      "size": 673243,
+      "hash": "d34ac04897e9e3566a81a748f48991b1"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\a04-topviewofbaywindow_wtwfandunderlayment.jpg",
+      "filename": "a04-topviewofbaywindow_wtwfandunderlayment.jpg",
+      "size": 695594,
+      "hash": "c9af64c364eef3463aab0bada2ad31a8"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\a05-anotherviewofcurvedbaywindowtwf.jpg",
+      "filename": "a05-anotherviewofcurvedbaywindowtwf.jpg",
+      "size": 677860,
+      "hash": "24c7ec9c8c767f269f4f497e05c3bdea"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\a06-detailofbaywindowtwf_preparedfor5inchmasonry.jpg",
+      "filename": "a06-detailofbaywindowtwf_preparedfor5inchmasonry.jpg",
+      "size": 721929,
+      "hash": "4d4e4af38a1c72e50004299f0ae1f619"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\a07-howtwf_moveswateroutsidethehouse.jpg",
+      "filename": "a07-howtwf_moveswateroutsidethehouse.jpg",
+      "size": 651542,
+      "hash": "8dc4248dcfc4ed41b3d440a08a2e66d6"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\a08-curvedcoppertopbaywindowafterstonemasonrylaidovertwf.jpg",
+      "filename": "a08-curvedcoppertopbaywindowafterstonemasonrylaidovertwf.jpg",
+      "size": 669639,
+      "hash": "7dcbf4798d6865a27f38518d902759a1"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\a09-curvedcoppertopbaywindow_wtwf_inmasonry.jpg",
+      "filename": "a09-curvedcoppertopbaywindow_wtwf_inmasonry.jpg",
+      "size": 717691,
+      "hash": "bc5a4bcebfc7980e999b3e968a483d7a"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\b00-eleganthomeincludesmanycopperaccents.jpg",
+      "filename": "b00-eleganthomeincludesmanycopperaccents.jpg",
+      "size": 600029,
+      "hash": "471db760d47cf4ec831247bfc90786c6"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\b01-curvedcoppertopbaywindowfeaturedineleganthome.jpg",
+      "filename": "b01-curvedcoppertopbaywindowfeaturedineleganthome.jpg",
+      "size": 645402,
+      "hash": "3a28369dc7bdb1e4914d24a2f8463eb7"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\b07-baywindow_wtwf_showing6inchheaderlintel.jpg",
+      "filename": "b07-baywindow_wtwf_showing6inchheaderlintel.jpg",
+      "size": 684166,
+      "hash": "30623891c7484399fb5c0afe8b495402"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\b08-closeupofbaywindow_wtwf_showingheaderlintel.jpg",
+      "filename": "b08-closeupofbaywindow_wtwf_showingheaderlintel.jpg",
+      "size": 576025,
+      "hash": "997a1049a4d4ac5af1a6adc228f40465"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\b10-baywindowwithmasonryworkinprogress.jpg",
+      "filename": "b10-baywindowwithmasonryworkinprogress.jpg",
+      "size": 659767,
+      "hash": "a517cae6644810f3022716c6db7a4983"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\b11-curvedbaywindow_wtwfwhilestoneislaid.jpg",
+      "filename": "b11-curvedbaywindow_wtwfwhilestoneislaid.jpg",
+      "size": 674801,
+      "hash": "267e42abf1e564857af15e22110fe118"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\b12-installingcopperpanelsbeforeaddingpatina.jpg",
+      "filename": "b12-installingcopperpanelsbeforeaddingpatina.jpg",
+      "size": 671697,
+      "hash": "ff66e6327c066aa5df24a6ceb483428e"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\b13-closeupofcopperbaywindowtop_wtwf_aftermasonry.jpg",
+      "filename": "b13-closeupofcopperbaywindowtop_wtwf_aftermasonry.jpg",
+      "size": 703484,
+      "hash": "cd89112372743194f293a62bb7c8a935"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\b14-finishedcopperbaywindowtop_wpatina_usingtwfinmasonry.jpg",
+      "filename": "b14-finishedcopperbaywindowtop_wpatina_usingtwfinmasonry.jpg",
+      "size": 612656,
+      "hash": "a7836dc6ddccde85e30af1706f2f36de"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\b19-finishedbaywindowinhousebeforewindowsorlandscaping.jpg",
+      "filename": "b19-finishedbaywindowinhousebeforewindowsorlandscaping.jpg",
+      "size": 612696,
+      "hash": "19143b017a47773c2a2c7c12cb6c8927"
+    },
+    {
+      "path": "flashing\\bay-window-twf\\b20-finishedhousefeaturingcurvedcoppertopbaywindow.jpg",
+      "filename": "b20-finishedhousefeaturingcurvedcoppertopbaywindow.jpg",
+      "size": 609199,
+      "hash": "1f0c32b50077d44db486b0b148ae8308"
+    },
+    {
+      "path": "flashing\\main\\413730-r1-23.jpg",
+      "filename": "413730-r1-23.jpg",
+      "size": 3656354,
+      "hash": "040cacce27ea9393ff819956602a7c1c"
+    },
+    {
+      "path": "flashing\\main\\p1010195.jpg",
+      "filename": "p1010195.jpg",
+      "size": 354062,
+      "hash": "c44fad796b28a279a3ed7c3d8868606d"
+    },
+    {
+      "path": "flashing\\main\\p1060001.jpg",
+      "filename": "p1060001.jpg",
+      "size": 452742,
+      "hash": "4ef54f3b6782226da470fd84458e1b86"
+    },
+    {
+      "path": "flashing\\main\\p1140071.jpg",
+      "filename": "p1140071.jpg",
+      "size": 289335,
+      "hash": "edfef172cde819d1e85472110ceaf3c8"
+    },
+    {
+      "path": "flashing\\main\\p1140081.jpg",
+      "filename": "p1140081.jpg",
+      "size": 368743,
+      "hash": "330902afcda46e3d9a241b1aa00b51b6"
+    },
+    {
+      "path": "flashing\\main\\p2050132.jpg",
+      "filename": "p2050132.jpg",
+      "size": 327125,
+      "hash": "0198b77e7a876427a29cfd3745bb051c"
+    },
+    {
+      "path": "flashing\\main\\p2080162.jpg",
+      "filename": "p2080162.jpg",
+      "size": 680081,
+      "hash": "5b683c56fff25a570c788ea99c1ecf3a"
+    },
+    {
+      "path": "flashing\\main\\p8170293.jpg",
+      "filename": "p8170293.jpg",
+      "size": 642574,
+      "hash": "c1769710516f732f3e8d38ed4cf54c3f"
+    },
+    {
+      "path": "flashing\\main\\p8290125.jpg",
+      "filename": "p8290125.jpg",
+      "size": 364840,
+      "hash": "8edebdadd93fab85bf63f2f91b477f7a"
+    },
+    {
+      "path": "flashing\\main\\p9180277.jpg",
+      "filename": "p9180277.jpg",
+      "size": 194687,
+      "hash": "02fe515f49746114b80a829569ac2530"
+    },
+    {
+      "path": "flashing\\main\\p9180282.jpg",
+      "filename": "p9180282.jpg",
+      "size": 296131,
+      "hash": "b75fcc44a5acd13b21c8079b90357b86"
+    },
+    {
+      "path": "flashing\\main\\p9210105.jpg",
+      "filename": "p9210105.jpg",
+      "size": 247718,
+      "hash": "e70424957431a1543a8ab7e2e9f6a018"
+    },
+    {
+      "path": "flashing\\main\\p9240265.jpg",
+      "filename": "p9240265.jpg",
+      "size": 332502,
+      "hash": "de3e2fb9113241a65fa7088e6a30312f"
+    },
+    {
+      "path": "flashing\\main\\pa030114.jpg",
+      "filename": "pa030114.jpg",
+      "size": 274044,
+      "hash": "62fa0a6509bf8060b09bf939aeeb8167"
+    },
+    {
+      "path": "flashing\\main\\pa260061.jpg",
+      "filename": "pa260061.jpg",
+      "size": 408460,
+      "hash": "d1a17eb41d0136405d41c5f46423efac"
+    },
+    {
+      "path": "flashing\\main\\pa260065.jpg",
+      "filename": "pa260065.jpg",
+      "size": 667091,
+      "hash": "ffa54f074813cc7bcd525018e85fe900"
+    },
+    {
+      "path": "flashing\\main\\pa260074.jpg",
+      "filename": "pa260074.jpg",
+      "size": 677377,
+      "hash": "02341a945f6e6d423198689fbc2f3cd4"
+    },
+    {
+      "path": "flashing\\main\\pb110271.jpg",
+      "filename": "pb110271.jpg",
+      "size": 701932,
+      "hash": "0bef47a37514ad4ac8112747bd433b01"
+    },
+    {
+      "path": "flashing\\main\\pb190444.jpg",
+      "filename": "pb190444.jpg",
+      "size": 733911,
+      "hash": "6b1cf76f33322a7056ab8152e655ab0e"
+    },
+    {
+      "path": "flashing\\main\\pb190468.jpg",
+      "filename": "pb190468.jpg",
+      "size": 657933,
+      "hash": "7d5b467b7e7bdf11571646f7b3bceb54"
+    },
+    {
+      "path": "heroes\\P2240125_999x1302-230x300.jpg",
+      "filename": "P2240125_999x1302-230x300.jpg",
+      "size": 27320,
+      "hash": "6bd219e5e11564d750b9726dbf58b5f2"
+    },
+    {
+      "path": "heroes\\P8150041_straighter.jpg",
+      "filename": "P8150041_straighter.jpg",
+      "size": 1713019,
+      "hash": "42b19b234e201c130744964d7accece1"
+    },
+    {
+      "path": "heroes\\P9220010-half-round-2491.jpg",
+      "filename": "P9220010-half-round-2491.jpg",
+      "size": 5932,
+      "hash": "a15ce719ac4deb539d916541e9e15d4b"
+    },
+    {
+      "path": "our-work\\awnings\\p1010459.jpg",
+      "filename": "p1010459.jpg",
+      "size": 680538,
+      "hash": "ec2060b8a48e2b26d02c2e7781a0d490"
+    },
+    {
+      "path": "our-work\\awnings\\p6150203.jpg",
+      "filename": "p6150203.jpg",
+      "size": 620351,
+      "hash": "c3cc2593fe409cb4a16f59c1fa254876"
+    },
+    {
+      "path": "our-work\\awnings\\p6150207.jpg",
+      "filename": "p6150207.jpg",
+      "size": 692437,
+      "hash": "169fd2917d2ef42fa0d6f3cace95eb16"
+    },
+    {
+      "path": "our-work\\awnings\\p6150211.jpg",
+      "filename": "p6150211.jpg",
+      "size": 657514,
+      "hash": "7c7501d75729a39d1098214838095f43"
+    },
+    {
+      "path": "our-work\\awnings\\p6150212.jpg",
+      "filename": "p6150212.jpg",
+      "size": 656431,
+      "hash": "f97ac53eef1763040d8a5dc8e6af4092"
+    },
+    {
+      "path": "our-work\\awnings\\p6150215.jpg",
+      "filename": "p6150215.jpg",
+      "size": 679201,
+      "hash": "5549effefffec97c49ddf84d3aab913d"
+    },
+    {
+      "path": "reviews\\Paul-Meschke-1018x460-1-scaled-1.jpg",
+      "filename": "Paul-Meschke-1018x460-1-scaled-1.jpg",
+      "size": 360546,
+      "hash": "5685aae394d710b0ce014863b73174df"
+    },
+    {
+      "path": "reviews\\Review_Sarah_chimney_cap_cropped_2-3.jpg",
+      "filename": "Review_Sarah_chimney_cap_cropped_2-3.jpg",
+      "size": 80955,
+      "hash": "fbc2b74b25f05c98ebdbeaa4fa5c7f61"
+    },
+    {
+      "path": "reviews\\Zupan-Chimney-Caps-closeup.jpg",
+      "filename": "Zupan-Chimney-Caps-closeup.jpg",
+      "size": 1099371,
+      "hash": "65bd88e22ebf5c7b16e0945a6fda9e98"
+    }
+  ],
+  "rename_map": {
+    "P7260047-ray-annealing-2493.jpg": "branding\\P7260047-ray-annealing-2493.jpg",
+    "P7260051-natalie-hammering-2491.jpg": "branding\\P7260051-natalie-hammering-2491.jpg",
+    "P8270016-natalie-shear-2491.jpg": "branding\\P8270016-natalie-shear-2491.jpg",
+    "architectural\\mid-continent-tower.jpg": "architectural\\custom-metalwork-1.jpg",
+    "architectural\\p7210424.jpg": "architectural\\custom-metalwork-1.jpg",
+    "downloads\\p7210424.jpg": "architectural\\custom-metalwork-1.jpg",
+    "hero\\p7210424.jpg": "architectural\\custom-metalwork-1.jpg",
+    "homepage-showcase\\p7210424.jpg": "architectural\\custom-metalwork-1.jpg",
+    "downloads\\pa220068.jpg": "architectural\\pa220068.jpg",
+    "homepage-showcase\\pa220068.jpg": "architectural\\pa220068.jpg",
+    "downloads\\Waterways-Logo-Header-Transparent.png": "branding\\Waterways-Logo-Header-Transparent.png",
+    "chimney-caps\\img_2252.jpg": "chimney-caps\\custom-cap-1.jpg",
+    "chimney-caps\\minnesota-shroud.jpg": "chimney-caps\\custom-cap-1.jpg",
+    "chimney-caps\\nc-custom-cap.jpg": "chimney-caps\\custom-cap-1.jpg",
+    "downloads\\img_2252.jpg": "chimney-caps\\custom-cap-1.jpg",
+    "homepage-showcase\\img_2252.jpg": "chimney-caps\\custom-cap-1.jpg",
+    "chimney-caps\\pa080064.jpg": "chimney-caps\\ohio-french-caps.jpg",
+    "downloads\\pa080064.jpg": "chimney-caps\\ohio-french-caps.jpg",
+    "hero\\copper-work-closeup.jpg": "chimney-caps\\ohio-french-caps.jpg",
+    "hero\\pa080064.jpg": "chimney-caps\\ohio-french-caps.jpg",
+    "homepage-showcase\\pa080064.jpg": "chimney-caps\\ohio-french-caps.jpg",
+    "downloads\\copper-roof-on-turret-1.png": "flashing\\copper-roof-on-turret-1.png",
+    "hero\\copper-roof-on-turret-1.png": "flashing\\copper-roof-on-turret-1.png",
+    "homepage-showcase\\copper-roof-on-turret-1.png": "flashing\\copper-roof-on-turret-1.png",
+    "downloads\\p4170196.jpg": "gutters\\p4170196.jpg",
+    "homepage-showcase\\p4170196.jpg": "gutters\\p4170196.jpg",
+    "downloads\\p7080090.jpg": "roofing\\copper-roof-1.jpg",
+    "homepage-showcase\\p7080090.jpg": "roofing\\copper-roof-1.jpg",
+    "roofing\\p7080090.jpg": "roofing\\copper-roof-1.jpg",
+    "downloads\\p7230035.jpg": "flashing\\p7230035.jpg",
+    "homepage-showcase\\p7230035.jpg": "flashing\\p7230035.jpg",
+    "downloads\\p8120302.jpg": "interior\\p8120302.jpg",
+    "homepage-showcase\\p8120302.jpg": "interior\\p8120302.jpg",
+    "downloads\\p8160051.jpg": "flashing\\p8160051.jpg",
+    "homepage-showcase\\p8160051.jpg": "flashing\\p8160051.jpg",
+    "downloads\\p8180332.jpg": "interior\\p8180332.jpg",
+    "homepage-showcase\\p8180332.jpg": "interior\\p8180332.jpg",
+    "downloads\\p9240265_0.jpg": "flashing\\p9240265_0.jpg",
+    "homepage-showcase\\p9240265_0.jpg": "flashing\\p9240265_0.jpg",
+    "downloads\\pa250018.jpg": "flashing\\pa250018.jpg",
+    "homepage-showcase\\pa250018.jpg": "flashing\\pa250018.jpg",
+    "downloads\\pa260065.jpg": "flashing\\pa260065.jpg",
+    "homepage-showcase\\pa260065.jpg": "flashing\\pa260065.jpg",
+    "downloads\\pb190444.jpg": "flashing\\copper-flashing-1.jpg",
+    "flashing\\pb190444.jpg": "flashing\\copper-flashing-1.jpg",
+    "homepage-showcase\\pb190444.jpg": "flashing\\copper-flashing-1.jpg",
+    "downloads\\pb190468.jpg": "flashing\\pb190468.jpg",
+    "homepage-showcase\\pb190468.jpg": "flashing\\pb190468.jpg",
+    "downloads\\pc030042.jpg": "interior\\pc030042.jpg",
+    "homepage-showcase\\pc030042.jpg": "interior\\pc030042.jpg"
+  }
+}

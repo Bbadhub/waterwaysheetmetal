@@ -1,0 +1,1265 @@
+================================================================================
+Water Ways Sheet Metal - Image Optimization
+Pattern-CONTEXT-002
+================================================================================
+
+Found 182 images to optimize
+Source directory: C:\Users\Brett\Dropbox\Ferret9 Global\Water Ways Sheet Metal\images
+Output directory: C:\Users\Brett\Dropbox\Ferret9 Global\Water Ways Sheet Metal\images-optimized
+
+[1/182] architectural\custom-metalwork-1.jpg
+  Source: 324.5 KB
+  OK hero: WebP 307.5 KB, JPEG 357.0 KB
+  OK featured: WebP 166.9 KB, JPEG 207.0 KB
+  OK thumbnail: WebP 44.2 KB, JPEG 54.8 KB
+  Stats: Avg per version: 189.6 KB (saved 41.6%)
+
+[2/182] architectural\mid-continent-tower.jpg
+  Source: 324.5 KB
+  OK hero: WebP 307.5 KB, JPEG 357.0 KB
+  OK featured: WebP 166.9 KB, JPEG 207.0 KB
+  OK thumbnail: WebP 44.2 KB, JPEG 54.8 KB
+  Stats: Avg per version: 189.6 KB (saved 41.6%)
+
+[3/182] architectural\p7210424.jpg
+  Source: 324.5 KB
+  OK hero: WebP 307.5 KB, JPEG 357.0 KB
+  OK featured: WebP 166.9 KB, JPEG 207.0 KB
+  OK thumbnail: WebP 44.2 KB, JPEG 54.8 KB
+  Stats: Avg per version: 189.6 KB (saved 41.6%)
+
+[4/182] architectural\pa220068.jpg
+  Source: 667.7 KB
+  OK hero: WebP 385.7 KB, JPEG 519.5 KB
+  OK featured: WebP 145.6 KB, JPEG 194.0 KB
+  OK thumbnail: WebP 32.8 KB, JPEG 45.8 KB
+  Stats: Avg per version: 220.5 KB (saved 67.0%)
+
+[5/182] branding\P7260047-ray-annealing-2493.jpg
+  Source: 14.1 KB
+  OK hero: WebP 13.6 KB, JPEG 15.1 KB
+  OK featured: WebP 11.4 KB, JPEG 14.2 KB
+  OK thumbnail: WebP 9.4 KB, JPEG 13.6 KB
+  Stats: Avg per version: 12.9 KB (saved 8.8%)
+
+[6/182] branding\P7260051-natalie-hammering-2491.jpg
+  Source: 14.9 KB
+  OK hero: WebP 14.6 KB, JPEG 15.8 KB
+  OK featured: WebP 12.2 KB, JPEG 14.9 KB
+  OK thumbnail: WebP 10.2 KB, JPEG 14.2 KB
+  Stats: Avg per version: 13.6 KB (saved 8.6%)
+
+[7/182] branding\P8270016-natalie-shear-2491.jpg
+  Source: 13.7 KB
+  OK hero: WebP 13.5 KB, JPEG 14.7 KB
+  OK featured: WebP 11.4 KB, JPEG 13.8 KB
+  OK thumbnail: WebP 9.4 KB, JPEG 13.2 KB
+  Stats: Avg per version: 12.7 KB (saved 7.8%)
+
+[8/182] branding\Waterways-Logo-Header-Transparent.png
+  Source: 47.4 KB
+  OK hero: WebP 11.7 KB, JPEG 17.0 KB
+  OK featured: WebP 10.4 KB, JPEG 15.2 KB
+  OK thumbnail: WebP 9.1 KB, JPEG 13.9 KB
+  Stats: Avg per version: 12.9 KB (saved 72.8%)
+
+[9/182] chimney-caps\custom-cap-1.jpg
+  Source: 400.2 KB
+  OK hero: WebP 424.3 KB, JPEG 445.4 KB
+  OK featured: WebP 214.1 KB, JPEG 244.8 KB
+  OK thumbnail: WebP 50.9 KB, JPEG 59.2 KB
+  Stats: Avg per version: 239.8 KB (saved 40.1%)
+
+[10/182] chimney-caps\img_2252.jpg
+  Source: 400.2 KB
+  OK hero: WebP 424.3 KB, JPEG 445.4 KB
+  OK featured: WebP 214.1 KB, JPEG 244.8 KB
+  OK thumbnail: WebP 50.9 KB, JPEG 59.2 KB
+  Stats: Avg per version: 239.8 KB (saved 40.1%)
+
+[11/182] chimney-caps\minnesota-shroud.jpg
+  Source: 400.2 KB
+  OK hero: WebP 424.3 KB, JPEG 445.4 KB
+  OK featured: WebP 214.1 KB, JPEG 244.8 KB
+  OK thumbnail: WebP 50.9 KB, JPEG 59.2 KB
+  Stats: Avg per version: 239.8 KB (saved 40.1%)
+
+[12/182] chimney-caps\nc-custom-cap.jpg
+  Source: 400.2 KB
+  OK hero: WebP 424.3 KB, JPEG 445.4 KB
+  OK featured: WebP 214.1 KB, JPEG 244.8 KB
+  OK thumbnail: WebP 50.9 KB, JPEG 59.2 KB
+  Stats: Avg per version: 239.8 KB (saved 40.1%)
+
+[13/182] chimney-caps\ohio-french-caps.jpg
+  Source: 269.5 KB
+  OK hero: WebP 233.9 KB, JPEG 293.3 KB
+  OK featured: WebP 121.1 KB, JPEG 162.0 KB
+  OK thumbnail: WebP 26.0 KB, JPEG 38.9 KB
+  Stats: Avg per version: 145.9 KB (saved 45.9%)
+
+[14/182] chimney-caps\pa080064.jpg
+  Source: 269.5 KB
+  OK hero: WebP 233.9 KB, JPEG 293.3 KB
+  OK featured: WebP 121.1 KB, JPEG 162.0 KB
+  OK thumbnail: WebP 26.0 KB, JPEG 38.9 KB
+  Stats: Avg per version: 145.9 KB (saved 45.9%)
+
+[15/182] downloads\copper-roof-on-turret-1.png
+  Source: 925.8 KB
+  OK hero: WebP 91.2 KB, JPEG 107.2 KB
+  OK featured: WebP 73.2 KB, JPEG 91.3 KB
+  OK thumbnail: WebP 35.8 KB, JPEG 47.7 KB
+  Stats: Avg per version: 74.4 KB (saved 92.0%)
+
+[16/182] downloads\img_2252.jpg
+  Source: 400.2 KB
+  OK hero: WebP 424.3 KB, JPEG 445.4 KB
+  OK featured: WebP 214.1 KB, JPEG 244.8 KB
+  OK thumbnail: WebP 50.9 KB, JPEG 59.2 KB
+  Stats: Avg per version: 239.8 KB (saved 40.1%)
+
+[17/182] downloads\p4170196.jpg
+  Source: 205.4 KB
+  OK hero: WebP 188.3 KB, JPEG 234.3 KB
+  OK featured: WebP 93.8 KB, JPEG 145.7 KB
+  OK thumbnail: WebP 23.1 KB, JPEG 37.3 KB
+  Stats: Avg per version: 120.4 KB (saved 41.4%)
+
+[18/182] downloads\p7080090.jpg
+  Source: 246.8 KB
+  OK hero: WebP 196.1 KB, JPEG 266.9 KB
+  OK featured: WebP 101.0 KB, JPEG 151.5 KB
+  OK thumbnail: WebP 23.3 KB, JPEG 38.4 KB
+  Stats: Avg per version: 129.5 KB (saved 47.5%)
+
+[19/182] downloads\p7210424.jpg
+  Source: 324.5 KB
+  OK hero: WebP 307.5 KB, JPEG 357.0 KB
+  OK featured: WebP 166.9 KB, JPEG 207.0 KB
+  OK thumbnail: WebP 44.2 KB, JPEG 54.8 KB
+  Stats: Avg per version: 189.6 KB (saved 41.6%)
+
+[20/182] downloads\p7230035.jpg
+  Source: 682.5 KB
+  OK hero: WebP 650.2 KB, JPEG 711.4 KB
+  OK featured: WebP 271.2 KB, JPEG 295.5 KB
+  OK thumbnail: WebP 64.9 KB, JPEG 70.7 KB
+  Stats: Avg per version: 344.0 KB (saved 49.6%)
+
+[21/182] downloads\p8120302.jpg
+  Source: 228.9 KB
+  OK hero: WebP 236.1 KB, JPEG 257.4 KB
+  OK featured: WebP 96.5 KB, JPEG 146.9 KB
+  OK thumbnail: WebP 18.9 KB, JPEG 33.2 KB
+  Stats: Avg per version: 131.5 KB (saved 42.6%)
+
+[22/182] downloads\p8160051.jpg
+  Source: 375.0 KB
+  OK hero: WebP 370.2 KB, JPEG 419.0 KB
+  OK featured: WebP 194.4 KB, JPEG 228.7 KB
+  OK thumbnail: WebP 40.1 KB, JPEG 52.7 KB
+  Stats: Avg per version: 217.5 KB (saved 42.0%)
+
+[23/182] downloads\p8180332.jpg
+  Source: 331.4 KB
+  OK hero: WebP 306.6 KB, JPEG 366.5 KB
+  OK featured: WebP 164.6 KB, JPEG 209.4 KB
+  OK thumbnail: WebP 41.1 KB, JPEG 54.5 KB
+  Stats: Avg per version: 190.5 KB (saved 42.5%)
+
+[24/182] downloads\p9240265_0.jpg
+  Source: 324.7 KB
+  OK hero: WebP 313.5 KB, JPEG 363.9 KB
+  OK featured: WebP 169.0 KB, JPEG 217.1 KB
+  OK thumbnail: WebP 43.3 KB, JPEG 56.1 KB
+  Stats: Avg per version: 193.8 KB (saved 40.3%)
+
+[25/182] downloads\pa080064.jpg
+  Source: 269.5 KB
+  OK hero: WebP 233.9 KB, JPEG 293.3 KB
+  OK featured: WebP 121.1 KB, JPEG 162.0 KB
+  OK thumbnail: WebP 26.0 KB, JPEG 38.9 KB
+  Stats: Avg per version: 145.9 KB (saved 45.9%)
+
+[26/182] downloads\pa220068.jpg
+  Source: 667.7 KB
+  OK hero: WebP 385.7 KB, JPEG 519.5 KB
+  OK featured: WebP 145.6 KB, JPEG 194.0 KB
+  OK thumbnail: WebP 32.8 KB, JPEG 45.8 KB
+  Stats: Avg per version: 220.5 KB (saved 67.0%)
+
+[27/182] downloads\pa250018.jpg
+  Source: 667.1 KB
+  OK hero: WebP 625.1 KB, JPEG 689.4 KB
+  OK featured: WebP 259.2 KB, JPEG 278.7 KB
+  OK thumbnail: WebP 56.0 KB, JPEG 63.4 KB
+  Stats: Avg per version: 328.7 KB (saved 50.7%)
+
+[28/182] downloads\pa260065.jpg
+  Source: 393.6 KB
+  OK hero: WebP 401.4 KB, JPEG 442.7 KB
+  OK featured: WebP 209.8 KB, JPEG 244.4 KB
+  OK thumbnail: WebP 47.1 KB, JPEG 55.2 KB
+  Stats: Avg per version: 233.4 KB (saved 40.7%)
+
+[29/182] downloads\pb190444.jpg
+  Source: 529.1 KB
+  OK hero: WebP 605.6 KB, JPEG 595.8 KB
+  OK featured: WebP 313.4 KB, JPEG 309.5 KB
+  OK thumbnail: WebP 56.5 KB, JPEG 60.1 KB
+  Stats: Avg per version: 323.5 KB (saved 38.9%)
+
+[30/182] downloads\pb190468.jpg
+  Source: 332.4 KB
+  OK hero: WebP 330.1 KB, JPEG 379.9 KB
+  OK featured: WebP 173.4 KB, JPEG 225.3 KB
+  OK thumbnail: WebP 42.3 KB, JPEG 55.4 KB
+  Stats: Avg per version: 201.1 KB (saved 39.5%)
+
+[31/182] downloads\pc030042.jpg
+  Source: 662.1 KB
+  OK hero: WebP 461.0 KB, JPEG 579.2 KB
+  OK featured: WebP 185.6 KB, JPEG 224.1 KB
+  OK thumbnail: WebP 41.1 KB, JPEG 53.8 KB
+  Stats: Avg per version: 257.5 KB (saved 61.1%)
+
+[32/182] downloads\Waterways-Logo-Header-Transparent.png
+  Source: 47.4 KB
+  OK hero: WebP 11.7 KB, JPEG 17.0 KB
+  OK featured: WebP 10.4 KB, JPEG 15.2 KB
+  OK thumbnail: WebP 9.1 KB, JPEG 13.9 KB
+  Stats: Avg per version: 12.9 KB (saved 72.8%)
+
+[33/182] flashing\copper-flashing-1.jpg
+  Source: 529.1 KB
+  OK hero: WebP 605.6 KB, JPEG 595.8 KB
+  OK featured: WebP 313.4 KB, JPEG 309.5 KB
+  OK thumbnail: WebP 56.5 KB, JPEG 60.1 KB
+  Stats: Avg per version: 323.5 KB (saved 38.9%)
+
+[34/182] flashing\copper-roof-on-turret-1.png
+  Source: 925.8 KB
+  OK hero: WebP 91.2 KB, JPEG 107.2 KB
+  OK featured: WebP 73.2 KB, JPEG 91.3 KB
+  OK thumbnail: WebP 35.8 KB, JPEG 47.7 KB
+  Stats: Avg per version: 74.4 KB (saved 92.0%)
+
+[35/182] flashing\p7230035.jpg
+  Source: 682.5 KB
+  OK hero: WebP 650.2 KB, JPEG 711.4 KB
+  OK featured: WebP 271.2 KB, JPEG 295.5 KB
+  OK thumbnail: WebP 64.9 KB, JPEG 70.7 KB
+  Stats: Avg per version: 344.0 KB (saved 49.6%)
+
+[36/182] flashing\p8160051.jpg
+  Source: 375.0 KB
+  OK hero: WebP 370.2 KB, JPEG 419.0 KB
+  OK featured: WebP 194.4 KB, JPEG 228.7 KB
+  OK thumbnail: WebP 40.1 KB, JPEG 52.7 KB
+  Stats: Avg per version: 217.5 KB (saved 42.0%)
+
+[37/182] flashing\p9240265_0.jpg
+  Source: 324.7 KB
+  OK hero: WebP 313.5 KB, JPEG 363.9 KB
+  OK featured: WebP 169.0 KB, JPEG 217.1 KB
+  OK thumbnail: WebP 43.3 KB, JPEG 56.1 KB
+  Stats: Avg per version: 193.8 KB (saved 40.3%)
+
+[38/182] flashing\pa250018.jpg
+  Source: 667.1 KB
+  OK hero: WebP 625.1 KB, JPEG 689.4 KB
+  OK featured: WebP 259.2 KB, JPEG 278.7 KB
+  OK thumbnail: WebP 56.0 KB, JPEG 63.4 KB
+  Stats: Avg per version: 328.7 KB (saved 50.7%)
+
+[39/182] flashing\pa260065.jpg
+  Source: 393.6 KB
+  OK hero: WebP 401.4 KB, JPEG 442.7 KB
+  OK featured: WebP 209.8 KB, JPEG 244.4 KB
+  OK thumbnail: WebP 47.1 KB, JPEG 55.2 KB
+  Stats: Avg per version: 233.4 KB (saved 40.7%)
+
+[40/182] flashing\pb190444.jpg
+  Source: 529.1 KB
+  OK hero: WebP 605.6 KB, JPEG 595.8 KB
+  OK featured: WebP 313.4 KB, JPEG 309.5 KB
+  OK thumbnail: WebP 56.5 KB, JPEG 60.1 KB
+  Stats: Avg per version: 323.5 KB (saved 38.9%)
+
+[41/182] flashing\pb190468.jpg
+  Source: 332.4 KB
+  OK hero: WebP 330.1 KB, JPEG 379.9 KB
+  OK featured: WebP 173.4 KB, JPEG 225.3 KB
+  OK thumbnail: WebP 42.3 KB, JPEG 55.4 KB
+  Stats: Avg per version: 201.1 KB (saved 39.5%)
+
+[42/182] gutters\p4170196.jpg
+  Source: 205.4 KB
+  OK hero: WebP 188.3 KB, JPEG 234.3 KB
+  OK featured: WebP 93.8 KB, JPEG 145.7 KB
+  OK thumbnail: WebP 23.1 KB, JPEG 37.3 KB
+  Stats: Avg per version: 120.4 KB (saved 41.4%)
+
+[43/182] hero\copper-roof-on-turret-1.png
+  Source: 925.8 KB
+  OK hero: WebP 91.2 KB, JPEG 107.2 KB
+  OK featured: WebP 73.2 KB, JPEG 91.3 KB
+  OK thumbnail: WebP 35.8 KB, JPEG 47.7 KB
+  Stats: Avg per version: 74.4 KB (saved 92.0%)
+
+[44/182] hero\copper-work-closeup.jpg
+  Source: 269.5 KB
+  OK hero: WebP 233.9 KB, JPEG 293.3 KB
+  OK featured: WebP 121.1 KB, JPEG 162.0 KB
+  OK thumbnail: WebP 26.0 KB, JPEG 38.9 KB
+  Stats: Avg per version: 145.9 KB (saved 45.9%)
+
+[45/182] hero\p7210424.jpg
+  Source: 324.5 KB
+  OK hero: WebP 307.5 KB, JPEG 357.0 KB
+  OK featured: WebP 166.9 KB, JPEG 207.0 KB
+  OK thumbnail: WebP 44.2 KB, JPEG 54.8 KB
+  Stats: Avg per version: 189.6 KB (saved 41.6%)
+
+[46/182] hero\pa080064.jpg
+  Source: 269.5 KB
+  OK hero: WebP 233.9 KB, JPEG 293.3 KB
+  OK featured: WebP 121.1 KB, JPEG 162.0 KB
+  OK thumbnail: WebP 26.0 KB, JPEG 38.9 KB
+  Stats: Avg per version: 145.9 KB (saved 45.9%)
+
+[47/182] heroes\P2240125_999x1302-230x300.jpg
+  Source: 26.7 KB
+  OK hero: WebP 17.6 KB, JPEG 21.5 KB
+  OK featured: WebP 14.4 KB, JPEG 18.3 KB
+  OK thumbnail: WebP 11.6 KB, JPEG 14.6 KB
+  Stats: Avg per version: 16.3 KB (saved 38.7%)
+
+[48/182] heroes\P8150041_straighter.jpg
+  Source: 1.6 MB
+  OK hero: WebP 369.6 KB, JPEG 492.9 KB
+  OK featured: WebP 201.7 KB, JPEG 269.2 KB
+  OK thumbnail: WebP 55.8 KB, JPEG 70.9 KB
+  Stats: Avg per version: 243.4 KB (saved 85.5%)
+
+[49/182] heroes\P9220010-half-round-2491.jpg
+  Source: 5.8 KB
+  OK hero: WebP 4.5 KB, JPEG 6.3 KB
+  OK featured: WebP 3.7 KB, JPEG 5.9 KB
+  OK thumbnail: WebP 3.0 KB, JPEG 5.7 KB
+  Stats: Avg per version: 4.9 KB (saved 16.3%)
+
+[50/182] homepage-showcase\copper-roof-on-turret-1.png
+  Source: 925.8 KB
+  OK hero: WebP 91.2 KB, JPEG 107.2 KB
+  OK featured: WebP 73.2 KB, JPEG 91.3 KB
+  OK thumbnail: WebP 35.8 KB, JPEG 47.7 KB
+  Stats: Avg per version: 74.4 KB (saved 92.0%)
+
+[51/182] homepage-showcase\img_2252.jpg
+  Source: 400.2 KB
+  OK hero: WebP 424.3 KB, JPEG 445.4 KB
+  OK featured: WebP 214.1 KB, JPEG 244.8 KB
+  OK thumbnail: WebP 50.9 KB, JPEG 59.2 KB
+  Stats: Avg per version: 239.8 KB (saved 40.1%)
+
+[52/182] homepage-showcase\p4170196.jpg
+  Source: 205.4 KB
+  OK hero: WebP 188.3 KB, JPEG 234.3 KB
+  OK featured: WebP 93.8 KB, JPEG 145.7 KB
+  OK thumbnail: WebP 23.1 KB, JPEG 37.3 KB
+  Stats: Avg per version: 120.4 KB (saved 41.4%)
+
+[53/182] homepage-showcase\p7080090.jpg
+  Source: 246.8 KB
+  OK hero: WebP 196.1 KB, JPEG 266.9 KB
+  OK featured: WebP 101.0 KB, JPEG 151.5 KB
+  OK thumbnail: WebP 23.3 KB, JPEG 38.4 KB
+  Stats: Avg per version: 129.5 KB (saved 47.5%)
+
+[54/182] homepage-showcase\p7210424.jpg
+  Source: 324.5 KB
+  OK hero: WebP 307.5 KB, JPEG 357.0 KB
+  OK featured: WebP 166.9 KB, JPEG 207.0 KB
+  OK thumbnail: WebP 44.2 KB, JPEG 54.8 KB
+  Stats: Avg per version: 189.6 KB (saved 41.6%)
+
+[55/182] homepage-showcase\p7230035.jpg
+  Source: 682.5 KB
+  OK hero: WebP 650.2 KB, JPEG 711.4 KB
+  OK featured: WebP 271.2 KB, JPEG 295.5 KB
+  OK thumbnail: WebP 64.9 KB, JPEG 70.7 KB
+  Stats: Avg per version: 344.0 KB (saved 49.6%)
+
+[56/182] homepage-showcase\p8120302.jpg
+  Source: 228.9 KB
+  OK hero: WebP 236.1 KB, JPEG 257.4 KB
+  OK featured: WebP 96.5 KB, JPEG 146.9 KB
+  OK thumbnail: WebP 18.9 KB, JPEG 33.2 KB
+  Stats: Avg per version: 131.5 KB (saved 42.6%)
+
+[57/182] homepage-showcase\p8160051.jpg
+  Source: 375.0 KB
+  OK hero: WebP 370.2 KB, JPEG 419.0 KB
+  OK featured: WebP 194.4 KB, JPEG 228.7 KB
+  OK thumbnail: WebP 40.1 KB, JPEG 52.7 KB
+  Stats: Avg per version: 217.5 KB (saved 42.0%)
+
+[58/182] homepage-showcase\p8180332.jpg
+  Source: 331.4 KB
+  OK hero: WebP 306.6 KB, JPEG 366.5 KB
+  OK featured: WebP 164.6 KB, JPEG 209.4 KB
+  OK thumbnail: WebP 41.1 KB, JPEG 54.5 KB
+  Stats: Avg per version: 190.5 KB (saved 42.5%)
+
+[59/182] homepage-showcase\p9240265_0.jpg
+  Source: 324.7 KB
+  OK hero: WebP 313.5 KB, JPEG 363.9 KB
+  OK featured: WebP 169.0 KB, JPEG 217.1 KB
+  OK thumbnail: WebP 43.3 KB, JPEG 56.1 KB
+  Stats: Avg per version: 193.8 KB (saved 40.3%)
+
+[60/182] homepage-showcase\pa080064.jpg
+  Source: 269.5 KB
+  OK hero: WebP 233.9 KB, JPEG 293.3 KB
+  OK featured: WebP 121.1 KB, JPEG 162.0 KB
+  OK thumbnail: WebP 26.0 KB, JPEG 38.9 KB
+  Stats: Avg per version: 145.9 KB (saved 45.9%)
+
+[61/182] homepage-showcase\pa220068.jpg
+  Source: 667.7 KB
+  OK hero: WebP 385.7 KB, JPEG 519.5 KB
+  OK featured: WebP 145.6 KB, JPEG 194.0 KB
+  OK thumbnail: WebP 32.8 KB, JPEG 45.8 KB
+  Stats: Avg per version: 220.5 KB (saved 67.0%)
+
+[62/182] homepage-showcase\pa250018.jpg
+  Source: 667.1 KB
+  OK hero: WebP 625.1 KB, JPEG 689.4 KB
+  OK featured: WebP 259.2 KB, JPEG 278.7 KB
+  OK thumbnail: WebP 56.0 KB, JPEG 63.4 KB
+  Stats: Avg per version: 328.7 KB (saved 50.7%)
+
+[63/182] homepage-showcase\pa260065.jpg
+  Source: 393.6 KB
+  OK hero: WebP 401.4 KB, JPEG 442.7 KB
+  OK featured: WebP 209.8 KB, JPEG 244.4 KB
+  OK thumbnail: WebP 47.1 KB, JPEG 55.2 KB
+  Stats: Avg per version: 233.4 KB (saved 40.7%)
+
+[64/182] homepage-showcase\pb190444.jpg
+  Source: 529.1 KB
+  OK hero: WebP 605.6 KB, JPEG 595.8 KB
+  OK featured: WebP 313.4 KB, JPEG 309.5 KB
+  OK thumbnail: WebP 56.5 KB, JPEG 60.1 KB
+  Stats: Avg per version: 323.5 KB (saved 38.9%)
+
+[65/182] homepage-showcase\pb190468.jpg
+  Source: 332.4 KB
+  OK hero: WebP 330.1 KB, JPEG 379.9 KB
+  OK featured: WebP 173.4 KB, JPEG 225.3 KB
+  OK thumbnail: WebP 42.3 KB, JPEG 55.4 KB
+  Stats: Avg per version: 201.1 KB (saved 39.5%)
+
+[66/182] homepage-showcase\pc030042.jpg
+  Source: 662.1 KB
+  OK hero: WebP 461.0 KB, JPEG 579.2 KB
+  OK featured: WebP 185.6 KB, JPEG 224.1 KB
+  OK thumbnail: WebP 41.1 KB, JPEG 53.8 KB
+  Stats: Avg per version: 257.5 KB (saved 61.1%)
+
+[67/182] interior\p8120302.jpg
+  Source: 228.9 KB
+  OK hero: WebP 236.1 KB, JPEG 257.4 KB
+  OK featured: WebP 96.5 KB, JPEG 146.9 KB
+  OK thumbnail: WebP 18.9 KB, JPEG 33.2 KB
+  Stats: Avg per version: 131.5 KB (saved 42.6%)
+
+[68/182] interior\p8180332.jpg
+  Source: 331.4 KB
+  OK hero: WebP 306.6 KB, JPEG 366.5 KB
+  OK featured: WebP 164.6 KB, JPEG 209.4 KB
+  OK thumbnail: WebP 41.1 KB, JPEG 54.5 KB
+  Stats: Avg per version: 190.5 KB (saved 42.5%)
+
+[69/182] interior\pc030042.jpg
+  Source: 662.1 KB
+  OK hero: WebP 461.0 KB, JPEG 579.2 KB
+  OK featured: WebP 185.6 KB, JPEG 224.1 KB
+  OK thumbnail: WebP 41.1 KB, JPEG 53.8 KB
+  Stats: Avg per version: 257.5 KB (saved 61.1%)
+
+[70/182] logo\Waterways-Logo-Header-Transparent.png
+  Source: 47.4 KB
+  OK hero: WebP 11.7 KB, JPEG 17.0 KB
+  OK featured: WebP 10.4 KB, JPEG 15.2 KB
+  OK thumbnail: WebP 9.1 KB, JPEG 13.9 KB
+  Stats: Avg per version: 12.9 KB (saved 72.8%)
+
+[71/182] reviews\Paul-Meschke-1018x460-1-scaled-1.jpg
+  Source: 352.1 KB
+  OK hero: WebP 160.7 KB, JPEG 244.9 KB
+  OK featured: WebP 72.6 KB, JPEG 102.3 KB
+  OK thumbnail: WebP 21.8 KB, JPEG 28.6 KB
+  Stats: Avg per version: 105.2 KB (saved 70.1%)
+
+[72/182] reviews\Review_Sarah_chimney_cap_cropped_2-3.jpg
+  Source: 79.1 KB
+  OK hero: WebP 16.8 KB, JPEG 20.0 KB
+  OK featured: WebP 14.4 KB, JPEG 17.5 KB
+  OK thumbnail: WebP 12.4 KB, JPEG 15.6 KB
+  Stats: Avg per version: 16.1 KB (saved 79.6%)
+
+[73/182] reviews\Zupan-Chimney-Caps-closeup.jpg
+  Source: 1.0 MB
+  OK hero: WebP 490.9 KB, JPEG 610.5 KB
+  OK featured: WebP 229.0 KB, JPEG 312.1 KB
+  OK thumbnail: WebP 56.5 KB, JPEG 78.2 KB
+  Stats: Avg per version: 296.2 KB (saved 72.4%)
+
+[74/182] roofing\copper-roof-1.jpg
+  Source: 246.8 KB
+  OK hero: WebP 196.1 KB, JPEG 266.9 KB
+  OK featured: WebP 101.0 KB, JPEG 151.5 KB
+  OK thumbnail: WebP 23.3 KB, JPEG 38.4 KB
+  Stats: Avg per version: 129.5 KB (saved 47.5%)
+
+[75/182] roofing\p7080090.jpg
+  Source: 246.8 KB
+  OK hero: WebP 196.1 KB, JPEG 266.9 KB
+  OK featured: WebP 101.0 KB, JPEG 151.5 KB
+  OK thumbnail: WebP 23.3 KB, JPEG 38.4 KB
+  Stats: Avg per version: 129.5 KB (saved 47.5%)
+
+[76/182] our-work\awnings\p1010459.jpg
+  Source: 664.6 KB
+  OK hero: WebP 387.6 KB, JPEG 518.2 KB
+  OK featured: WebP 146.7 KB, JPEG 194.2 KB
+  OK thumbnail: WebP 36.8 KB, JPEG 48.9 KB
+  Stats: Avg per version: 222.1 KB (saved 66.6%)
+
+[77/182] our-work\awnings\p6150203.jpg
+  Source: 605.8 KB
+  OK hero: WebP 419.8 KB, JPEG 507.1 KB
+  OK featured: WebP 171.7 KB, JPEG 198.6 KB
+  OK thumbnail: WebP 36.2 KB, JPEG 44.2 KB
+  Stats: Avg per version: 229.6 KB (saved 62.1%)
+
+[78/182] our-work\awnings\p6150207.jpg
+  Source: 676.2 KB
+  OK hero: WebP 450.4 KB, JPEG 559.6 KB
+  OK featured: WebP 182.5 KB, JPEG 218.2 KB
+  OK thumbnail: WebP 42.1 KB, JPEG 52.1 KB
+  Stats: Avg per version: 250.8 KB (saved 62.9%)
+
+[79/182] our-work\awnings\p6150211.jpg
+  Source: 642.1 KB
+  OK hero: WebP 396.2 KB, JPEG 537.4 KB
+  OK featured: WebP 163.5 KB, JPEG 214.9 KB
+  OK thumbnail: WebP 43.5 KB, JPEG 56.3 KB
+  Stats: Avg per version: 235.3 KB (saved 63.4%)
+
+[80/182] our-work\awnings\p6150212.jpg
+  Source: 641.0 KB
+  OK hero: WebP 334.1 KB, JPEG 501.7 KB
+  OK featured: WebP 142.0 KB, JPEG 203.3 KB
+  OK thumbnail: WebP 38.7 KB, JPEG 53.6 KB
+  Stats: Avg per version: 212.2 KB (saved 66.9%)
+
+[81/182] our-work\awnings\p6150215.jpg
+  Source: 663.3 KB
+  OK hero: WebP 573.4 KB, JPEG 648.2 KB
+  OK featured: WebP 236.6 KB, JPEG 257.7 KB
+  OK thumbnail: WebP 50.9 KB, JPEG 57.1 KB
+  Stats: Avg per version: 304.0 KB (saved 54.2%)
+
+[82/182] flashing\bay-window-twf\a01-prefabtopforbaywindow-framedinshop_wtwf.jpg
+  Source: 623.3 KB
+  OK hero: WebP 244.4 KB, JPEG 403.2 KB
+  OK featured: WebP 98.9 KB, JPEG 158.1 KB
+  OK thumbnail: WebP 29.7 KB, JPEG 44.6 KB
+  Stats: Avg per version: 163.2 KB (saved 73.8%)
+
+[83/182] flashing\bay-window-twf\a02-topforbaywindow-framedandflashed_wtwf-readytoinstall.jpg
+  Source: 626.8 KB
+  OK hero: WebP 403.9 KB, JPEG 536.1 KB
+  OK featured: WebP 170.8 KB, JPEG 216.7 KB
+  OK thumbnail: WebP 42.5 KB, JPEG 55.0 KB
+  Stats: Avg per version: 237.5 KB (saved 62.1%)
+
+[84/182] flashing\bay-window-twf\a03-baywindowinstalled_wsidetwfandheadertwf.jpg
+  Source: 657.5 KB
+  OK hero: WebP 560.3 KB, JPEG 638.1 KB
+  OK featured: WebP 242.4 KB, JPEG 263.6 KB
+  OK thumbnail: WebP 56.3 KB, JPEG 62.6 KB
+  Stats: Avg per version: 303.9 KB (saved 53.8%)
+
+[85/182] flashing\bay-window-twf\a04-topviewofbaywindow_wtwfandunderlayment.jpg
+  Source: 679.3 KB
+  OK hero: WebP 612.0 KB, JPEG 681.3 KB
+  OK featured: WebP 254.5 KB, JPEG 275.6 KB
+  OK thumbnail: WebP 55.5 KB, JPEG 61.9 KB
+  Stats: Avg per version: 323.5 KB (saved 52.4%)
+
+[86/182] flashing\bay-window-twf\a05-anotherviewofcurvedbaywindowtwf.jpg
+  Source: 662.0 KB
+  OK hero: WebP 517.2 KB, JPEG 611.6 KB
+  OK featured: WebP 216.8 KB, JPEG 252.6 KB
+  OK thumbnail: WebP 52.9 KB, JPEG 62.9 KB
+  Stats: Avg per version: 285.6 KB (saved 56.8%)
+
+[87/182] flashing\bay-window-twf\a06-detailofbaywindowtwf_preparedfor5inchmasonry.jpg
+  Source: 705.0 KB
+  OK hero: WebP 768.7 KB, JPEG 808.1 KB
+  OK featured: WebP 330.1 KB, JPEG 335.4 KB
+  OK thumbnail: WebP 76.4 KB, JPEG 77.7 KB
+  Stats: Avg per version: 399.4 KB (saved 43.3%)
+
+[88/182] flashing\bay-window-twf\a07-howtwf_moveswateroutsidethehouse.jpg
+  Source: 636.3 KB
+  OK hero: WebP 345.2 KB, JPEG 477.9 KB
+  OK featured: WebP 127.1 KB, JPEG 174.9 KB
+  OK thumbnail: WebP 25.4 KB, JPEG 39.0 KB
+  Stats: Avg per version: 198.2 KB (saved 68.8%)
+
+[89/182] flashing\bay-window-twf\a08-curvedcoppertopbaywindowafterstonemasonrylaidovertwf.jpg
+  Source: 653.9 KB
+  OK hero: WebP 406.8 KB, JPEG 539.7 KB
+  OK featured: WebP 165.4 KB, JPEG 211.8 KB
+  OK thumbnail: WebP 40.7 KB, JPEG 51.3 KB
+  Stats: Avg per version: 236.0 KB (saved 63.9%)
+
+[90/182] flashing\bay-window-twf\a09-curvedcoppertopbaywindow_wtwf_inmasonry.jpg
+  Source: 700.9 KB
+  OK hero: WebP 685.5 KB, JPEG 742.2 KB
+  OK featured: WebP 277.6 KB, JPEG 301.5 KB
+  OK thumbnail: WebP 64.4 KB, JPEG 71.6 KB
+  Stats: Avg per version: 357.1 KB (saved 49.0%)
+
+[91/182] flashing\bay-window-twf\b00-eleganthomeincludesmanycopperaccents.jpg
+  Source: 586.0 KB
+  OK hero: WebP 315.5 KB, JPEG 426.2 KB
+  OK featured: WebP 126.2 KB, JPEG 166.6 KB
+  OK thumbnail: WebP 30.4 KB, JPEG 42.1 KB
+  Stats: Avg per version: 184.5 KB (saved 68.5%)
+
+[92/182] flashing\bay-window-twf\b01-curvedcoppertopbaywindowfeaturedineleganthome.jpg
+  Source: 630.3 KB
+  OK hero: WebP 303.2 KB, JPEG 456.7 KB
+  OK featured: WebP 122.9 KB, JPEG 180.3 KB
+  OK thumbnail: WebP 33.5 KB, JPEG 46.5 KB
+  Stats: Avg per version: 190.5 KB (saved 69.8%)
+
+[93/182] flashing\bay-window-twf\b07-baywindow_wtwf_showing6inchheaderlintel.jpg
+  Source: 668.1 KB
+  OK hero: WebP 422.8 KB, JPEG 541.5 KB
+  OK featured: WebP 153.9 KB, JPEG 200.1 KB
+  OK thumbnail: WebP 33.0 KB, JPEG 48.1 KB
+  Stats: Avg per version: 233.2 KB (saved 65.1%)
+
+[94/182] flashing\bay-window-twf\b08-closeupofbaywindow_wtwf_showingheaderlintel.jpg
+  Source: 562.5 KB
+  OK hero: WebP 277.4 KB, JPEG 397.8 KB
+  OK featured: WebP 123.8 KB, JPEG 167.5 KB
+  OK thumbnail: WebP 41.4 KB, JPEG 50.9 KB
+  Stats: Avg per version: 176.5 KB (saved 68.6%)
+
+[95/182] flashing\bay-window-twf\b10-baywindowwithmasonryworkinprogress.jpg
+  Source: 644.3 KB
+  OK hero: WebP 458.3 KB, JPEG 575.5 KB
+  OK featured: WebP 189.2 KB, JPEG 230.2 KB
+  OK thumbnail: WebP 46.5 KB, JPEG 57.1 KB
+  Stats: Avg per version: 259.5 KB (saved 59.7%)
+
+[96/182] flashing\bay-window-twf\b11-curvedbaywindow_wtwfwhilestoneislaid.jpg
+  Source: 659.0 KB
+  OK hero: WebP 478.1 KB, JPEG 597.6 KB
+  OK featured: WebP 200.8 KB, JPEG 238.6 KB
+  OK thumbnail: WebP 47.2 KB, JPEG 58.4 KB
+  Stats: Avg per version: 270.1 KB (saved 59.0%)
+
+[97/182] flashing\bay-window-twf\b12-installingcopperpanelsbeforeaddingpatina.jpg
+  Source: 656.0 KB
+  OK hero: WebP 324.8 KB, JPEG 463.7 KB
+  OK featured: WebP 117.6 KB, JPEG 172.3 KB
+  OK thumbnail: WebP 32.8 KB, JPEG 46.1 KB
+  Stats: Avg per version: 192.9 KB (saved 70.6%)
+
+[98/182] flashing\bay-window-twf\b13-closeupofcopperbaywindowtop_wtwf_aftermasonry.jpg
+  Source: 687.0 KB
+  OK hero: WebP 372.0 KB, JPEG 502.1 KB
+  OK featured: WebP 134.0 KB, JPEG 183.1 KB
+  OK thumbnail: WebP 31.1 KB, JPEG 43.7 KB
+  Stats: Avg per version: 211.0 KB (saved 69.3%)
+
+[99/182] flashing\bay-window-twf\b14-finishedcopperbaywindowtop_wpatina_usingtwfinmasonry.jpg
+  Source: 598.3 KB
+  OK hero: WebP 221.4 KB, JPEG 387.6 KB
+  OK featured: WebP 87.5 KB, JPEG 150.6 KB
+  OK thumbnail: WebP 28.4 KB, JPEG 43.7 KB
+  Stats: Avg per version: 153.2 KB (saved 74.4%)
+
+[100/182] flashing\bay-window-twf\b19-finishedbaywindowinhousebeforewindowsorlandscaping.jpg
+  Source: 598.3 KB
+  OK hero: WebP 369.9 KB, JPEG 469.5 KB
+  OK featured: WebP 147.2 KB, JPEG 181.5 KB
+  OK thumbnail: WebP 31.8 KB, JPEG 41.9 KB
+  Stats: Avg per version: 207.0 KB (saved 65.4%)
+
+[101/182] flashing\bay-window-twf\b20-finishedhousefeaturingcurvedcoppertopbaywindow.jpg
+  Source: 594.9 KB
+  OK hero: WebP 274.6 KB, JPEG 398.7 KB
+  OK featured: WebP 111.8 KB, JPEG 157.9 KB
+  OK thumbnail: WebP 30.1 KB, JPEG 42.1 KB
+  Stats: Avg per version: 169.2 KB (saved 71.6%)
+
+[102/182] flashing\chimney-flashing\IMG_1304.jpg
+  Source: 34.7 KB
+  ERROR processing IMG_1304.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\IMG_1304.jpg'
+  ERROR processing IMG_1304.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\IMG_1304.jpg'
+  ERROR processing IMG_1304.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\IMG_1304.jpg'
+
+[103/182] flashing\chimney-flashing\IMG_1904.jpg
+  Source: 34.7 KB
+  ERROR processing IMG_1904.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\IMG_1904.jpg'
+  ERROR processing IMG_1904.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\IMG_1904.jpg'
+  ERROR processing IMG_1904.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\IMG_1904.jpg'
+
+[104/182] flashing\chimney-flashing\P3030494.jpg
+  Source: 34.7 KB
+  ERROR processing P3030494.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3030494.jpg'
+  ERROR processing P3030494.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3030494.jpg'
+  ERROR processing P3030494.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3030494.jpg'
+
+[105/182] flashing\chimney-flashing\P3030496.jpg
+  Source: 34.7 KB
+  ERROR processing P3030496.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3030496.jpg'
+  ERROR processing P3030496.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3030496.jpg'
+  ERROR processing P3030496.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3030496.jpg'
+
+[106/182] flashing\chimney-flashing\P3030496_0.jpg
+  Source: 34.7 KB
+  ERROR processing P3030496_0.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3030496_0.jpg'
+  ERROR processing P3030496_0.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3030496_0.jpg'
+  ERROR processing P3030496_0.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3030496_0.jpg'
+
+[107/182] flashing\chimney-flashing\P3070135.jpg
+  Source: 34.7 KB
+  ERROR processing P3070135.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3070135.jpg'
+  ERROR processing P3070135.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3070135.jpg'
+  ERROR processing P3070135.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3070135.jpg'
+
+[108/182] flashing\chimney-flashing\P3070141.jpg
+  Source: 34.7 KB
+  ERROR processing P3070141.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3070141.jpg'
+  ERROR processing P3070141.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3070141.jpg'
+  ERROR processing P3070141.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3070141.jpg'
+
+[109/182] flashing\chimney-flashing\P3070141_0.jpg
+  Source: 34.7 KB
+  ERROR processing P3070141_0.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3070141_0.jpg'
+  ERROR processing P3070141_0.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3070141_0.jpg'
+  ERROR processing P3070141_0.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3070141_0.jpg'
+
+[110/182] flashing\chimney-flashing\P3070186.jpg
+  Source: 34.7 KB
+  ERROR processing P3070186.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3070186.jpg'
+  ERROR processing P3070186.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3070186.jpg'
+  ERROR processing P3070186.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3070186.jpg'
+
+[111/182] flashing\chimney-flashing\P3070191.jpg
+  Source: 34.7 KB
+  ERROR processing P3070191.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3070191.jpg'
+  ERROR processing P3070191.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3070191.jpg'
+  ERROR processing P3070191.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\chimney-flashing\\P3070191.jpg'
+
+[112/182] flashing\main\413730-r1-23.jpg
+  Source: 3.5 MB
+  OK hero: WebP 682.8 KB, JPEG 650.2 KB
+  OK featured: WebP 215.9 KB, JPEG 219.2 KB
+  OK thumbnail: WebP 34.9 KB, JPEG 47.2 KB
+  Stats: Avg per version: 308.4 KB (saved 91.4%)
+
+[113/182] flashing\main\p1010195.jpg
+  Source: 345.8 KB
+  OK hero: WebP 367.3 KB, JPEG 390.0 KB
+  OK featured: WebP 191.4 KB, JPEG 217.4 KB
+  OK thumbnail: WebP 38.9 KB, JPEG 47.6 KB
+  Stats: Avg per version: 208.8 KB (saved 39.6%)
+
+[114/182] flashing\main\p1060001.jpg
+  Source: 442.1 KB
+  OK hero: WebP 436.9 KB, JPEG 484.5 KB
+  OK featured: WebP 237.7 KB, JPEG 270.3 KB
+  OK thumbnail: WebP 56.5 KB, JPEG 65.9 KB
+  Stats: Avg per version: 258.6 KB (saved 41.5%)
+
+[115/182] flashing\main\p1140071.jpg
+  Source: 282.6 KB
+  OK hero: WebP 271.6 KB, JPEG 313.5 KB
+  OK featured: WebP 141.8 KB, JPEG 182.8 KB
+  OK thumbnail: WebP 33.2 KB, JPEG 45.3 KB
+  Stats: Avg per version: 164.7 KB (saved 41.7%)
+
+[116/182] flashing\main\p1140081.jpg
+  Source: 360.1 KB
+  OK hero: WebP 370.3 KB, JPEG 402.1 KB
+  OK featured: WebP 197.1 KB, JPEG 235.3 KB
+  OK thumbnail: WebP 47.8 KB, JPEG 58.8 KB
+  Stats: Avg per version: 218.6 KB (saved 39.3%)
+
+[117/182] flashing\main\p2050132.jpg
+  Source: 319.5 KB
+  OK hero: WebP 311.3 KB, JPEG 363.8 KB
+  OK featured: WebP 162.4 KB, JPEG 212.3 KB
+  OK thumbnail: WebP 34.7 KB, JPEG 51.8 KB
+  Stats: Avg per version: 189.4 KB (saved 40.7%)
+
+[118/182] flashing\main\p2080162.jpg
+  Source: 664.1 KB
+  OK hero: WebP 489.2 KB, JPEG 622.0 KB
+  OK featured: WebP 207.6 KB, JPEG 254.2 KB
+  OK thumbnail: WebP 52.1 KB, JPEG 64.5 KB
+  Stats: Avg per version: 281.6 KB (saved 57.6%)
+
+[119/182] flashing\main\p8170293.jpg
+  Source: 627.5 KB
+  OK hero: WebP 252.5 KB, JPEG 401.5 KB
+  OK featured: WebP 85.2 KB, JPEG 141.6 KB
+  OK thumbnail: WebP 19.1 KB, JPEG 33.3 KB
+  Stats: Avg per version: 155.5 KB (saved 75.2%)
+
+[120/182] flashing\main\p8290125.jpg
+  Source: 356.3 KB
+  OK hero: WebP 351.9 KB, JPEG 397.1 KB
+  OK featured: WebP 185.3 KB, JPEG 221.0 KB
+  OK thumbnail: WebP 41.5 KB, JPEG 52.2 KB
+  Stats: Avg per version: 208.2 KB (saved 41.6%)
+
+[121/182] flashing\main\p9180277.jpg
+  Source: 190.1 KB
+  OK hero: WebP 179.1 KB, JPEG 212.1 KB
+  OK featured: WebP 82.7 KB, JPEG 135.8 KB
+  OK thumbnail: WebP 20.8 KB, JPEG 35.1 KB
+  Stats: Avg per version: 110.9 KB (saved 41.7%)
+
+[122/182] flashing\main\p9180282.jpg
+  Source: 289.2 KB
+  OK hero: WebP 289.9 KB, JPEG 327.4 KB
+  OK featured: WebP 146.7 KB, JPEG 192.9 KB
+  OK thumbnail: WebP 34.0 KB, JPEG 46.8 KB
+  Stats: Avg per version: 173.0 KB (saved 40.2%)
+
+[123/182] flashing\main\p9210105.jpg
+  Source: 241.9 KB
+  OK hero: WebP 196.0 KB, JPEG 262.8 KB
+  OK featured: WebP 102.6 KB, JPEG 153.7 KB
+  OK thumbnail: WebP 29.0 KB, JPEG 42.9 KB
+  Stats: Avg per version: 131.2 KB (saved 45.8%)
+
+[124/182] flashing\main\p9240265.jpg
+  Source: 324.7 KB
+  OK hero: WebP 313.5 KB, JPEG 363.9 KB
+  OK featured: WebP 169.0 KB, JPEG 217.1 KB
+  OK thumbnail: WebP 43.3 KB, JPEG 56.1 KB
+  Stats: Avg per version: 193.8 KB (saved 40.3%)
+
+[125/182] flashing\main\pa030114.jpg
+  Source: 267.6 KB
+  OK hero: WebP 263.7 KB, JPEG 301.4 KB
+  OK featured: WebP 142.3 KB, JPEG 192.1 KB
+  OK thumbnail: WebP 37.1 KB, JPEG 50.0 KB
+  Stats: Avg per version: 164.4 KB (saved 38.6%)
+
+[126/182] flashing\main\pa260061.jpg
+  Source: 398.9 KB
+  OK hero: WebP 446.2 KB, JPEG 459.7 KB
+  OK featured: WebP 236.3 KB, JPEG 253.6 KB
+  OK thumbnail: WebP 44.8 KB, JPEG 54.9 KB
+  Stats: Avg per version: 249.2 KB (saved 37.5%)
+
+[127/182] flashing\main\pa260065.jpg
+  Source: 651.5 KB
+  OK hero: WebP 511.2 KB, JPEG 607.1 KB
+  OK featured: WebP 203.8 KB, JPEG 243.0 KB
+  OK thumbnail: WebP 47.1 KB, JPEG 55.2 KB
+  Stats: Avg per version: 277.9 KB (saved 57.3%)
+
+[128/182] flashing\main\pa260074.jpg
+  Source: 661.5 KB
+  OK hero: WebP 549.7 KB, JPEG 632.1 KB
+  OK featured: WebP 232.9 KB, JPEG 252.8 KB
+  OK thumbnail: WebP 51.6 KB, JPEG 57.7 KB
+  Stats: Avg per version: 296.1 KB (saved 55.2%)
+
+[129/182] flashing\main\pb110271.jpg
+  Source: 685.5 KB
+  OK hero: WebP 344.5 KB, JPEG 479.9 KB
+  OK featured: WebP 111.0 KB, JPEG 164.2 KB
+  OK thumbnail: WebP 26.2 KB, JPEG 40.5 KB
+  Stats: Avg per version: 194.4 KB (saved 71.6%)
+
+[130/182] flashing\main\pb190444.jpg
+  Source: 716.7 KB
+  OK hero: WebP 801.7 KB, JPEG 805.9 KB
+  OK featured: WebP 309.4 KB, JPEG 310.2 KB
+  OK thumbnail: WebP 56.7 KB, JPEG 60.0 KB
+  Stats: Avg per version: 390.7 KB (saved 45.5%)
+
+[131/182] flashing\main\pb190468.jpg
+  Source: 642.5 KB
+  OK hero: WebP 413.4 KB, JPEG 567.9 KB
+  OK featured: WebP 172.8 KB, JPEG 225.3 KB
+  OK thumbnail: WebP 42.6 KB, JPEG 55.4 KB
+  Stats: Avg per version: 246.2 KB (saved 61.7%)
+
+[132/182] chimney-caps\chimney-pots\055217-r1-11a-octagon-installed-249.jpg
+  Source: 5.5 KB
+  OK hero: WebP 3.5 KB, JPEG 5.8 KB
+  OK featured: WebP 2.7 KB, JPEG 5.6 KB
+  OK thumbnail: WebP 2.2 KB, JPEG 5.3 KB
+  Stats: Avg per version: 4.2 KB (saved 23.8%)
+
+[133/182] chimney-caps\chimney-pots\740209-r1-18-octagon-installing-249.jpg
+  Source: 5.9 KB
+  OK hero: WebP 5.2 KB, JPEG 6.7 KB
+  OK featured: WebP 4.2 KB, JPEG 6.3 KB
+  OK thumbnail: WebP 3.4 KB, JPEG 6.0 KB
+  Stats: Avg per version: 5.3 KB (saved 9.3%)
+
+[134/182] chimney-caps\main\img_1987-001.jpg
+  Source: 210.2 KB
+  OK hero: WebP 170.4 KB, JPEG 224.8 KB
+  OK featured: WebP 92.8 KB, JPEG 152.1 KB
+  OK thumbnail: WebP 29.6 KB, JPEG 45.6 KB
+  Stats: Avg per version: 119.2 KB (saved 43.3%)
+
+[135/182] chimney-caps\main\img_2005.jpg
+  Source: 218.6 KB
+  OK hero: WebP 182.9 KB, JPEG 235.3 KB
+  OK featured: WebP 100.4 KB, JPEG 162.3 KB
+  OK thumbnail: WebP 33.5 KB, JPEG 49.0 KB
+  Stats: Avg per version: 127.2 KB (saved 41.8%)
+
+[136/182] chimney-caps\main\img_2057_lightened.jpg
+  Source: 1.4 MB
+  OK hero: WebP 382.9 KB, JPEG 391.6 KB
+  OK featured: WebP 197.4 KB, JPEG 230.1 KB
+  OK thumbnail: WebP 48.6 KB, JPEG 56.7 KB
+  Stats: Avg per version: 217.9 KB (saved 85.3%)
+
+[137/182] chimney-caps\main\img_2060.jpg
+  Source: 237.0 KB
+  OK hero: WebP 216.7 KB, JPEG 272.8 KB
+  OK featured: WebP 170.8 KB, JPEG 244.8 KB
+  OK thumbnail: WebP 51.8 KB, JPEG 75.3 KB
+  Stats: Avg per version: 172.0 KB (saved 27.4%)
+
+[138/182] chimney-caps\main\img_2066.jpg
+  Source: 198.4 KB
+  OK hero: WebP 163.1 KB, JPEG 214.8 KB
+  OK featured: WebP 83.8 KB, JPEG 138.0 KB
+  OK thumbnail: WebP 25.0 KB, JPEG 38.5 KB
+  Stats: Avg per version: 110.5 KB (saved 44.3%)
+
+[139/182] chimney-caps\main\img_2178.jpg
+  Source: 219.4 KB
+  OK hero: WebP 195.4 KB, JPEG 243.0 KB
+  OK featured: WebP 104.2 KB, JPEG 148.7 KB
+  OK thumbnail: WebP 27.7 KB, JPEG 39.3 KB
+  Stats: Avg per version: 126.4 KB (saved 42.4%)
+
+[140/182] chimney-caps\main\img_2229.jpg
+  Source: 345.8 KB
+  OK hero: WebP 337.4 KB, JPEG 380.5 KB
+  OK featured: WebP 167.3 KB, JPEG 204.0 KB
+  OK thumbnail: WebP 38.7 KB, JPEG 49.4 KB
+  Stats: Avg per version: 196.2 KB (saved 43.3%)
+
+[141/182] chimney-caps\main\img_2270.jpg
+  Source: 272.1 KB
+  OK hero: WebP 270.6 KB, JPEG 306.4 KB
+  OK featured: WebP 130.4 KB, JPEG 170.2 KB
+  OK thumbnail: WebP 26.9 KB, JPEG 39.0 KB
+  Stats: Avg per version: 157.3 KB (saved 42.2%)
+
+[142/182] chimney-caps\main\p3140071.jpg
+  Source: 273.5 KB
+  OK hero: WebP 270.8 KB, JPEG 313.2 KB
+  OK featured: WebP 143.7 KB, JPEG 195.0 KB
+  OK thumbnail: WebP 35.6 KB, JPEG 49.2 KB
+  Stats: Avg per version: 167.9 KB (saved 38.6%)
+
+[143/182] chimney-caps\main\p3140073.jpg
+  Source: 277.3 KB
+  OK hero: WebP 253.6 KB, JPEG 312.0 KB
+  OK featured: WebP 119.0 KB, JPEG 167.6 KB
+  OK thumbnail: WebP 25.6 KB, JPEG 38.8 KB
+  Stats: Avg per version: 152.8 KB (saved 44.9%)
+
+[144/182] chimney-caps\main\p9010169.jpg
+  Source: 377.9 KB
+  OK hero: WebP 360.2 KB, JPEG 411.3 KB
+  OK featured: WebP 195.4 KB, JPEG 229.0 KB
+  OK thumbnail: WebP 49.9 KB, JPEG 57.1 KB
+  Stats: Avg per version: 217.2 KB (saved 42.5%)
+
+[145/182] chimney-caps\main\p9010172.jpg
+  Source: 255.3 KB
+  OK hero: WebP 220.9 KB, JPEG 276.2 KB
+  OK featured: WebP 122.7 KB, JPEG 166.2 KB
+  OK thumbnail: WebP 35.0 KB, JPEG 46.6 KB
+  Stats: Avg per version: 144.6 KB (saved 43.4%)
+
+[146/182] chimney-caps\main\pb150130.jpg
+  Source: 153.9 KB
+  OK hero: WebP 119.4 KB, JPEG 165.0 KB
+  OK featured: WebP 55.1 KB, JPEG 92.6 KB
+  OK thumbnail: WebP 12.5 KB, JPEG 22.8 KB
+  Stats: Avg per version: 77.9 KB (saved 49.4%)
+
+[147/182] chimney-caps\main\wsm_0611-029.jpg
+  Source: 664.1 KB
+  OK hero: WebP 493.7 KB, JPEG 603.4 KB
+  OK featured: WebP 215.2 KB, JPEG 248.2 KB
+  OK thumbnail: WebP 55.0 KB, JPEG 62.7 KB
+  Stats: Avg per version: 279.7 KB (saved 57.9%)
+
+[148/182] chimney-caps\main\wsm_0611-032.jpg
+  Source: 629.9 KB
+  OK hero: WebP 386.4 KB, JPEG 505.7 KB
+  OK featured: WebP 163.4 KB, JPEG 203.5 KB
+  OK thumbnail: WebP 40.5 KB, JPEG 49.4 KB
+  Stats: Avg per version: 224.8 KB (saved 64.3%)
+
+[149/182] chimney-caps\main\wsm_0611-040.jpg
+  Source: 697.1 KB
+  OK hero: WebP 654.0 KB, JPEG 718.1 KB
+  OK featured: WebP 270.6 KB, JPEG 291.0 KB
+  OK thumbnail: WebP 62.4 KB, JPEG 68.6 KB
+  Stats: Avg per version: 344.1 KB (saved 50.6%)
+
+[150/182] chimney-caps\main\wsm_0611-195.jpg
+  Source: 581.3 KB
+  OK hero: WebP 299.9 KB, JPEG 420.5 KB
+  OK featured: WebP 119.5 KB, JPEG 161.5 KB
+  OK thumbnail: WebP 26.7 KB, JPEG 38.8 KB
+  Stats: Avg per version: 177.8 KB (saved 69.4%)
+
+[151/182] chimney-caps\minnesota-delivery\IMG_0776.jpeg
+  Source: 34.7 KB
+  ERROR processing IMG_0776.jpeg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_0776.jpeg'
+  ERROR processing IMG_0776.jpeg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_0776.jpeg'
+  ERROR processing IMG_0776.jpeg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_0776.jpeg'
+
+[152/182] chimney-caps\minnesota-delivery\IMG_0780.jpg
+  Source: 34.7 KB
+  ERROR processing IMG_0780.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_0780.jpg'
+  ERROR processing IMG_0780.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_0780.jpg'
+  ERROR processing IMG_0780.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_0780.jpg'
+
+[153/182] chimney-caps\minnesota-delivery\IMG_5337.jpg
+  Source: 34.7 KB
+  ERROR processing IMG_5337.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_5337.jpg'
+  ERROR processing IMG_5337.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_5337.jpg'
+  ERROR processing IMG_5337.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_5337.jpg'
+
+[154/182] chimney-caps\minnesota-delivery\IMG_8430-cropped.JPG
+  Source: 34.7 KB
+  ERROR processing IMG_8430-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8430-cropped.JPG'
+  ERROR processing IMG_8430-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8430-cropped.JPG'
+  ERROR processing IMG_8430-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8430-cropped.JPG'
+
+[155/182] chimney-caps\minnesota-delivery\IMG_8433-cropped.JPG
+  Source: 34.7 KB
+  ERROR processing IMG_8433-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8433-cropped.JPG'
+  ERROR processing IMG_8433-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8433-cropped.JPG'
+  ERROR processing IMG_8433-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8433-cropped.JPG'
+
+[156/182] chimney-caps\minnesota-delivery\IMG_8434.JPG
+  Source: 34.7 KB
+  ERROR processing IMG_8434.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8434.JPG'
+  ERROR processing IMG_8434.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8434.JPG'
+  ERROR processing IMG_8434.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8434.JPG'
+
+[157/182] chimney-caps\minnesota-delivery\IMG_8435.JPG
+  Source: 34.7 KB
+  ERROR processing IMG_8435.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8435.JPG'
+  ERROR processing IMG_8435.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8435.JPG'
+  ERROR processing IMG_8435.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8435.JPG'
+
+[158/182] chimney-caps\minnesota-delivery\IMG_8436-cropped.JPG
+  Source: 34.7 KB
+  ERROR processing IMG_8436-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8436-cropped.JPG'
+  ERROR processing IMG_8436-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8436-cropped.JPG'
+  ERROR processing IMG_8436-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8436-cropped.JPG'
+
+[159/182] chimney-caps\minnesota-delivery\IMG_8446-cropped.JPG
+  Source: 34.7 KB
+  ERROR processing IMG_8446-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8446-cropped.JPG'
+  ERROR processing IMG_8446-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8446-cropped.JPG'
+  ERROR processing IMG_8446-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8446-cropped.JPG'
+
+[160/182] chimney-caps\minnesota-delivery\IMG_8447-cropped.JPG
+  Source: 34.7 KB
+  ERROR processing IMG_8447-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8447-cropped.JPG'
+  ERROR processing IMG_8447-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8447-cropped.JPG'
+  ERROR processing IMG_8447-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8447-cropped.JPG'
+
+[161/182] chimney-caps\minnesota-delivery\IMG_8451-cropped.JPG
+  Source: 34.7 KB
+  ERROR processing IMG_8451-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8451-cropped.JPG'
+  ERROR processing IMG_8451-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8451-cropped.JPG'
+  ERROR processing IMG_8451-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8451-cropped.JPG'
+
+[162/182] chimney-caps\minnesota-delivery\IMG_8453.JPG
+  Source: 34.7 KB
+  ERROR processing IMG_8453.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8453.JPG'
+  ERROR processing IMG_8453.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8453.JPG'
+  ERROR processing IMG_8453.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8453.JPG'
+
+[163/182] chimney-caps\minnesota-delivery\IMG_8456-cropped.JPG
+  Source: 34.7 KB
+  ERROR processing IMG_8456-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8456-cropped.JPG'
+  ERROR processing IMG_8456-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8456-cropped.JPG'
+  ERROR processing IMG_8456-cropped.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8456-cropped.JPG'
+
+[164/182] chimney-caps\minnesota-delivery\IMG_8468.JPG
+  Source: 34.7 KB
+  ERROR processing IMG_8468.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8468.JPG'
+  ERROR processing IMG_8468.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8468.JPG'
+  ERROR processing IMG_8468.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8468.JPG'
+
+[165/182] chimney-caps\minnesota-delivery\IMG_8469.JPG
+  Source: 34.7 KB
+  ERROR processing IMG_8469.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8469.JPG'
+  ERROR processing IMG_8469.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8469.JPG'
+  ERROR processing IMG_8469.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8469.JPG'
+
+[166/182] chimney-caps\minnesota-delivery\IMG_8475.JPG
+  Source: 34.7 KB
+  ERROR processing IMG_8475.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8475.JPG'
+  ERROR processing IMG_8475.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8475.JPG'
+  ERROR processing IMG_8475.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\IMG_8475.JPG'
+
+[167/182] chimney-caps\minnesota-delivery\Paul-Meschke-1018x460-1-scaled.jpg
+  Source: 34.7 KB
+  ERROR processing Paul-Meschke-1018x460-1-scaled.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\Paul-Meschke-1018x460-1-scaled.jpg'
+  ERROR processing Paul-Meschke-1018x460-1-scaled.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\Paul-Meschke-1018x460-1-scaled.jpg'
+  ERROR processing Paul-Meschke-1018x460-1-scaled.jpg: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\minnesota-delivery\\Paul-Meschke-1018x460-1-scaled.jpg'
+
+[168/182] chimney-caps\ohio-project\DCIM100MEDIADJI_0248.JPG
+  Source: 34.7 KB
+  ERROR processing DCIM100MEDIADJI_0248.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0248.JPG'
+  ERROR processing DCIM100MEDIADJI_0248.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0248.JPG'
+  ERROR processing DCIM100MEDIADJI_0248.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0248.JPG'
+
+[169/182] chimney-caps\ohio-project\DCIM100MEDIADJI_0250.JPG
+  Source: 34.7 KB
+  ERROR processing DCIM100MEDIADJI_0250.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0250.JPG'
+  ERROR processing DCIM100MEDIADJI_0250.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0250.JPG'
+  ERROR processing DCIM100MEDIADJI_0250.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0250.JPG'
+
+[170/182] chimney-caps\ohio-project\DCIM100MEDIADJI_0265.JPG
+  Source: 34.7 KB
+  ERROR processing DCIM100MEDIADJI_0265.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0265.JPG'
+  ERROR processing DCIM100MEDIADJI_0265.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0265.JPG'
+  ERROR processing DCIM100MEDIADJI_0265.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0265.JPG'
+
+[171/182] chimney-caps\ohio-project\DCIM100MEDIADJI_0270.JPG
+  Source: 34.7 KB
+  ERROR processing DCIM100MEDIADJI_0270.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0270.JPG'
+  ERROR processing DCIM100MEDIADJI_0270.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0270.JPG'
+  ERROR processing DCIM100MEDIADJI_0270.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0270.JPG'
+
+[172/182] chimney-caps\ohio-project\DCIM100MEDIADJI_0277.JPG
+  Source: 34.7 KB
+  ERROR processing DCIM100MEDIADJI_0277.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0277.JPG'
+  ERROR processing DCIM100MEDIADJI_0277.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0277.JPG'
+  ERROR processing DCIM100MEDIADJI_0277.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0277.JPG'
+
+[173/182] chimney-caps\ohio-project\DCIM100MEDIADJI_0298.JPG
+  Source: 34.7 KB
+  ERROR processing DCIM100MEDIADJI_0298.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0298.JPG'
+  ERROR processing DCIM100MEDIADJI_0298.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0298.JPG'
+  ERROR processing DCIM100MEDIADJI_0298.JPG: cannot identify image file 'C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\ohio-project\\DCIM100MEDIADJI_0298.JPG'
+
+[174/182] chimney-caps\ohio-project\IMG_1447-cropped.JPG
+  Source: 461.9 KB
+  OK hero: WebP 59.4 KB, JPEG 81.8 KB
+  OK featured: WebP 47.7 KB, JPEG 70.1 KB
+  OK thumbnail: WebP 25.2 KB, JPEG 38.2 KB
+  Stats: Avg per version: 53.7 KB (saved 88.4%)
+
+[175/182] chimney-caps\ohio-project\IMG_1451-cropped.JPG
+  Source: 548.4 KB
+  OK hero: WebP 76.1 KB, JPEG 99.5 KB
+  OK featured: WebP 61.4 KB, JPEG 85.1 KB
+  OK thumbnail: WebP 30.9 KB, JPEG 45.9 KB
+  Stats: Avg per version: 66.5 KB (saved 87.9%)
+
+[176/182] chimney-caps\ohio-project\IMG_1454-cropped.JPG
+  Source: 334.9 KB
+  OK hero: WebP 47.7 KB, JPEG 72.9 KB
+  OK featured: WebP 37.3 KB, JPEG 61.6 KB
+  OK thumbnail: WebP 17.9 KB, JPEG 32.5 KB
+  Stats: Avg per version: 45.0 KB (saved 86.6%)
+
+[177/182] chimney-caps\ohio-project\IMG_1457.JPG
+  Source: 621.8 KB
+  OK hero: WebP 86.9 KB, JPEG 106.1 KB
+  OK featured: WebP 68.0 KB, JPEG 89.8 KB
+  OK thumbnail: WebP 33.2 KB, JPEG 47.5 KB
+  Stats: Avg per version: 71.9 KB (saved 88.4%)
+
+[178/182] chimney-caps\pinion-review\IMG_0696-cropped.JPG
+  Source: 588.9 KB
+  OK hero: WebP 79.6 KB, JPEG 100.2 KB
+  OK featured: WebP 62.7 KB, JPEG 85.3 KB
+  OK thumbnail: WebP 30.9 KB, JPEG 45.6 KB
+  Stats: Avg per version: 67.4 KB (saved 88.6%)
+
+[179/182] chimney-caps\pinion-review\IMG_0837-cropped.JPG
+  Source: 600.8 KB
+  OK hero: WebP 93.6 KB, JPEG 113.5 KB
+  OK featured: WebP 73.7 KB, JPEG 97.4 KB
+  OK thumbnail: WebP 39.4 KB, JPEG 54.5 KB
+  Stats: Avg per version: 78.7 KB (saved 86.9%)
+
+[180/182] chimney-caps\pinion-review\IMG_0839.JPG
+  Source: 368.8 KB
+  OK hero: WebP 46.0 KB, JPEG 60.8 KB
+  OK featured: WebP 36.3 KB, JPEG 52.3 KB
+  OK thumbnail: WebP 29.3 KB, JPEG 45.9 KB
+  Stats: Avg per version: 45.1 KB (saved 87.8%)
+
+[181/182] chimney-caps\pinion-review\IMG_0840.JPG
+  Source: 645.4 KB
+  OK hero: WebP 91.1 KB, JPEG 113.9 KB
+  OK featured: WebP 73.2 KB, JPEG 97.4 KB
+  OK thumbnail: WebP 37.0 KB, JPEG 52.2 KB
+  Stats: Avg per version: 77.5 KB (saved 88.0%)
+
+[182/182] chimney-caps\pinion-review\IMG_0843.JPG
+  Source: 646.7 KB
+  OK hero: WebP 108.9 KB, JPEG 121.3 KB
+  OK featured: WebP 86.3 KB, JPEG 103.3 KB
+  OK thumbnail: WebP 40.9 KB, JPEG 53.6 KB
+  Stats: Avg per version: 85.7 KB (saved 86.7%)
+
+================================================================================
+OPTIMIZATION COMPLETE
+================================================================================
+Images processed: 149/182
+Errors: 99
+
+Total source size: 70.9 MB
+Total optimized size: 163.4 MB
+Average source size: 399.0 KB
+Average optimized size per version: 187.1 KB
+
+Total savings: 10.2 GB (98.5%)
+
+Files created: 894 (149 images × 3 sizes × 2 formats)
+

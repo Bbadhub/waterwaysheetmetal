@@ -1,0 +1,571 @@
+{
+  "total_unique_base_names": 140,
+  "base_names_with_multiple_files": 21,
+  "format_conversions": 18,
+  "different_images_same_name": 3,
+  "actual_unique_images": 102,
+  "format_conversion_groups": [
+    {
+      "base_name": "copper-roof-on-turret-1",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\copper-roof-on-turret-1.png",
+          "filename": "copper-roof-on-turret-1.png",
+          "size": 948067,
+          "hash": "e0c66cd0257150f3d513f97e91540ba6",
+          "ext": ".png"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\copper-roof-on-turret-1.png",
+          "filename": "copper-roof-on-turret-1.png",
+          "size": 948067,
+          "hash": "e0c66cd0257150f3d513f97e91540ba6",
+          "ext": ".png"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\hero\\copper-roof-on-turret-1.png",
+          "filename": "copper-roof-on-turret-1.png",
+          "size": 948067,
+          "hash": "e0c66cd0257150f3d513f97e91540ba6",
+          "ext": ".png"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\copper-roof-on-turret-1.png",
+          "filename": "copper-roof-on-turret-1.png",
+          "size": 948067,
+          "hash": "e0c66cd0257150f3d513f97e91540ba6",
+          "ext": ".png"
+        }
+      ]
+    },
+    {
+      "base_name": "img_2252",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\img_2252.jpg",
+          "filename": "img_2252.jpg",
+          "size": 409779,
+          "hash": "0e9f5ade7781cff422cc8556960e09d3",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\img_2252.jpg",
+          "filename": "img_2252.jpg",
+          "size": 409779,
+          "hash": "0e9f5ade7781cff422cc8556960e09d3",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\img_2252.jpg",
+          "filename": "img_2252.jpg",
+          "size": 409779,
+          "hash": "0e9f5ade7781cff422cc8556960e09d3",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "p4170196",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\p4170196.jpg",
+          "filename": "p4170196.jpg",
+          "size": 210361,
+          "hash": "9e76171b46c83561828c75dc89ed3726",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\gutters\\p4170196.jpg",
+          "filename": "p4170196.jpg",
+          "size": 210361,
+          "hash": "9e76171b46c83561828c75dc89ed3726",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\p4170196.jpg",
+          "filename": "p4170196.jpg",
+          "size": 210361,
+          "hash": "9e76171b46c83561828c75dc89ed3726",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "p7080090",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\p7080090.jpg",
+          "filename": "p7080090.jpg",
+          "size": 252687,
+          "hash": "a565680b2854171d2ba0ec2000381af8",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\p7080090.jpg",
+          "filename": "p7080090.jpg",
+          "size": 252687,
+          "hash": "a565680b2854171d2ba0ec2000381af8",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\roofing\\p7080090.jpg",
+          "filename": "p7080090.jpg",
+          "size": 252687,
+          "hash": "a565680b2854171d2ba0ec2000381af8",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "p7210424",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\architectural\\p7210424.jpg",
+          "filename": "p7210424.jpg",
+          "size": 332301,
+          "hash": "3508d735b0fc7b259f829343a35a9606",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\p7210424.jpg",
+          "filename": "p7210424.jpg",
+          "size": 332301,
+          "hash": "3508d735b0fc7b259f829343a35a9606",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\hero\\p7210424.jpg",
+          "filename": "p7210424.jpg",
+          "size": 332301,
+          "hash": "3508d735b0fc7b259f829343a35a9606",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\p7210424.jpg",
+          "filename": "p7210424.jpg",
+          "size": 332301,
+          "hash": "3508d735b0fc7b259f829343a35a9606",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "p7230035",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\p7230035.jpg",
+          "filename": "p7230035.jpg",
+          "size": 698891,
+          "hash": "e3014fe26df86f5f34d8c78aceb28868",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\p7230035.jpg",
+          "filename": "p7230035.jpg",
+          "size": 698891,
+          "hash": "e3014fe26df86f5f34d8c78aceb28868",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\p7230035.jpg",
+          "filename": "p7230035.jpg",
+          "size": 698891,
+          "hash": "e3014fe26df86f5f34d8c78aceb28868",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "p7260047-ray-annealing-2493",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\P7260047-ray-annealing-2493.jpg",
+          "filename": "P7260047-ray-annealing-2493.jpg",
+          "size": 14450,
+          "hash": "20fcd53286d804ec15f3bea4395b8ccd",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\branding\\P7260047-ray-annealing-2493.jpg",
+          "filename": "P7260047-ray-annealing-2493.jpg",
+          "size": 14450,
+          "hash": "20fcd53286d804ec15f3bea4395b8ccd",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "p7260051-natalie-hammering-2491",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\P7260051-natalie-hammering-2491.jpg",
+          "filename": "P7260051-natalie-hammering-2491.jpg",
+          "size": 15262,
+          "hash": "893e21d280b67791deebec986b8e3c25",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\branding\\P7260051-natalie-hammering-2491.jpg",
+          "filename": "P7260051-natalie-hammering-2491.jpg",
+          "size": 15262,
+          "hash": "893e21d280b67791deebec986b8e3c25",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "p8120302",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\p8120302.jpg",
+          "filename": "p8120302.jpg",
+          "size": 234429,
+          "hash": "c1682474fb925442cb9587e0ced9fce3",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\p8120302.jpg",
+          "filename": "p8120302.jpg",
+          "size": 234429,
+          "hash": "c1682474fb925442cb9587e0ced9fce3",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\interior\\p8120302.jpg",
+          "filename": "p8120302.jpg",
+          "size": 234429,
+          "hash": "c1682474fb925442cb9587e0ced9fce3",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "p8160051",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\p8160051.jpg",
+          "filename": "p8160051.jpg",
+          "size": 384043,
+          "hash": "1cd2eb27919ca5b37e4a959b0c2e172a",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\p8160051.jpg",
+          "filename": "p8160051.jpg",
+          "size": 384043,
+          "hash": "1cd2eb27919ca5b37e4a959b0c2e172a",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\p8160051.jpg",
+          "filename": "p8160051.jpg",
+          "size": 384043,
+          "hash": "1cd2eb27919ca5b37e4a959b0c2e172a",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "p8180332",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\p8180332.jpg",
+          "filename": "p8180332.jpg",
+          "size": 339315,
+          "hash": "7fe3b4d65083b6858d1e5feff505f22f",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\p8180332.jpg",
+          "filename": "p8180332.jpg",
+          "size": 339315,
+          "hash": "7fe3b4d65083b6858d1e5feff505f22f",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\interior\\p8180332.jpg",
+          "filename": "p8180332.jpg",
+          "size": 339315,
+          "hash": "7fe3b4d65083b6858d1e5feff505f22f",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "p8270016-natalie-shear-2491",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\P8270016-natalie-shear-2491.jpg",
+          "filename": "P8270016-natalie-shear-2491.jpg",
+          "size": 14074,
+          "hash": "cbd12d47c1c6b2fc2b3cad42ce5a9f90",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\branding\\P8270016-natalie-shear-2491.jpg",
+          "filename": "P8270016-natalie-shear-2491.jpg",
+          "size": 14074,
+          "hash": "cbd12d47c1c6b2fc2b3cad42ce5a9f90",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "p9240265_0",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\p9240265_0.jpg",
+          "filename": "p9240265_0.jpg",
+          "size": 332502,
+          "hash": "21273e087414ded7bcf87b246eac991b",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\p9240265_0.jpg",
+          "filename": "p9240265_0.jpg",
+          "size": 332502,
+          "hash": "21273e087414ded7bcf87b246eac991b",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\p9240265_0.jpg",
+          "filename": "p9240265_0.jpg",
+          "size": 332502,
+          "hash": "21273e087414ded7bcf87b246eac991b",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "pa080064",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\chimney-caps\\pa080064.jpg",
+          "filename": "pa080064.jpg",
+          "size": 275985,
+          "hash": "5bb7d8595e93aa902d9f2b94269b8044",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\pa080064.jpg",
+          "filename": "pa080064.jpg",
+          "size": 275985,
+          "hash": "5bb7d8595e93aa902d9f2b94269b8044",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\hero\\pa080064.jpg",
+          "filename": "pa080064.jpg",
+          "size": 275985,
+          "hash": "5bb7d8595e93aa902d9f2b94269b8044",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\pa080064.jpg",
+          "filename": "pa080064.jpg",
+          "size": 275985,
+          "hash": "5bb7d8595e93aa902d9f2b94269b8044",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "pa220068",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\architectural\\pa220068.jpg",
+          "filename": "pa220068.jpg",
+          "size": 683724,
+          "hash": "4154a191a466510805bb9c4e4cd5f58c",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\pa220068.jpg",
+          "filename": "pa220068.jpg",
+          "size": 683724,
+          "hash": "4154a191a466510805bb9c4e4cd5f58c",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\pa220068.jpg",
+          "filename": "pa220068.jpg",
+          "size": 683724,
+          "hash": "4154a191a466510805bb9c4e4cd5f58c",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "pa250018",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\pa250018.jpg",
+          "filename": "pa250018.jpg",
+          "size": 683101,
+          "hash": "d2fd196a3e288e3914348e748c8fd515",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\pa250018.jpg",
+          "filename": "pa250018.jpg",
+          "size": 683101,
+          "hash": "d2fd196a3e288e3914348e748c8fd515",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\pa250018.jpg",
+          "filename": "pa250018.jpg",
+          "size": 683101,
+          "hash": "d2fd196a3e288e3914348e748c8fd515",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "pc030042",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\pc030042.jpg",
+          "filename": "pc030042.jpg",
+          "size": 678040,
+          "hash": "adf058536700f98c5e0ad05f7f56f1c5",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\pc030042.jpg",
+          "filename": "pc030042.jpg",
+          "size": 678040,
+          "hash": "adf058536700f98c5e0ad05f7f56f1c5",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\interior\\pc030042.jpg",
+          "filename": "pc030042.jpg",
+          "size": 678040,
+          "hash": "adf058536700f98c5e0ad05f7f56f1c5",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "waterways-logo-header-transparent",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\branding\\Waterways-Logo-Header-Transparent.png",
+          "filename": "Waterways-Logo-Header-Transparent.png",
+          "size": 48575,
+          "hash": "7f41990c9d8ef4017ac03958bdaeb8ff",
+          "ext": ".png"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\Waterways-Logo-Header-Transparent.png",
+          "filename": "Waterways-Logo-Header-Transparent.png",
+          "size": 48575,
+          "hash": "7f41990c9d8ef4017ac03958bdaeb8ff",
+          "ext": ".png"
+        }
+      ]
+    }
+  ],
+  "different_images_groups": [
+    {
+      "base_name": "pa260065",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\pa260065.jpg",
+          "filename": "pa260065.jpg",
+          "size": 403050,
+          "hash": "917df9e07414a6f3b4aa20fe2eaf8ace",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\pa260065.jpg",
+          "filename": "pa260065.jpg",
+          "size": 403050,
+          "hash": "917df9e07414a6f3b4aa20fe2eaf8ace",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\main\\pa260065.jpg",
+          "filename": "pa260065.jpg",
+          "size": 667091,
+          "hash": "ffa54f074813cc7bcd525018e85fe900",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\pa260065.jpg",
+          "filename": "pa260065.jpg",
+          "size": 403050,
+          "hash": "917df9e07414a6f3b4aa20fe2eaf8ace",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "pb190444",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\pb190444.jpg",
+          "filename": "pb190444.jpg",
+          "size": 541836,
+          "hash": "a625a13cf4cfb19f7b43a968ac9546ae",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\pb190444.jpg",
+          "filename": "pb190444.jpg",
+          "size": 541836,
+          "hash": "a625a13cf4cfb19f7b43a968ac9546ae",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\main\\pb190444.jpg",
+          "filename": "pb190444.jpg",
+          "size": 733911,
+          "hash": "6b1cf76f33322a7056ab8152e655ab0e",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\pb190444.jpg",
+          "filename": "pb190444.jpg",
+          "size": 541836,
+          "hash": "a625a13cf4cfb19f7b43a968ac9546ae",
+          "ext": ".jpg"
+        }
+      ]
+    },
+    {
+      "base_name": "pb190468",
+      "files": [
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\downloads\\pb190468.jpg",
+          "filename": "pb190468.jpg",
+          "size": 340403,
+          "hash": "e16a247a79ea161ed85f1cc24f529229",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\pb190468.jpg",
+          "filename": "pb190468.jpg",
+          "size": 340403,
+          "hash": "e16a247a79ea161ed85f1cc24f529229",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\flashing\\main\\pb190468.jpg",
+          "filename": "pb190468.jpg",
+          "size": 657933,
+          "hash": "7d5b467b7e7bdf11571646f7b3bceb54",
+          "ext": ".jpg"
+        },
+        {
+          "path": "C:\\Users\\Brett\\Dropbox\\Ferret9 Global\\Water Ways Sheet Metal\\images\\homepage-showcase\\pb190468.jpg",
+          "filename": "pb190468.jpg",
+          "size": 340403,
+          "hash": "e16a247a79ea161ed85f1cc24f529229",
+          "ext": ".jpg"
+        }
+      ]
+    }
+  ]
+}
