@@ -1,0 +1,184 @@
+# Water Ways Sheet Metal - Phase 0: Comprehensive Site Analysis
+# Created: 2025-10-28
+# Purpose: Thorough analysis of existing waterwayssheetmetal.com to capture ALL content, images, and structure
+# Pattern: Pattern-CONTEXT-002
+
+[meta]
+phase_name = "Phase 0 - Comprehensive Site Analysis"
+version = "1.0"
+created = "2025-10-28"
+status = "active"
+priority = "critical"
+purpose = "Complete audit of existing website before continuing rebuild"
+
+[meta.context]
+issue_discovered = "Initial image download captured only 18 images, likely missed significant content"
+root_cause = "Insufficient depth in original site analysis - need page-by-page comprehensive audit"
+impact = "New site may be missing important images, content, or pages from current site"
+solution = "Phase 0: Deep site analysis before continuing to Week 6 Launch"
+
+# ============================================================
+# PHASE 0 TASKS
+# ============================================================
+
+[tasks.PHASE0-001]
+id = "PHASE0-001"
+name = "Comprehensive Page-by-Page Analysis"
+phase = "Phase 0 - Site Analysis"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Systematically analyze every page on waterwayssheetmetal.com, documenting structure, content, images, and functionality"
+estimated_time = "4 hours"
+dependencies = []
+deliverables = [
+    "Complete page inventory (all pages documented)",
+    "Page structure analysis for each page",
+    "Content extracted from each page",
+    "Navigation structure mapped",
+    "EXISTING_SITE_ANALYSIS.md comprehensive report"
+]
+why = """
+Need to understand EXACTLY what exists on current site to avoid losing content.
+Initial analysis may have missed pages, images, or content sections.
+Client expects new site to have feature parity with existing site (at minimum).
+"""
+reasoning_chain = [
+    "1. Start at homepage: waterwayssheetmetal.com",
+    "2. Document homepage structure, content sections, images",
+    "3. Follow every navigation link to discover all pages",
+    "4. For each page: extract content, count images, note functionality",
+    "5. Build complete site map with page relationships",
+    "6. Identify any dynamic content or special features",
+    "7. Result: Complete understanding of existing site scope"
+]
+
+[tasks.PHASE0-002]
+id = "PHASE0-002"
+name = "Complete Image Inventory and Download"
+phase = "Phase 0 - Site Analysis"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Extract ALL images from existing site with context (which page, what section, image purpose), download full resolution versions"
+estimated_time = "3 hours"
+dependencies = ["PHASE0-001"]
+deliverables = [
+    "Complete image URL list from all pages",
+    "Image context documented (page location, alt text, purpose)",
+    "All images downloaded (full resolution)",
+    "Images organized by page and purpose",
+    "IMAGE_COMPLETE_INVENTORY.md with metadata"
+]
+why = """
+18 images insufficient for comprehensive site - likely 50-100+ images on current site.
+Images are primary showcase of work quality (portfolio = lead generation).
+Need context for each image (where used, what it shows, why it matters).
+"""
+reasoning_chain = [
+    "1. For each page from PHASE0-001, extract ALL image URLs",
+    "2. Document image context: page, section, alt text, dimensions",
+    "3. Download full-resolution versions (not thumbnails)",
+    "4. Organize by purpose: hero images, portfolio, product shots, logos, backgrounds",
+    "5. Identify duplicate images used across multiple pages",
+    "6. Result: Complete image library with usage context"
+]
+
+[tasks.PHASE0-003]
+id = "PHASE0-003"
+name = "Gap Analysis: New Site vs. Existing Site"
+phase = "Phase 0 - Site Analysis"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Compare new site structure/content against existing site findings, identify gaps, prioritize additions"
+estimated_time = "2 hours"
+dependencies = ["PHASE0-001", "PHASE0-002"]
+deliverables = [
+    "Gap analysis report comparing existing vs. new site",
+    "Missing pages identified",
+    "Missing content sections identified",
+    "Missing images identified",
+    "Prioritized list of additions needed",
+    "SITE_GAP_ANALYSIS.md report"
+]
+why = """
+Ensure new site has feature parity (or better) than existing site.
+Client may assume all existing content will transfer to new site.
+Missing content = potential lost leads or confused customers.
+"""
+reasoning_chain = [
+    "1. Compare page count: existing site vs. new site",
+    "2. Compare content sections on matching pages",
+    "3. Identify any pages on old site not in new site plan",
+    "4. Compare image counts and usage",
+    "5. Identify critical gaps (must-fix before launch)",
+    "6. Identify nice-to-have additions (can be post-launch)",
+    "7. Result: Clear action plan for achieving parity"
+]
+
+[tasks.PHASE0-004]
+id = "PHASE0-004"
+name = "Update Sprint Plan with Phase 0 Findings"
+phase = "Phase 0 - Site Analysis"
+assigned_engineer = "engineer_1"
+status = "pending"
+description = "Integrate Phase 0 findings into main sprint, update tasks, add new tasks if needed, revise timeline"
+estimated_time = "1 hour"
+dependencies = ["PHASE0-003"]
+deliverables = [
+    "ACTIVE_SPRINT.toml updated with Phase 0 completion",
+    "New tasks added if gaps discovered",
+    "Timeline adjusted if needed",
+    "Week 6 Launch tasks updated based on findings"
+]
+why = """
+Phase 0 findings may reveal need for additional work before launch.
+Sprint plan must reflect reality of work required.
+Timeline may need adjustment based on gap analysis.
+"""
+reasoning_chain = [
+    "1. Review gap analysis findings",
+    "2. Determine if critical gaps require new tasks",
+    "3. Update existing tasks with additional context",
+    "4. Adjust Week 6 Launch timeline if needed",
+    "5. Document Phase 0 completion in sprint TOML",
+    "6. Result: Accurate sprint plan reflecting true scope"
+]
+
+# ============================================================
+# SUCCESS CRITERIA
+# ============================================================
+
+[success_criteria]
+complete_page_inventory = "Every page on waterwayssheetmetal.com documented"
+complete_image_inventory = "ALL images extracted, downloaded, organized with context"
+gap_analysis_complete = "Clear understanding of new site vs. existing site differences"
+sprint_plan_updated = "ACTIVE_SPRINT.toml reflects Phase 0 findings"
+confidence_high = "High confidence new site has parity with existing site"
+
+# ============================================================
+# EXPECTED FINDINGS
+# ============================================================
+
+[expected_findings]
+likely_page_count = "10-15 pages (may have missed some in initial analysis)"
+likely_image_count = "50-100+ images (18 is definitely incomplete)"
+likely_content_gaps = "Service descriptions, project details, additional testimonials"
+likely_missing_pages = "Gallery pages, individual project pages, blog/news if exists"
+
+# ============================================================
+# DELIVERABLES
+# ============================================================
+
+[deliverables]
+existing_site_analysis = "EXISTING_SITE_ANALYSIS.md - comprehensive page-by-page audit"
+image_complete_inventory = "IMAGE_COMPLETE_INVENTORY.md - all images with context and metadata"
+site_gap_analysis = "SITE_GAP_ANALYSIS.md - comparison of new vs. existing site"
+updated_sprint_plan = "ACTIVE_SPRINT.toml updated with Phase 0 findings"
+
+# ============================================================
+# NOTES
+# ============================================================
+
+[notes]
+why_phase_0_needed = "Discovered during local testing that image coverage is insufficient - only 18 images when site likely has 50-100+"
+lesson_learned = "Always do comprehensive site audit BEFORE starting rebuild - don't rely on memory or surface-level analysis"
+impact_on_timeline = "Phase 0 adds ~10 hours but prevents launching incomplete site - worth the investment"
